@@ -55,7 +55,7 @@ fn main() {
         let lower = line.to_lowercase();
         let digest = compute_md5(&lower);
         let digest_str = format!("{:x}", digest);
-        hash_map.insert(digest_str, line);
+        hash_map.insert(digest_str, (line, false));
     }
 
     let pack_db = sqlite::open(&args[1]).unwrap();
@@ -91,13 +91,14 @@ fn main() {
 
         let key = statement.read::<String, _>("path").unwrap();
         let mut filename = format!("MISSING/{}", key);
-        match hash_map.get(key.as_str()) {
-            Some(name) => {
+        match hash_map.get_mut(key.as_str()) {
+            Some((name, used)) => {
                 hits += 1;
                 filename = name.clone();
-                println!("{} - {} @ {}", key, name, current_data);
+                *used = true;
+                //println!("{} - {} @ {}", key, name, current_data);
             }
-            None => println!("{} - MISSING @ {}", key, current_data),
+            None => (), //println!("{} - MISSING @ {}", key, current_data),
         }
 
         datapack
@@ -120,6 +121,13 @@ fn main() {
                 .unwrap()
                 .write_all(&mut buf)
                 .unwrap();
+        }
+    }
+    println!();
+
+    for (key, (name, used)) in hash_map.iter() {
+        if !used {
+            println!("{} - {} - UNUSED", key, name);
         }
     }
 
