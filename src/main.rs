@@ -1,3 +1,5 @@
+use dunce;
+use json;
 use md5;
 use sqlite::State;
 use std::collections::HashMap;
@@ -35,7 +37,25 @@ where
     Ok(io::BufReader::new(file).lines())
 }
 
+macro_rules! output {
+    ($file:ident) => {{
+        println!();
+        ($file).write(b"\n").unwrap();
+    }};
+    ($file:ident, $($t:tt)*) => {{
+        println!($($t)*);
+        $file.write(format!($($t)*).as_bytes()).unwrap();
+        $file.write(b"\n").unwrap();
+    }};
+}
+
 fn main() {
+    let mut out = File::options()
+        .write(true)
+        .truncate(true)
+        .create(true)
+        .open("out.txt")
+        .unwrap();
     let mut has_packs = false;
     match env::args().len() {
         3 => (),
@@ -58,7 +78,10 @@ fn main() {
         hash_map.insert(digest_str, (line, false));
     }
 
-    let pack_db = sqlite::open(&args[1]).unwrap();
+    let pack_db =
+        sqlite::Connection::open_with_flags(&args[1], sqlite::OpenFlags::new().with_read_only())
+            .unwrap();
+
     let query = "
         SELECT files.path,
                 files.pack,
@@ -80,13 +103,19 @@ fn main() {
     let mut hits = 0;
     let mut current_data = 1;
 
-    let mut datapack = std::fs::File::open("Data001.rsdk").unwrap();
+    let basepack = dunce::canonicalize(Path::new(&args[1])).unwrap();
+    let packpath = basepack.parent().unwrap().display().to_string();
+
+    let path = format!("{}/Data001.rsdk", packpath);
+
+    let mut datapack = std::fs::File::open(path).unwrap();
 
     while let Ok(State::Row) = statement.next() {
         let read_data = statement.read::<i64, _>("pack").unwrap();
         if read_data != current_data {
             current_data = read_data;
-            datapack = std::fs::File::open(format!("Data{:0>3}.rsdk", current_data)).unwrap();
+            datapack =
+                std::fs::File::open(format!("{}/Data{:0>3}.rsdk", packpath, current_data)).unwrap();
         }
 
         let key = statement.read::<String, _>("path").unwrap();
@@ -96,9 +125,8 @@ fn main() {
                 hits += 1;
                 filename = name.clone();
                 *used = true;
-                //println!("{} - {} @ {}", key, name, current_data);
             }
-            None => (), //println!("{} - MISSING @ {}", key, current_data),
+            None => (),
         }
 
         datapack
@@ -109,8 +137,46 @@ fn main() {
         let mut buf = vec![0; statement.read::<i64, _>("size").unwrap() as usize];
         match datapack.read_exact(&mut buf) {
             Ok(_) => (),
-            Err(error) => println!("{} - {} - ERROR: {}", key, filename, error),
+            Err(error) => {
+                output!(out, "{} - {} - ERROR: {}", key, filename, error);
+                continue;
+            }
         }
+
+        if filename.starts_with("MISSING") {
+            filename += format!("@{}", current_data).as_str();
+            // try to guess from the first 4 letters
+            let header = &buf[..4];
+            let mut matched = true;
+            match header {
+                b"MThd" => filename += ".mid",
+                b"\x1F\x8B\x08\x08" => filename += ".pvr.gz",
+                b"GPU\x00" => filename += ".bin.gpu",
+                b"PAL\x00" => filename += ".bin.pal",
+                b"MDL\x01" => filename += ".bin.mdl",
+                b"MDL\x02" => filename += ".bin.mdl",
+                b"LYR\x01" => filename += ".bin.lyr",
+                b"LYR\x02" => filename += ".bin.lyr",
+                b"RIFF" => filename += ".wav",
+                b"OggS" => filename += ".ogg",
+                b"SQLi" => filename += ".db",
+                b"ANI\x00" => filename += ".bin.ani",
+                b"SPR\x01" => filename += ".bin.spr",
+                b"VFX\x00" => filename += ".bin.vfx",
+                b"DKIF" => filename += ".ivf",
+                b"COM\x00" => filename += ".bin.com",
+                _ => matched = false,
+            }
+
+            if !matched {
+                match json::parse(std::str::from_utf8(&buf).unwrap_or_default()) {
+                    Ok(_) => filename += ".cfg",
+                    _ => (),
+                }
+            }
+        }
+
+        output!(out, "{} - {} @ {}", key, filename, current_data);
 
         let path = std::path::Path::new(&filename).parent().unwrap();
         std::fs::create_dir_all(path).unwrap();
@@ -123,17 +189,20 @@ fn main() {
                 .unwrap();
         }
     }
-    println!();
 
-    for (key, (name, used)) in hash_map.iter() {
-        if !used {
-            println!("{} - {} - UNUSED", key, name);
+    output!(out);
+
+    hash_map.retain(|key, (name, used)| {
+        if !*used {
+            output!(out, "{} - {} - UNUSED", key, name);
         }
-    }
+        *used
+    });
 
-    println!();
+    output!(out);
 
     println!(
+        //out,
         "{}/{}/{} - {:.2}% / {:.2}% (+{})",
         hits,
         hash_map.len(),

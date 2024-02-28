@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 sqlite = "0.33.0"
 md5 = "0.7.0"
+dunce = "1.0.4"
+json = "0.12.4"
