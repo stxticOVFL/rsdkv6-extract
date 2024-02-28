@@ -5365,3 +5365,7 @@ Data/PCMSources/Music/VanillaTownPrologue.ogg
 Data/PCMSources/Music/VanillaTownRedux.ogg
 Data/PCMSources/Music/VanillaTownRedux_Pinch.ogg
 Data/PCMSources/Music/WorldsEdge.ogg
+Data/Layers/Backgrounds/VanillaTown/SkyBoxDay.bin
+Data/SoundFonts/GMGSx.sf2
+Data/Textures/Lightmaps/VT0.pvr.gz
+Data/Textures/Palace/PalaceSky_Thirds.pvr.gz
