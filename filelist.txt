@@ -397,7 +397,7 @@ Data/Fonts/SDF/NotoSansJP-Black.bin
 Data/Fonts/SDF/NotoSansJP-SemiBold.bin
 Data/Fonts/SDF/NotoSansKR-Black.bin
 Data/Fonts/SDF/NotoSansKR-SemiBold.bin
-MISSING/5ee86bd8b49eb8d6f0fa6545289ffc7c@1
+Data/Fonts/SDF/NotoSans-Regular.bin
 Data/Fonts/SDF/NotoSansSC-Black.bin
 Data/Fonts/SDF/NotoSansSC-SemiBold.bin
 Data/Fonts/SDF/NotoSans-SemiBold.bin
@@ -1086,7 +1086,7 @@ Data/Textures/Macaroon/BuskerStage_Lower.pvr.gz
 Data/Textures/Macaroon/Lava_dark.pvr.gz
 Data/Textures/Macaroon/RockSpeckle.pvr.gz
 Data/Textures/Macaroon/SnowGlisten.pvr.gz
-MISSING/e538ff3a9070bd44aef5d06feb3f613e@1
+Data/Textures/Macaroon/StarGlobes.pvr.gz
 Data/Textures/Presentation/Controller.pvr.gz
 Data/Textures/Presentation/Legal.pvr.gz
 Data/Textures/Presentation/MainMenuAccentIcons.pvr.gz
@@ -1332,7 +1332,7 @@ Data/PCMSources/Music/TitleScreen.ogg
 Data/AudioPatches/BombBounce.bin
 Data/AudioPatches/BonkYoYo.bin
 Data/AudioPatches/CandleLight.bin
-MISSING/9864d2cf945e01951c105ea8ff3ce8d7@3
+Data/AudioPatches/ChargeSounds.bin
 MISSING/5a731553e97f2820667453d58fd5ef12@3
 MISSING/d3fcf2824307d944bc21475ff69285a8@3
 MISSING/5d576ed5fb2fc05fd60cc7e3309f76dd@3
@@ -1341,13 +1341,13 @@ Data/AudioPatches/DennyVox.bin
 Data/AudioPatches/EddieArenaBounce.bin
 Data/AudioPatches/EddieBounce.bin
 Data/AudioPatches/EddiePenguinBallBounce.bin
-MISSING/8b1b7dfe7434e4d1411909730dba05ee@3
+Data/AudioPatches/EddiePenguinBallThrow.bin
 Data/AudioPatches/EddiePropCatch.bin
 Data/AudioPatches/FootstepJog.bin
 Data/AudioPatches/FootstepSpecial.bin
 Data/AudioPatches/FootstepSprint.bin
 Data/AudioPatches/FootstepWalk.bin
-MISSING/6099c2ce3d84d9bc7d999d4aa34d34a6@3
+Data/AudioPatches/FryingPan.bin
 Data/AudioPatches/HurtCrush.bin
 Data/AudioPatches/HurtElectric.bin
 Data/AudioPatches/HurtFire.bin
@@ -1360,12 +1360,12 @@ Data/AudioPatches/MobLightSmack.bin
 Data/AudioPatches/MrEightBounce.bin
 Data/AudioPatches/MrEightEmitterBounce.bin
 Data/AudioPatches/MrEightJuggle.bin
-MISSING/4e042c643012673b24ed471e1883aef0@3
+Data/AudioPatches/MrEightStomp.bin
 Data/AudioPatches/MrEightVox.bin
 Data/AudioPatches/PlayerCharge.bin
 Data/AudioPatches/PlayerLand.bin
 Data/AudioPatches/PlayerSkids.bin
-MISSING/fbe6e7fb334eaafc62fcdc0469f7a91a@3
+Data/AudioPatches/Scared.bin
 Data/PCMSources/SFX/01_Vanillatown/CranePivotLoop.wav
 Data/PCMSources/SFX/01_Vanillatown/CraneTriggerSwitch.wav
 Data/PCMSources/SFX/01_Vanillatown/FlingTreeFling.wav
@@ -1467,7 +1467,7 @@ Data/PCMSources/SFX/14_Palace/HangingPaintingWobble.wav
 Data/PCMSources/SFX/14_Palace/HornLauncherIn.wav
 Data/PCMSources/SFX/14_Palace/HornLauncherLoop.wav
 Data/PCMSources/SFX/14_Palace/HornLauncherOut.wav
-MISSING/58cba6d2086152823014d0db0960a42b@3.wav
+MISSING/58cba6d2086152823014d0db0960a42b@3.wav -- probaly some added folder
 MISSING/86a175143b69214e5ece8ef0d680bfea@3.wav
 MISSING/5cba3a29ed1b6ab4007219d1a3f26237@3.wav
 MISSING/0f95a5d7f7117c962dfea2f02434c605@3.wav
@@ -2504,7 +2504,7 @@ Data/Meshes/Gimmicks/GolfFlag.bin
 Data/Meshes/Gimmicks/HoopBoost.bin
 Data/Meshes/Gimmicks/HoopReplenish.bin
 Data/Meshes/Gimmicks/LatchHandle128.bin
-MISSING/47bcbe71b0ee79b23533f274ac555cba@5.bin.mdl
+Data/Meshes/Gimmicks/LatchHandle64.bin
 Data/Meshes/Gimmicks/LatchPole.bin
 Data/Meshes/Gimmicks/LatchPoleABase.bin
 Data/Meshes/Gimmicks/LatchPoleAMiddle.bin
@@ -2620,7 +2620,7 @@ Data/Meshes/Global/GustoPop.bin
 Data/Meshes/Global/HalfSeesaw.bin
 Data/Meshes/Global/ParkingMeter.bin
 Data/Meshes/Global/StartPlatform.bin
-MISSING/75cada34eb2ef9001545ea35e1831b0c@5.bin.mdl
+Data/Meshes/Global/StartPlatform_Base.bin
 Data/Meshes/Global/StartPlatform_Beam.bin
 Data/Meshes/Global/SuperCoin.bin
 Data/Meshes/Global/Tightrope.bin
@@ -3778,7 +3778,7 @@ Data/Textures/Factory/T_RibbonLongSkew.pvr.gz
 Data/Textures/Factory/T_RibbonStraight.pvr.gz
 Data/Textures/Factory/T_RibbonTurn.pvr.gz
 Data/Textures/Factory/T_Skew.pvr.gz
-MISSING/7bf7c7ac3a1644ee41fed3f5e78765e6@14.pvr.gz
+Data/Textures/Factory/T_SkewYellow.pvr.gz14.pvr.gz
 Data/Textures/Factory/T_SmallZigZag.pvr.gz
 Data/Textures/Factory/T_Straight.pvr.gz
 Data/Textures/Factory/T_TrackLongSkew.pvr.gz
@@ -5126,9 +5126,9 @@ Data/Layers/15_Snowglobes/SG15/Terrain_Temp.bin
 Data/Layers/15_Snowglobes/SG15/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG15.pvr.gz
 ------------ PACK 048 - 4931d619bf5ec8be7dd5247f68cca140 ------------
-MISSING/f2b40100e86efc594fe686480818237c@48.pvr.gz
+MISSING/f2b40100e86efc594fe686480818237c@48.pvr.gz -- if packname is solved this is free
 ------------ PACK 049 - 72d3994ac98390db8e2ce62575cf9bbc ------------
-MISSING/37d1cce7074f5f88542a826fd022a716@49.pvr.gz
+MISSING/37d1cce7074f5f88542a826fd022a716@49.pvr.gz -- if packname is solved this is free
 ------------ PACK 050 - Boss_Emperor ------------
 Data/Animations/Emperor/EddieBot.bin
 Data/Animations/Emperor/Emperor_Anims.bin
