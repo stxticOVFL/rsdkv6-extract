@@ -1,3 +1,4 @@
+------------ PACK 001 - Global ------------
 Data/AssetGroups/Artists/Bathhouse.cfg
 Data/AssetGroups/Artists/Coast.cfg
 Data/AssetGroups/Artists/Courthouse.cfg
@@ -42,7 +43,7 @@ Data/AssetGroups/Denizens/Core.cfg
 Data/AssetGroups/Denizens/Core_Reduced.cfg
 Data/AssetGroups/Denizens/CoreDillemmas.cfg
 Data/AssetGroups/Denizens/Gardener.cfg
-MISSING/61d2c270b54dbe5bd562d757c5f736b9@1 -- DrawGroups/Deferred?
+MISSING/61d2c270b54dbe5bd562d757c5f736b9@1
 Data/AssetGroups/DrawGroups/FwdPipeline.cfg
 Data/AssetGroups/Env/01_Vanillatown/Decals.cfg
 Data/AssetGroups/Env/01_Vanillatown/Fence.cfg
@@ -185,25 +186,25 @@ Data/AssetGroups/Global/Tools.cfg
 Data/AssetGroups/Global/Triggers.cfg
 Data/AssetGroups/Global/UI.cfg
 Data/AssetGroups/Global/VFX.cfg
-MISSING/99c8ded130c75db6e238873fc8972416@1 -- something with Eddie (buff)
+Data/AssetGroups/Implicit/Boss/Emperor.cfg
 Data/AssetGroups/Implicit/Boss/MrEight.cfg
 Data/AssetGroups/Implicit/Boss/Sheila.cfg
 Data/AssetGroups/Implicit/Boss/Taboo.cfg
-MISSING/6522c708c678468ebd7ec859d3f45491@1 -- PuppetPenny/TabooFauxtagonist, idk
+MISSING/6522c708c678468ebd7ec859d3f45491@1
 Data/AssetGroups/Implicit/Fire/Textures.cfg
 Data/AssetGroups/Implicit/Garden/Textures.cfg
-MISSING/2dda3ff1bbc05900cb889301af5d1b5b@1.cfg -- CosmicSparkle?
+Data/AssetGroups/Implicit/Gimmicks/CosmicString.cfg
 Data/AssetGroups/Implicit/Gimmicks/GlobalTextures.cfg
-MISSING/81da654b4186d3e0bf356260fb6d5b5b@1.cfg -- Busker, also global??
-MISSING/187ab8b2391e4373eacc80f3dde7600b@1.cfg -- Data/AssetGroups/Implicit/Global/CheckpointLights.cfg?????
-MISSING/187ab8b2391e4373eacc80f3dde7600b@1.cfg -- Data/AssetGroups/Implicit/Global/DilemmaItem.cfg??
-MISSING/ffe365ac24df473f0719d84a1c0fbbc4@1.cfg -- FinishLine, i give up
-MISSING/280f274f7aaa3fba1a45162644dfecdd@1.cfg -- f lamethrower   ??
+MISSING/81da654b4186d3e0bf356260fb6d5b5b@1.cfg
+Data/AssetGroups/Implicit/Global/Checkpoint.cfg
+Data/AssetGroups/Implicit/Global/DilemmaItems.cfg
+Data/AssetGroups/Implicit/Global/FinishLine.cfg
+Data/AssetGroups/Implicit/Global/VFX.cfg
 Data/AssetGroups/Implicit/Items/GlobalTextures.cfg
 Data/AssetGroups/Implicit/LavaRestaurant/Textures.cfg
 Data/AssetGroups/Implicit/Machine/Textures.cfg
 Data/AssetGroups/Implicit/Player/Textures.cfg
-MISSING/042e361d88fafb2c099849bb98107db9@1 -- i've got NO clue, very unique
+MISSING/042e361d88fafb2c099849bb98107db9@1
 Data/AssetGroups/Implicit/Rock/Textures.cfg
 Data/AssetGroups/Implicit/Town/Textures.cfg
 Data/AssetGroups/Implicit/Water/Textures.cfg
@@ -351,7 +352,7 @@ Data/AssetGroups/Water/Kit.cfg
 Data/AssetGroups/Water/Materials.cfg
 Data/AssetGroups/Water/Props.cfg
 Data/AssetGroups/Water/Staging.cfg
-Data/AssetGroups/Worlds/00_.cfg
+Data/AssetGroups/Worlds/00_Backstage.cfg
 Data/AssetGroups/Worlds/01_Vanillatown.cfg
 Data/AssetGroups/Worlds/02_Coast.cfg
 Data/AssetGroups/Worlds/03_Desert.cfg
@@ -389,7 +390,7 @@ Data/Compositions/SystemDialogs.bin
 Data/Compositions/TimeAttack.bin
 Data/Databases/GameData.db
 Data/Databases/SaveTemplate.db
-MISSING/765a89b7293281a983728a5b45636cc2@1.db
+Data/Databases/Testy.db
 Data/Fonts/BitmapFonts/ScoreFontStroke.bin
 Data/Fonts/SDF/NotoSans-Black.bin
 Data/Fonts/SDF/NotoSansJP-Black.bin
@@ -413,18 +414,18 @@ Data/Game/TimeAttack.cfg
 Data/GPUStates/DXBC/DecalOpaqueAmbience.bin
 Data/GPUStates/DXBC/DecalOpaqueColor.bin
 Data/GPUStates/DXBC/DecalOpaqueGradient.bin
-MISSING/3d59668d74588b378859911d026f9f3e@1.bin.gpu
+Data/GPUStates/DXBC/DecalOpaqueGradientAmbience.bin
 Data/GPUStates/DXBC/DecorGradient.bin
 Data/GPUStates/DXBC/DecorGradientUVScroll.bin
 Data/GPUStates/DXBC/FontAtlasLongShadow.bin
 Data/GPUStates/DXBC/FXBoxFog.bin
-MISSING/ecfc31b17d43ad4ca3ad2eeea312729f@1.bin.gpu
+Data/GPUStates/DXBC/FXBoxFogEditor.bin
 Data/GPUStates/DXBC/InstanceGradient.bin
 Data/GPUStates/DXBC/InstanceGradientBlend.bin
 Data/GPUStates/DXBC/InstanceGradientStatic.bin
-MISSING/f6fa7fbc2cd0baadd92ffa2e36a7c393@1.bin.gpu
+Data/GPUStates/DXBC/InstanceShadowMap.bin
 Data/GPUStates/DXBC/InstanceShadowVolume.bin
-MISSING/fcb70efa5de694aed395b40bc0a48862@1.bin.gpu
+Data/GPUStates/DXBC/LightDeferred.bin
 MISSING/2730a562ccaa163f6bff6e0dba2787eb@1.bin.gpu
 Data/GPUStates/DXBC/MenuMeshGradient.bin
 Data/GPUStates/DXBC/MenuMeshGradientCharacter.bin
@@ -446,17 +447,17 @@ Data/GPUStates/DXBC/MeshGradientUVScrollWater.bin
 Data/GPUStates/DXBC/MeshGradientUVStretchUZ.bin
 Data/GPUStates/DXBC/MeshLava.bin
 Data/GPUStates/DXBC/MeshLavaGlow.bin
-MISSING/c58e2415745eb8014d4c8bb1391d16e4@1.bin.gpu
+Data/GPUStates/DXBC/MeshLerpGradient.bin
 Data/GPUStates/DXBC/MeshLightshow.bin
 Data/GPUStates/DXBC/MeshMagneticField.bin
-MISSING/7b6880b79fa2e690c02a8a529ba1d1ef@1.bin.gpu
+Data/GPUStates/DXBC/MeshMappedGradient.bin
 Data/GPUStates/DXBC/MeshMr8Eye.bin
 Data/GPUStates/DXBC/MeshPalaceCrowd.bin
 Data/GPUStates/DXBC/MeshPenguinNet.bin
 Data/GPUStates/DXBC/MeshPenguinRiver.bin
 Data/GPUStates/DXBC/MeshPsychedelic.bin
 Data/GPUStates/DXBC/MeshRopePath.bin
-MISSING/0f3b840260892c17a959c5e4d3e16d13@1.bin.gpu
+Data/GPUStates/DXBC/MeshShadowMap.bin
 Data/GPUStates/DXBC/MeshShadowVolume.bin
 Data/GPUStates/DXBC/MeshSilhouette.bin
 Data/GPUStates/DXBC/MeshSkyboxFwd.bin
@@ -483,9 +484,9 @@ Data/GPUStates/DXBC/ScreenFizzDOF-HQ.bin
 Data/GPUStates/DXBC/ScreenFizzDOF-LQ.bin
 Data/GPUStates/DXBC/ScreenFizzNoise.bin
 Data/GPUStates/DXBC/ScreenFXVoidFog.bin
-MISSING/692f1d8c55d772c548f63a3835d79f7e@1.bin.gpu
+Data/GPUStates/DXBC/ScreenOutline.bin
 Data/GPUStates/DXBC/ScreenOutput.bin
-MISSING/050fb68eff24801891e132f29e864067@1.bin.gpu
+Data/GPUStates/DXBC/ScreenShadowMap.bin
 Data/GPUStates/DXBC/ScreenShadowVolume.bin
 Data/GPUStates/DXBC/ScreenSkyboxFade.bin
 Data/GPUStates/DXBC/ScreenSkyboxSolid.bin
@@ -508,7 +509,7 @@ Data/GPUStates/DXBC/SpriteAddCorona.bin
 Data/GPUStates/DXBC/SpriteAddZRead.bin
 Data/GPUStates/DXBC/SpriteBlendZRead.bin
 Data/GPUStates/DXBC/SpriteDecalColor.bin
-MISSING/57338318ca38915139873417900870dd@1.bin.gpu
+Data/GPUStates/DXBC/SpriteGradient.bin
 Data/GPUStates/DXBC/SpriteOpaqueColor.bin
 Data/GPUStates/DXBC/SpriteScrollingOverlay.bin
 Data/GPUStates/DXBC/SpriteShadowMap.bin
@@ -531,252 +532,252 @@ Data/GPUStates/DXBC/UIGrain.bin
 Data/GPUStates/DXBC/UIMasked.bin
 Data/GPUStates/DXBC/UISetDepth.bin
 Data/GPUStates/DXBC/UISetMask.bin
-MISSING/ab0deff10f361ce87b8252935bfd6f7e@1.bin.gpu -- START OF GLSL
-MISSING/731ae1e3d6f3e13070705ebacb38fe20@1.bin.gpu
-MISSING/b0a331ff22a536497d99a32d1f8d99f6@1.bin.gpu
-MISSING/93aad032acb51d2d837ee915a0b4fa70@1.bin.gpu
-MISSING/4f7920b706ce085648dbd6601f495c8a@1.bin.gpu
-MISSING/1dbca99b202117ee9a8d85ad6d1055da@1.bin.gpu
-MISSING/c769c2ad03b31a309c7a5ed96c2c1c2b@1.bin.gpu
-MISSING/31ba805302ea71ec28d9914d7f5b030c@1.bin.gpu
-MISSING/8f8df8c09238ac5bc4e4b25948aa53ef@1.bin.gpu
-MISSING/6a7bbd2f6ec6831428563e3174f04b96@1.bin.gpu
-MISSING/77d8bdd9ee78dc90e78e12632a468f3d@1.bin.gpu
-MISSING/cd6c455daed7205c5af916d75c83c1ab@1.bin.gpu
-MISSING/0e4a1f8b5b355cf2936666152d12b075@1.bin.gpu
-MISSING/d4df751b6f462f8658b419d94340c535@1.bin.gpu
-MISSING/a1858f6db63d73bef04af5d6fbab13ba@1.bin.gpu
+Data/GPUStates/GLSLC/DecalOpaqueAmbience.bin
+Data/GPUStates/GLSLC/DecalOpaqueColor.bin
+Data/GPUStates/GLSLC/DecalOpaqueGradient.bin
+Data/GPUStates/GLSLC/DecalOpaqueGradientAmbience.bin
+Data/GPUStates/GLSLC/DecorGradient.bin
+Data/GPUStates/GLSLC/DecorGradientUVScroll.bin
+Data/GPUStates/GLSLC/FontAtlasLongShadow.bin
+Data/GPUStates/GLSLC/FXBoxFog.bin
+Data/GPUStates/GLSLC/FXBoxFogEditor.bin
+Data/GPUStates/GLSLC/InstanceGradient.bin
+Data/GPUStates/GLSLC/InstanceGradientBlend.bin
+Data/GPUStates/GLSLC/InstanceGradientStatic.bin
+Data/GPUStates/GLSLC/InstanceShadowMap.bin
+Data/GPUStates/GLSLC/InstanceShadowVolume.bin
+Data/GPUStates/GLSLC/LightDeferred.bin
 MISSING/6f28972a6d3720c3da80a2d419448147@1.bin.gpu
-MISSING/dd1fcc6bd47d6b00b09d659de986e54f@1.bin.gpu
-MISSING/fde26f6968d775f81e60795b72a8e933@1.bin.gpu
-MISSING/5f4808b14a75a0aa00c9d37ae7c8dae1@1.bin.gpu
-MISSING/a83e26a1d25b4113db9fec29c78b63c6@1.bin.gpu
-MISSING/d6773e5389f6b2bcaf57707d7683d2b2@1.bin.gpu
-MISSING/12b576a64d22c056fb2409d58815ea24@1.bin.gpu
-MISSING/5d122c5deb3db8eb19afd2a56b169ba5@1.bin.gpu
-MISSING/62e1d8e8437b1570eb68ab7b3cf53b50@1.bin.gpu
-MISSING/1a7030dcb4d42276406e0e3a21b9bf9e@1.bin.gpu
-MISSING/cabf969a9c748dc6c98f7caf5ef84bbf@1.bin.gpu
-MISSING/571ab36cb8641c9fe0392c4b09b4137c@1.bin.gpu
-MISSING/74b4e2bb4d17157ad103d086f9dcc019@1.bin.gpu
-MISSING/e1b8a8ad649b9c8348b09f1c54c855dd@1.bin.gpu
-MISSING/d80401a7e60ad89eea84222ac3e39dc7@1.bin.gpu
-MISSING/80f7c2cb6d04d5c8c37f78ae2a66e621@1.bin.gpu
-MISSING/4d21d0ba6a1ce55fb50ef2af15b6f6bf@1.bin.gpu
-MISSING/c7bdc1cfd734a25ae9d62b935b049c0c@1.bin.gpu
-MISSING/9742cf3f986491c474bcd0c8d57524a7@1.bin.gpu
-MISSING/8c628a6c16b60edd20f3e87d4b4d3920@1.bin.gpu
-MISSING/51008156539e217f8d7cef887a1e1e55@1.bin.gpu
-MISSING/5d514ebed01caa440264e43846682368@1.bin.gpu
-MISSING/8faf230080216ce5aed3ce56e3abd52d@1.bin.gpu
-MISSING/671737577a83ef1d169dec03d0e93929@1.bin.gpu
-MISSING/6d023cfbddb4e2de68c6d9a8ed31d307@1.bin.gpu
-MISSING/51c4c395af29be4ebcd98d0fe51ea9d9@1.bin.gpu
-MISSING/831d14d856d4b2b391633ae82c4d0f81@1.bin.gpu
-MISSING/d4d6f145c23fdecbdff6b1bbb9bc3395@1.bin.gpu
-MISSING/83f41cf44e38dc3620dd6c91da260b16@1.bin.gpu
-MISSING/7ba7f24c7506c9d241e5063dd5659856@1.bin.gpu
-MISSING/628ecf99d514055b763698a224073590@1.bin.gpu
-MISSING/1d8584905a2c0ba6c436ab853862b3b4@1.bin.gpu
-MISSING/7cbef63e81b61b4de3d925aac72f9c0d@1.bin.gpu
-MISSING/1afae6a176eb2a0f8947a769fc16761f@1.bin.gpu
-MISSING/adbe16401ded18f7e029190adcc52696@1.bin.gpu
-MISSING/6ad0f19f1f23c39ddc99b4359dda2a63@1.bin.gpu
-MISSING/335df6d55782c11cc3071b00867ad4d6@1.bin.gpu
-MISSING/1220522635e9a0812128c1920fb7aa90@1.bin.gpu
-MISSING/46d97cfd75221a5b64dcf9ea7787e28b@1.bin.gpu
-MISSING/426fb10f67f27559a844ff0c88f1cb65@1.bin.gpu
-MISSING/64be739e788664a6704aa013aaab6a8f@1.bin.gpu
-MISSING/e1d35519653ca3e21f37444367a37ce0@1.bin.gpu
-MISSING/74d3c69096465f7b1de4465381b4b43e@1.bin.gpu
-MISSING/0d534587dbb42eae26737a07b5526c11@1.bin.gpu
-MISSING/9a50fb254a2d3e41762d508231255d39@1.bin.gpu
-MISSING/b8be3e70992020556ceae4e8ea14ac45@1.bin.gpu
-MISSING/f28605a4d17ee15757a964f7c4430084@1.bin.gpu
-MISSING/b52e8ae7f074f248753097fe2ad492f0@1.bin.gpu
-MISSING/23f256e8f67e994e78111cbfb5e0c403@1.bin.gpu
-MISSING/3af7f7e1009f53030dc37c8c21d90d38@1.bin.gpu
-MISSING/9b99e4eba3610c7fdbe82b53d4fc1709@1.bin.gpu
-MISSING/8333cad85bf69f1fffb235008ccb8566@1.bin.gpu
-MISSING/8f02d737b1de1d5c2b2b6a00b115b907@1.bin.gpu
-MISSING/e5ef85feabec0dd81b58ef89ededfa12@1.bin.gpu
-MISSING/b39011ce6b4783e0d23703da3ac7936b@1.bin.gpu
-MISSING/e1e9e4fdcb792eb0c760b53068e761cb@1.bin.gpu
-MISSING/a0930c9ccb3d340b6fe2f5f47a7587a0@1.bin.gpu
-MISSING/4160f3e358aec2b40dcd5c4f6f7e8d5c@1.bin.gpu
-MISSING/d137dff6dbcd9e9aadd931275f91b15b@1.bin.gpu
-MISSING/c8b21010c6875ada67bbefb77b0d8d1a@1.bin.gpu
-MISSING/51a5445867c63904b3fbd9c62c089f2e@1.bin.gpu
-MISSING/e746db0e0fd2955bec4a0ebb7311a368@1.bin.gpu
-MISSING/3bb77610e0782850055fe67243ecf07e@1.bin.gpu
-MISSING/7f0dad552df41a86625cc55cf9084260@1.bin.gpu
-MISSING/5feb6ae76dd952a3b690abaaca95cf10@1.bin.gpu
-MISSING/ed896d23530c65ff4a3c35f3c53416b8@1.bin.gpu
-MISSING/ef62cba3bfeaa67873f96974a2028835@1.bin.gpu
-MISSING/a4432bd2dc1526ed14af798d91d8c85d@1.bin.gpu
-MISSING/69f2877518fc8a343ca0d909933026d7@1.bin.gpu
-MISSING/053948ff397c62169b0cc1347c3eb496@1.bin.gpu
-MISSING/93cda1157e861604a183883bc4e3c6de@1.bin.gpu
-MISSING/a3babdda79fb53cc81735910aecd9bd7@1.bin.gpu
-MISSING/0d9b4a6934d7b6f704002ab213681889@1.bin.gpu
-MISSING/019bf504efb9d0538a8597128ba0c8f0@1.bin.gpu
-MISSING/0f2d752e4cd1857f38cd6008e260c7fb@1.bin.gpu
-MISSING/75c802ea08b3b660e315bea726ac149f@1.bin.gpu
-MISSING/e03dab2d3424d4e06e4527a1778a3a56@1.bin.gpu
-MISSING/4922e186f36f81b22705ec3322b42c0d@1.bin.gpu
-MISSING/ea926534a895c1a093cfccff97e27aaf@1.bin.gpu
-MISSING/152235d966c0e3512edb886811b7a5f4@1.bin.gpu
-MISSING/d38ae7718cdad2788a82e1ee67f480e9@1.bin.gpu
-MISSING/9920b80fe7984eecb9aa8b70fdf43187@1.bin.gpu
-MISSING/0a868dbc84835d464844b0040f56681c@1.bin.gpu
-MISSING/e39d2105077467e941183c680bb071ff@1.bin.gpu
-MISSING/641ad6ad2bf726ff600171d057af9127@1.bin.gpu
-MISSING/9fba0f42d1223b1a2aa818ff7a8d5949@1.bin.gpu
-MISSING/f4e6956d0c5ec1ca183fd3947587079e@1.bin.gpu
-MISSING/a452f066393edf7fa09f1ee30ba004cc@1.bin.gpu
-MISSING/a738ba46b2dab47693529eec41fe2020@1.bin.gpu
-MISSING/bbc0e366132d83530114b95849846181@1.bin.gpu
-MISSING/527242dc2ec2cc070b615b2dced00c10@1.bin.gpu
-MISSING/ff26fcb1af5ee164558f8c98b29da6fe@1.bin.gpu
-MISSING/5b93be7467176d3fec7d274aa269b98a@1.bin.gpu
-MISSING/8026b5be0349cd42219484468d8ae449@1.bin.gpu
-MISSING/d75bf84ab763a95b406aab4964860901@1.bin.gpu
-MISSING/cf34063c8f30f95384cafd0498ac42b6@1.bin.gpu
-MISSING/b9e08cb12f0242c145a466591dd314d2@1.bin.gpu
-MISSING/02ac34872df5d9c07a2f1d2dada7d39f@1.bin.gpu
-MISSING/af54821612c2b466779b3e11d7bdb9e1@1.bin.gpu
-MISSING/406d78113f33422f0fe22c7e23725c30@1.bin.gpu
-MISSING/323d89674d670bdf07bb13dbed7aaebd@1.bin.gpu
-MISSING/5a4112f27e3cd8867c8447dc8196a189@1.bin.gpu
-MISSING/4686d6ff7008691dd18162750cbf9685@1.bin.gpu
-MISSING/b8d53f41de02e3636e992dd654e58963@1.bin.gpu
-MISSING/4c112497e051dec39d01116be79bdfa5@1.bin.gpu
-MISSING/1ff166fa3913d6af11786e238f580c63@1.bin.gpu
-MISSING/c4b5b1ec648db17efe5ac334a89f9a4b@1.bin.gpu
-MISSING/6bdf1a28509494cd28084047fac064a9@1.bin.gpu -- END OF GLSL
-MISSING/8c1ceb9ee4dcc042338b4d35e1c29a2b@1.bin.gpu -- START OF PSSL
-MISSING/98cfe9467d74ea2abebbe8dcf1e31175@1.bin.gpu
-MISSING/4fa0c2222ac3dab9a87278709f75709f@1.bin.gpu
-MISSING/a3eb657bb90e5efd79ab00e2e8b8584c@1.bin.gpu
-MISSING/fb06a11a57d37fdaa008f84184ff4d60@1.bin.gpu
-MISSING/6f76a8ac54b0a40557afb6888b99840d@1.bin.gpu
-MISSING/346f1c66057399707bac3412058fcc76@1.bin.gpu
-MISSING/0b1e48206958314c7078e6f0f938419c@1.bin.gpu
-MISSING/7c3422dec48e427f4f5bdc57076b7696@1.bin.gpu
-MISSING/b90749dac958ffa7ac3c28039ed44b8c@1.bin.gpu
-MISSING/0ae433d1686512e81715c5d90e4de4a0@1.bin.gpu
-MISSING/d4b0bc6f17d60f119664acc82c5d861f@1.bin.gpu
-MISSING/0c47ba99b1e6eb6f5bdcd3d0ca1eb261@1.bin.gpu
-MISSING/db8b75a531b9fb607be82d018096078b@1.bin.gpu
-MISSING/c9aca1db3c21c7e5ea674d41c4b6624e@1.bin.gpu
+Data/GPUStates/GLSLC/MenuMeshGradient.bin
+Data/GPUStates/GLSLC/MenuMeshGradientCharacter.bin
+Data/GPUStates/GLSLC/MeshBlendFireWall.bin
+Data/GPUStates/GLSLC/MeshCharacter.bin
+Data/GPUStates/GLSLC/MeshCheckpointLight.bin
+Data/GPUStates/GLSLC/MeshColor.bin
+Data/GPUStates/GLSLC/MeshColorBlend.bin
+Data/GPUStates/GLSLC/MeshDepthCutout.bin
+Data/GPUStates/GLSLC/MeshFinishZone.bin
+Data/GPUStates/GLSLC/MeshFlamethrowerHelix.bin
+Data/GPUStates/GLSLC/MeshGradient.bin
+Data/GPUStates/GLSLC/MeshGradientBlend.bin
+Data/GPUStates/GLSLC/MeshGradientBulge.bin
+Data/GPUStates/GLSLC/MeshGradientEdgeGlow.bin
+Data/GPUStates/GLSLC/MeshGradientSpotClip.bin
+Data/GPUStates/GLSLC/MeshGradientUVConveyor.bin
+Data/GPUStates/GLSLC/MeshGradientUVScroll.bin
+Data/GPUStates/GLSLC/MeshGradientUVScrollWater.bin
+Data/GPUStates/GLSLC/MeshGradientUVStretchUZ.bin
+Data/GPUStates/GLSLC/MeshLava.bin
+Data/GPUStates/GLSLC/MeshLavaGlow.bin
+Data/GPUStates/GLSLC/MeshLerpGradient.bin
+Data/GPUStates/GLSLC/MeshLightshow.bin
+Data/GPUStates/GLSLC/MeshMagneticField.bin
+Data/GPUStates/GLSLC/MeshMappedGradient.bin
+Data/GPUStates/GLSLC/MeshMr8Eye.bin
+Data/GPUStates/GLSLC/MeshPalaceCrowd.bin
+Data/GPUStates/GLSLC/MeshPenguinNet.bin
+Data/GPUStates/GLSLC/MeshPenguinRiver.bin
+Data/GPUStates/GLSLC/MeshPsychedelic.bin
+Data/GPUStates/GLSLC/MeshRopePath.bin
+Data/GPUStates/GLSLC/MeshShadowMap.bin
+Data/GPUStates/GLSLC/MeshShadowVolume.bin
+Data/GPUStates/GLSLC/MeshSilhouette.bin
+Data/GPUStates/GLSLC/MeshSkyboxFwd.bin
+Data/GPUStates/GLSLC/MeshStartPlatformBeam.bin
+Data/GPUStates/GLSLC/MeshStencilVolumeDepthMask.bin
+Data/GPUStates/GLSLC/MeshSwapGradient.bin
+Data/GPUStates/GLSLC/MeshVoidFog.bin
+Data/GPUStates/GLSLC/MeshVoidFogDebug.bin
+Data/GPUStates/GLSLC/MeshWaterPool.bin
+Data/GPUStates/GLSLC/MeshWaves.bin
+Data/GPUStates/GLSLC/MeshWireframe.bin
+Data/GPUStates/GLSLC/MeshXRaySilhouette.bin
+Data/GPUStates/GLSLC/MeshYoYoChomp.bin
+Data/GPUStates/GLSLC/OceanTopLava.bin
+Data/GPUStates/GLSLC/OceanTopQS.bin
+Data/GPUStates/GLSLC/OceanTopWater.bin
+Data/GPUStates/GLSLC/OceanTransitionLava.bin
+Data/GPUStates/GLSLC/OceanTransitionQS.bin
+Data/GPUStates/GLSLC/OceanTransitionWater.bin
+Data/GPUStates/GLSLC/OceanWaterfallQS.bin
+Data/GPUStates/GLSLC/OceanWaterfallWater.bin
+Data/GPUStates/GLSLC/ScreenCopy.bin
+Data/GPUStates/GLSLC/ScreenFizzDOF-HQ.bin
+Data/GPUStates/GLSLC/ScreenFizzDOF-LQ.bin
+Data/GPUStates/GLSLC/ScreenFizzNoise.bin
+Data/GPUStates/GLSLC/ScreenFXVoidFog.bin
+Data/GPUStates/GLSLC/ScreenNormalGen.bin
+Data/GPUStates/GLSLC/ScreenOutline.bin
+Data/GPUStates/GLSLC/ScreenOutput.bin
+Data/GPUStates/GLSLC/ScreenShadowMap.bin
+Data/GPUStates/GLSLC/ScreenShadowVolume.bin
+Data/GPUStates/GLSLC/ScreenSkyboxFade.bin
+Data/GPUStates/GLSLC/ScreenSkyboxSolid.bin
+Data/GPUStates/GLSLC/SkyboxGradient.bin
+Data/GPUStates/GLSLC/SkyboxMeshGradSkin.bin
+Data/GPUStates/GLSLC/SkyboxMeshGradStatic.bin
+Data/GPUStates/GLSLC/SkyboxMeshGradStaticNormal.bin
+Data/GPUStates/GLSLC/SkyboxMeshTexSkin.bin
+Data/GPUStates/GLSLC/SkyboxMeshTexSkinPulse.bin
+Data/GPUStates/GLSLC/SkyboxMeshTexSkinPulseMask.bin
+Data/GPUStates/GLSLC/SkyboxMeshTexStatic.bin
+Data/GPUStates/GLSLC/SkyboxMeshTexStaticUnlit.bin
+Data/GPUStates/GLSLC/SkyboxOpaqueColor.bin
+Data/GPUStates/GLSLC/SkyboxOpaqueSprite.bin
+Data/GPUStates/GLSLC/SkyboxPlaneSky.bin
+Data/GPUStates/GLSLC/SkyboxStarfield.bin
+Data/GPUStates/GLSLC/SkyboxStarfieldMesh.bin
+Data/GPUStates/GLSLC/SkyboxStarfieldMeshColorUnlit.bin
+Data/GPUStates/GLSLC/SpriteAddCorona.bin
+Data/GPUStates/GLSLC/SpriteAddZRead.bin
+Data/GPUStates/GLSLC/SpriteBlendZRead.bin
+Data/GPUStates/GLSLC/SpriteDecalColor.bin
+Data/GPUStates/GLSLC/SpriteGradient.bin
+Data/GPUStates/GLSLC/SpriteOpaqueColor.bin
+Data/GPUStates/GLSLC/SpriteScrollingOverlay.bin
+Data/GPUStates/GLSLC/SpriteShadowMap.bin
+Data/GPUStates/GLSLC/SpriteSolidColor.bin
+Data/GPUStates/GLSLC/SpriteSubZRead.bin
+Data/GPUStates/GLSLC/TerrainColorPunch.bin
+Data/GPUStates/GLSLC/TerrainIceReflect.bin
+Data/GPUStates/GLSLC/TerrainInstanceGradient.bin
+Data/GPUStates/GLSLC/TerrainMeshBubblePipes.bin
+Data/GPUStates/GLSLC/TerrainMeshColor.bin
+Data/GPUStates/GLSLC/TerrainMeshCubeMap.bin
+Data/GPUStates/GLSLC/TerrainMeshGradient.bin
+Data/GPUStates/GLSLC/TerrainMeshGradientUVScroll.bin
+Data/GPUStates/GLSLC/TitleCardBackground.bin
+Data/GPUStates/GLSLC/TitleCardBlockGrain.bin
+Data/GPUStates/GLSLC/TitleCardFadeCircles.bin
+Data/GPUStates/GLSLC/TitleCardIsoBoxBottom.bin
+Data/GPUStates/GLSLC/UI.bin
+Data/GPUStates/GLSLC/UIGrain.bin
+Data/GPUStates/GLSLC/UIMasked.bin
+Data/GPUStates/GLSLC/UISetDepth.bin
+Data/GPUStates/GLSLC/UISetMask.bin
+Data/GPUStates/PSSLv2/DecalOpaqueAmbience.bin
+Data/GPUStates/PSSLv2/DecalOpaqueColor.bin
+Data/GPUStates/PSSLv2/DecalOpaqueGradient.bin
+Data/GPUStates/PSSLv2/DecalOpaqueGradientAmbience.bin
+Data/GPUStates/PSSLv2/DecorGradient.bin
+Data/GPUStates/PSSLv2/DecorGradientUVScroll.bin
+Data/GPUStates/PSSLv2/FontAtlasLongShadow.bin
+Data/GPUStates/PSSLv2/FXBoxFog.bin
+Data/GPUStates/PSSLv2/FXBoxFogEditor.bin
+Data/GPUStates/PSSLv2/InstanceGradient.bin
+Data/GPUStates/PSSLv2/InstanceGradientBlend.bin
+Data/GPUStates/PSSLv2/InstanceGradientStatic.bin
+Data/GPUStates/PSSLv2/InstanceShadowMap.bin
+Data/GPUStates/PSSLv2/InstanceShadowVolume.bin
+Data/GPUStates/PSSLv2/LightDeferred.bin
 MISSING/53473e6a4678a40bc7858f8c47af632d@1.bin.gpu
-MISSING/87546e79aa8e557a3655c72f77bca03c@1.bin.gpu
-MISSING/03c26380a4e51b94413fb7a038269ecb@1.bin.gpu
-MISSING/906222fd46158015a93f66208ad3f43c@1.bin.gpu
-MISSING/bb0923f92a4f1095d43b8f42a019cb52@1.bin.gpu
-MISSING/99261b838dd7255e7233aaecd29c226a@1.bin.gpu
-MISSING/90e6508f674aad21dd5a66d55d71180e@1.bin.gpu
-MISSING/6c55779aae4c330a7b079496459ce461@1.bin.gpu
-MISSING/ba23e80e8ce4d7c40c45dc334ac0b91f@1.bin.gpu
-MISSING/1c7c7f41fcbec92e574f29501a9eb5cf@1.bin.gpu
-MISSING/a231ea7ba5004c62724e18fb380bdbdf@1.bin.gpu
-MISSING/dcc25c66461fd335e290a2fb4e460514@1.bin.gpu
-MISSING/b9fee5131296d3439f074545ce978978@1.bin.gpu
-MISSING/e54c252014d598631aebdb7e2df00c71@1.bin.gpu
-MISSING/fc79906c63d60c0dddf163a719ca8696@1.bin.gpu
-MISSING/4c057cdac394ba3990a7d92e14f53a7a@1.bin.gpu
-MISSING/7493bfb7107a3fb420959c007867475c@1.bin.gpu
-MISSING/7a4c20e30382af7214c03e4a00b3861c@1.bin.gpu
-MISSING/34d3faa10562f6e9f68a1300d47ba419@1.bin.gpu
-MISSING/6c9e9e5e283ff4647859b6fc97e3c328@1.bin.gpu
-MISSING/02e483d95c14d0b49e4de5704b857da8@1.bin.gpu
-MISSING/98feadcb8d5d5fe54b2a4cb41ae68eda@1.bin.gpu
-MISSING/1b7c882686f88a99f3a1866436acfcb2@1.bin.gpu
-MISSING/aa21fd4e74a12be3fd221811bfc7b09a@1.bin.gpu
-MISSING/f7d2d998df86159a14b0596b670bfed5@1.bin.gpu
-MISSING/508692358aa800524dd19a24d5e3ff53@1.bin.gpu
-MISSING/073309b2488bd7f1866f104b21e38812@1.bin.gpu
-MISSING/80c3110bd892ed8fd4ce26dca97e6f33@1.bin.gpu
-MISSING/67f07a4808d52ae527f6d7fab80d0183@1.bin.gpu
-MISSING/cf0d11b30b0c6a8ad5540e5f3783b47d@1.bin.gpu
-MISSING/6ff1179eb1ca85068b91c3d2f568e520@1.bin.gpu
-MISSING/4114e330a2e1059858a0c32a83841f23@1.bin.gpu
-MISSING/f15bef07abe899d62bdb5f3b96319d65@1.bin.gpu
-MISSING/c8452615ef13613e7ff697105bdbc4c1@1.bin.gpu
-MISSING/8b4f2e1ae4ca651bcedc0e24494b091b@1.bin.gpu
-MISSING/fb8440b9b07669cdcaa4f64e44c0cc39@1.bin.gpu
-MISSING/a1377b415fab7a6aff636381ddcbf2c3@1.bin.gpu
-MISSING/7bc9e8df86d6cf32f9d42edd030e4f23@1.bin.gpu
-MISSING/a663384f5ea0394439d198f71327411a@1.bin.gpu
-MISSING/95d521854c6a2beb8b20a98f9337de21@1.bin.gpu
-MISSING/d65dbe577595ffa05fff1b70164bdaac@1.bin.gpu
-MISSING/bb59bcffb681d9fc1d9d1f33bb0a65a8@1.bin.gpu
-MISSING/05789944189550e6c58e8c427f4ac748@1.bin.gpu
-MISSING/0f98a74d857c2983c1dafa9bcd8b7b49@1.bin.gpu
-MISSING/f0c2070135850e3f9c8b5b4f633b1eb3@1.bin.gpu
-MISSING/9a65b2f9927d80725aa63753961eefcc@1.bin.gpu
-MISSING/fc28c83e3d53fc442fb1e33b91737228@1.bin.gpu
-MISSING/91b729f7d0374c39e7ee312462e4a13a@1.bin.gpu
-MISSING/5e427568d19025f1f54b35e2702e3226@1.bin.gpu
-MISSING/9bebca8419b696b900f13fae31ac378b@1.bin.gpu
-MISSING/61f8e2f4214cfbcb422bc38fe0a9af90@1.bin.gpu
-MISSING/50b947e06b33a0e1c6601ea13e7a167a@1.bin.gpu
-MISSING/e096e7e0e25a7c490d28b9dcb8a3dd78@1.bin.gpu
-MISSING/8d17137699a2b876d3f8626e61e03200@1.bin.gpu
-MISSING/b8b248e4d52b27aae088c2c604a49837@1.bin.gpu
-MISSING/d38f5f6da160fe0e194f96844305711f@1.bin.gpu
-MISSING/1c09bd68e6e5dc0eedb6677fcae0db36@1.bin.gpu
-MISSING/c458231c7b4f66d735f80c9631bcce58@1.bin.gpu
-MISSING/6bbdd393f295168abc3f8f295005ffe7@1.bin.gpu
-MISSING/ea631015f9c257adcb124ec333d6487d@1.bin.gpu
-MISSING/9ede5981913f6fcb4af0d17c8b252ff7@1.bin.gpu
-MISSING/4b75e285f574bcc7bdbae718896c43bb@1.bin.gpu
-MISSING/90630802db131780dfc8f70a2f7ef2a6@1.bin.gpu
-MISSING/0ffd76a508bdb80df4ca827bc26ab938@1.bin.gpu
-MISSING/db29d72e00c0e1e842c58cdaf0e9f7b8@1.bin.gpu
-MISSING/df6842e6dea63745be2cb7ccf7fda81f@1.bin.gpu
-MISSING/0c0e61005774e23186408b547dc06e7f@1.bin.gpu
-MISSING/1c5feaaeac3d1df3d26aecd52764a685@1.bin.gpu
-MISSING/9b685f4fce9750110b50983e4119688c@1.bin.gpu
-MISSING/e746ccf9943458294fe2af95de04c669@1.bin.gpu
-MISSING/81b2ee1dde0d4def33af744dd51796ff@1.bin.gpu
-MISSING/a01468110ded828aaaa274b81d08ff04@1.bin.gpu
-MISSING/bb2ca15f2d6fa5eb9cb5c0604f1b33e9@1.bin.gpu
-MISSING/37cc1bb555c7cff167af027e8cdac987@1.bin.gpu
-MISSING/6ab3ab4ee2dbabdfd98093ca77a805d0@1.bin.gpu
-MISSING/aac6500035c4935593460a81171376a0@1.bin.gpu
-MISSING/3e43eb3a72653a0379b65c8f27641fa8@1.bin.gpu
-MISSING/7d9e2f494524b32cb269932d34d9f89e@1.bin.gpu
-MISSING/ebaa7ebb010ae6316b3e04296064be48@1.bin.gpu
-MISSING/86070606951b0fd972305eefaef9d089@1.bin.gpu
-MISSING/5c70491a5c2a6faa830baf25562386e8@1.bin.gpu
-MISSING/7e0faeca44a3b0adb69aa97838820755@1.bin.gpu
-MISSING/e2961fc97f221babafd492a23f4fa609@1.bin.gpu
-MISSING/d75eb3481e207884e171f7073e14007d@1.bin.gpu
-MISSING/a6151c24df1cbfd47c86bfbc00af9463@1.bin.gpu
-MISSING/b2c89010eaa2985e235744e29e4adbb3@1.bin.gpu
-MISSING/37acaa00f14bd76de3a3fdd63fbe48bc@1.bin.gpu
-MISSING/533594878a09db23ecf62cdcba34ae38@1.bin.gpu
-MISSING/4e22400d92cc6610b719db38004dbc9e@1.bin.gpu
-MISSING/cd69d061e43c07881175be6243e3146d@1.bin.gpu
-MISSING/3c541dab2a55f6cba71f5b808c57fb1d@1.bin.gpu
-MISSING/f1bff74056a53988f66d0b37349a06ee@1.bin.gpu
-MISSING/d704d2c966a830e96c0d25c5b1039ceb@1.bin.gpu
-MISSING/b78afe0417d7657281196b600d6cb0b4@1.bin.gpu
-MISSING/aafc2544762ebe869fea5b5a04e5d828@1.bin.gpu
-MISSING/b23de697e712d3959923a31b1828a905@1.bin.gpu
-MISSING/3f2c46f79edbd01a17e0e1cdc44995e6@1.bin.gpu
-MISSING/bb033694763e727292d6f26dd6889b86@1.bin.gpu
-MISSING/092013c8fd74b830236bda4731b415f5@1.bin.gpu
-MISSING/f1d877e2df5e9f757eb6cb8f49b74ce8@1.bin.gpu
-MISSING/0671277e7eab104b25c87e589615da31@1.bin.gpu
-MISSING/79b5bc0ef9067cb2746789d661dca016@1.bin.gpu
-MISSING/6c66c5f2f99862549a3adadd7e97381f@1.bin.gpu
-MISSING/fcf3a114043e348d0d0d2adb642e44ce@1.bin.gpu
-MISSING/e46ea0c3b59548d06e5184630778dd81@1.bin.gpu
-MISSING/4ea8abe751742f245e8ed4004b6ecaf5@1.bin.gpu
-MISSING/3a79d168060e0205255050b0cf237dea@1.bin.gpu
-MISSING/c82d7124659c33d808bbd3563a90345c@1.bin.gpu -- END OF PSSL
+Data/GPUStates/PSSLv2/MenuMeshGradient.bin
+Data/GPUStates/PSSLv2/MenuMeshGradientCharacter.bin
+Data/GPUStates/PSSLv2/MeshBlendFireWall.bin
+Data/GPUStates/PSSLv2/MeshCharacter.bin
+Data/GPUStates/PSSLv2/MeshCheckpointLight.bin
+Data/GPUStates/PSSLv2/MeshColor.bin
+Data/GPUStates/PSSLv2/MeshColorBlend.bin
+Data/GPUStates/PSSLv2/MeshDepthCutout.bin
+Data/GPUStates/PSSLv2/MeshFinishZone.bin
+Data/GPUStates/PSSLv2/MeshFlamethrowerHelix.bin
+Data/GPUStates/PSSLv2/MeshGradient.bin
+Data/GPUStates/PSSLv2/MeshGradientBlend.bin
+Data/GPUStates/PSSLv2/MeshGradientBulge.bin
+Data/GPUStates/PSSLv2/MeshGradientEdgeGlow.bin
+Data/GPUStates/PSSLv2/MeshGradientSpotClip.bin
+Data/GPUStates/PSSLv2/MeshGradientUVConveyor.bin
+Data/GPUStates/PSSLv2/MeshGradientUVScroll.bin
+Data/GPUStates/PSSLv2/MeshGradientUVScrollWater.bin
+Data/GPUStates/PSSLv2/MeshGradientUVStretchUZ.bin
+Data/GPUStates/PSSLv2/MeshLava.bin
+Data/GPUStates/PSSLv2/MeshLavaGlow.bin
+Data/GPUStates/PSSLv2/MeshLerpGradient.bin
+Data/GPUStates/PSSLv2/MeshLightshow.bin
+Data/GPUStates/PSSLv2/MeshMagneticField.bin
+Data/GPUStates/PSSLv2/MeshMappedGradient.bin
+Data/GPUStates/PSSLv2/MeshMr8Eye.bin
+Data/GPUStates/PSSLv2/MeshPalaceCrowd.bin
+Data/GPUStates/PSSLv2/MeshPenguinNet.bin
+Data/GPUStates/PSSLv2/MeshPenguinRiver.bin
+Data/GPUStates/PSSLv2/MeshPsychedelic.bin
+Data/GPUStates/PSSLv2/MeshRopePath.bin
+Data/GPUStates/PSSLv2/MeshShadowMap.bin
+Data/GPUStates/PSSLv2/MeshShadowVolume.bin
+Data/GPUStates/PSSLv2/MeshSilhouette.bin
+Data/GPUStates/PSSLv2/MeshSkyboxFwd.bin
+Data/GPUStates/PSSLv2/MeshStartPlatformBeam.bin
+Data/GPUStates/PSSLv2/MeshStencilVolumeDepthMask.bin
+Data/GPUStates/PSSLv2/MeshSwapGradient.bin
+Data/GPUStates/PSSLv2/MeshVoidFog.bin
+Data/GPUStates/PSSLv2/MeshVoidFogDebug.bin
+Data/GPUStates/PSSLv2/MeshWaterPool.bin
+Data/GPUStates/PSSLv2/MeshWaves.bin
+Data/GPUStates/PSSLv2/MeshWireframe.bin
+Data/GPUStates/PSSLv2/MeshXRaySilhouette.bin
+Data/GPUStates/PSSLv2/MeshYoYoChomp.bin
+Data/GPUStates/PSSLv2/OceanTopLava.bin
+Data/GPUStates/PSSLv2/OceanTopQS.bin
+Data/GPUStates/PSSLv2/OceanTopWater.bin
+Data/GPUStates/PSSLv2/OceanTransitionLava.bin
+Data/GPUStates/PSSLv2/OceanTransitionQS.bin
+Data/GPUStates/PSSLv2/OceanTransitionWater.bin
+Data/GPUStates/PSSLv2/OceanWaterfallQS.bin
+Data/GPUStates/PSSLv2/OceanWaterfallWater.bin
+Data/GPUStates/PSSLv2/ScreenCopy.bin
+Data/GPUStates/PSSLv2/ScreenFizzDOF-HQ.bin
+Data/GPUStates/PSSLv2/ScreenFizzDOF-LQ.bin
+Data/GPUStates/PSSLv2/ScreenFizzNoise.bin
+Data/GPUStates/PSSLv2/ScreenFXVoidFog.bin
+Data/GPUStates/PSSLv2/ScreenNormalGen.bin
+Data/GPUStates/PSSLv2/ScreenOutline.bin
+Data/GPUStates/PSSLv2/ScreenOutput.bin
+Data/GPUStates/PSSLv2/ScreenShadowMap.bin
+Data/GPUStates/PSSLv2/ScreenShadowVolume.bin
+Data/GPUStates/PSSLv2/ScreenSkyboxFade.bin
+Data/GPUStates/PSSLv2/ScreenSkyboxSolid.bin
+Data/GPUStates/PSSLv2/SkyboxGradient.bin
+Data/GPUStates/PSSLv2/SkyboxMeshGradSkin.bin
+Data/GPUStates/PSSLv2/SkyboxMeshGradStatic.bin
+Data/GPUStates/PSSLv2/SkyboxMeshGradStaticNormal.bin
+Data/GPUStates/PSSLv2/SkyboxMeshTexSkin.bin
+Data/GPUStates/PSSLv2/SkyboxMeshTexSkinPulse.bin
+Data/GPUStates/PSSLv2/SkyboxMeshTexSkinPulseMask.bin
+Data/GPUStates/PSSLv2/SkyboxMeshTexStatic.bin
+Data/GPUStates/PSSLv2/SkyboxMeshTexStaticUnlit.bin
+Data/GPUStates/PSSLv2/SkyboxOpaqueColor.bin
+Data/GPUStates/PSSLv2/SkyboxOpaqueSprite.bin
+Data/GPUStates/PSSLv2/SkyboxPlaneSky.bin
+Data/GPUStates/PSSLv2/SkyboxStarfield.bin
+Data/GPUStates/PSSLv2/SkyboxStarfieldMesh.bin
+Data/GPUStates/PSSLv2/SkyboxStarfieldMeshColorUnlit.bin
+Data/GPUStates/PSSLv2/SpriteAddCorona.bin
+Data/GPUStates/PSSLv2/SpriteAddZRead.bin
+Data/GPUStates/PSSLv2/SpriteBlendZRead.bin
+Data/GPUStates/PSSLv2/SpriteDecalColor.bin
+Data/GPUStates/PSSLv2/SpriteGradient.bin
+Data/GPUStates/PSSLv2/SpriteOpaqueColor.bin
+Data/GPUStates/PSSLv2/SpriteScrollingOverlay.bin
+Data/GPUStates/PSSLv2/SpriteShadowMap.bin
+Data/GPUStates/PSSLv2/SpriteSolidColor.bin
+Data/GPUStates/PSSLv2/SpriteSubZRead.bin
+Data/GPUStates/PSSLv2/TerrainColorPunch.bin
+Data/GPUStates/PSSLv2/TerrainIceReflect.bin
+Data/GPUStates/PSSLv2/TerrainInstanceGradient.bin
+Data/GPUStates/PSSLv2/TerrainMeshBubblePipes.bin
+Data/GPUStates/PSSLv2/TerrainMeshColor.bin
+Data/GPUStates/PSSLv2/TerrainMeshCubeMap.bin
+Data/GPUStates/PSSLv2/TerrainMeshGradient.bin
+Data/GPUStates/PSSLv2/TerrainMeshGradientUVScroll.bin
+Data/GPUStates/PSSLv2/TitleCardBackground.bin
+Data/GPUStates/PSSLv2/TitleCardBlockGrain.bin
+Data/GPUStates/PSSLv2/TitleCardFadeCircles.bin
+Data/GPUStates/PSSLv2/TitleCardIsoBoxBottom.bin
+Data/GPUStates/PSSLv2/UI.bin
+Data/GPUStates/PSSLv2/UIGrain.bin
+Data/GPUStates/PSSLv2/UIMasked.bin
+Data/GPUStates/PSSLv2/UISetDepth.bin
+Data/GPUStates/PSSLv2/UISetMask.bin
 Data/Layers/Presentation/Backstage/Entities.bin
 Data/Layers/Presentation/Backstage/Skybox.bin
 Data/Layers/Presentation/Credits/Entities.bin
@@ -937,7 +938,7 @@ Data/Scenes/Presentation/Title.cfg
 Data/Scenes/Prototype/GazeboLite.cfg
 Data/Scenes/Prototype/GorgeousGazebo.cfg
 Data/Scenes/Prototype/VanillatownProto.cfg
-MISSING/029e0c9003bb751772038d649d1ad28f@1 -- really similar to above
+MISSING/029e0c9003bb751772038d649d1ad28f@1
 Data/Scenes/Sandbox/AnaLoveVanillaTest.cfg
 Data/Scenes/Sandbox/AnaTest.cfg
 Data/Scenes/Sandbox/Artist_Sandbox.cfg
@@ -950,7 +951,7 @@ Data/Scenes/Sandbox/Gym_Dilemmas.cfg
 Data/Scenes/Sandbox/Gym_Min.cfg
 Data/Scenes/Sandbox/Gym_Valdillez.cfg
 Data/Scenes/Sandbox/HunterSandbox.cfg
-MISSING/bc4f9fa66216554ab6680167743bf1a3@1 -- another one from jameson (sandbox came first)
+MISSING/bc4f9fa66216554ab6680167743bf1a3@1
 Data/Scenes/Sandbox/JamesonSandbox.cfg
 Data/Scenes/Sandbox/JamesonSandbox2.cfg
 Data/Scenes/Sandbox/Milena_VanillaTest.cfg
@@ -959,8 +960,8 @@ Data/Scenes/Sandbox/MobTest.cfg
 Data/Scenes/Sandbox/MobTraversal.cfg
 Data/Scenes/Sandbox/MotionTest.cfg
 Data/Scenes/Sandbox/PathExample.cfg
-MISSING/71fbd24f33c2f56ac421c8bcd878d40f@1 -- jameson this is your 4th sandbox
-MISSING/4b0df9843abad8735c37550564cb7ebe@1 -- borrows from test2?
+Data/Scenes/Sandbox/PetSim.cfg
+Data/Scenes/Sandbox/RachelSandbox.cfg
 Data/Scenes/Sandbox/SimpleScene.cfg
 Data/Scenes/Sandbox/Test1.cfg
 Data/Scenes/Sandbox/Test2.cfg
@@ -1027,7 +1028,7 @@ Data/Textures/Dev/Dev_Water.pvr.gz
 Data/Textures/Dev/Dev_Wood.pvr.gz
 Data/Textures/Emotes/ThoughtBubble.pvr.gz
 Data/Textures/Enemies/FauxtagonistHUD.pvr.gz
-MISSING/995d04696d33829683dfac15aedf5429@1 -- incorrect header for all 4 of these :/
+MISSING/995d04696d33829683dfac15aedf5429@1
 MISSING/2b61d5cc0aecdb49f6267bb67c1086ba@1
 MISSING/c2dff31cd896cf2a2ea5771f24ae3b7d@1
 MISSING/c729c157ed625665b2ac78be826503aa@1
@@ -1085,7 +1086,7 @@ Data/Textures/Macaroon/BuskerStage_Lower.pvr.gz
 Data/Textures/Macaroon/Lava_dark.pvr.gz
 Data/Textures/Macaroon/RockSpeckle.pvr.gz
 Data/Textures/Macaroon/SnowGlisten.pvr.gz
-MISSING/e538ff3a9070bd44aef5d06feb3f613e@1 -- another weird fucked up tex
+MISSING/e538ff3a9070bd44aef5d06feb3f613e@1
 Data/Textures/Presentation/Controller.pvr.gz
 Data/Textures/Presentation/Legal.pvr.gz
 Data/Textures/Presentation/MainMenuAccentIcons.pvr.gz
@@ -1185,7 +1186,7 @@ Data/Videos/Tutorial/Dash.ivf
 Data/Videos/Tutorial/Dilemma.ivf
 Data/Videos/Tutorial/End.ivf
 Data/Videos/Tutorial/Endurian.ivf
-MISSING/8b397427071813bc4c68a16d70879c75@1.ivf -- VERY *VERY* old footage, all we know is it's a tutorial
+Data/Videos/Tutorial/Free.ivf
 Data/Videos/Tutorial/Latch.ivf
 Data/Videos/Tutorial/Penguins.ivf
 Data/Videos/Tutorial/Pepper.ivf
@@ -1256,7 +1257,7 @@ Data/VisualFX/General/WESparkles.bin
 Data/VisualFX/Player/AirFlip.bin
 Data/VisualFX/Player/CoastSandSurface.bin
 Data/VisualFX/Player/DesertSandSurface.bin
-MISSING/599434c8fa3e2c9489bfd0fe30b1794f@1.bin.vfx -- idk :skul:
+MISSING/599434c8fa3e2c9489bfd0fe30b1794f@1.bin.vfx
 Data/VisualFX/Player/FireDamage.bin
 Data/VisualFX/Player/HatWind.bin
 Data/VisualFX/Player/HeavyImpact.bin
@@ -1264,7 +1265,7 @@ Data/VisualFX/Player/JumpDust.bin
 Data/VisualFX/Player/LightImpact.bin
 Data/VisualFX/Player/QuickDash.bin
 Data/VisualFX/Player/Skid.bin
-Data/VisualFX/Player/Throw.bin
+Data/VisualFX/Player/SnowSurface.bin
 Data/VisualFX/Player/Twirl.bin
 Data/VisualFX/PowerUps/BowlingImpact.bin
 Data/VisualFX/PowerUps/BowlingPound.bin
@@ -1290,6 +1291,7 @@ Data/VisualFX/YoYo/Spin.bin
 Data/VisualFX/YoYo/Twirl.bin
 Data/VisualFX/YoYo/WaterWake.bin
 Data/VisualFX/YoYo/ZiplineSpark.bin
+------------ PACK 002 - Global_Music ------------
 Data/MIDI/Music/Backstage.mid
 Data/MIDI/Music/Bathhouse.mid
 Data/MIDI/Music/Bathhouse_Pinch.mid
@@ -1311,7 +1313,7 @@ Data/MIDI/Music/Palace_PinchTransition_In.mid
 Data/MIDI/Music/Penguinville.mid
 Data/MIDI/Music/Penguinville_Pinch.mid
 Data/MIDI/Music/PinchTransition_In.mid
-MISSING/9e9b0819e8d08272f66eebb3d4cb8a52@2.mid -- has 2 be some form of pinch transition thats for sure
+MISSING/9e9b0819e8d08272f66eebb3d4cb8a52@2.mid
 Data/MIDI/Music/PinchTransition_Out.mid
 Data/MIDI/Music/Test1.mid
 Data/MIDI/Music/Test2.mid
@@ -1326,10 +1328,11 @@ Data/PCMSources/Music/BuskerBonus_03.ogg
 Data/PCMSources/Music/BuskerBonus_04.ogg
 Data/PCMSources/Music/StageClear.ogg
 Data/PCMSources/Music/TitleScreen.ogg
+------------ PACK 003 - Audio_SFX ------------
 Data/AudioPatches/BombBounce.bin
 Data/AudioPatches/BonkYoYo.bin
 Data/AudioPatches/CandleLight.bin
-MISSING/9864d2cf945e01951c105ea8ff3ce8d7@3 -- idek what these are im gonna be honest
+MISSING/9864d2cf945e01951c105ea8ff3ce8d7@3
 MISSING/5a731553e97f2820667453d58fd5ef12@3
 MISSING/d3fcf2824307d944bc21475ff69285a8@3
 MISSING/5d576ed5fb2fc05fd60cc7e3309f76dd@3
@@ -1376,7 +1379,7 @@ Data/PCMSources/SFX/03_Desert/BulbFlickerOn.wav
 Data/PCMSources/SFX/03_Desert/BulbLoop.wav
 Data/PCMSources/SFX/03_Desert/BulbShatter.wav
 Data/PCMSources/SFX/03_Desert/Conveyor.wav
-MISSING/5ccaef9a663ff4c5931491201bb5e239@3.wav
+Data/PCMSources/SFX/03_Desert/QuickSandSink.wav
 Data/PCMSources/SFX/03_Desert/QuickSandSinking.wav
 Data/PCMSources/SFX/03_Desert/ShockEmitterLoop.wav
 Data/PCMSources/SFX/03_Desert/ShockEmitterOff.wav
@@ -1399,12 +1402,12 @@ Data/PCMSources/SFX/06_Bathhouse/DivingBoard.wav
 Data/PCMSources/SFX/06_Bathhouse/DivingBoardHighImpact.wav
 MISSING/9db5f756b17f5593657377af204ca3d7@3.wav
 MISSING/99003e2a2c821fb97827419b9a1395ce@3.wav
-MISSING/fc101d3701e7cb70a28e1be03b93cb2a@3.wav
-MISSING/8980df235e2e99c95d63128fc111bbc3@3.wav
+Data/PCMSources/SFX/06_Bathhouse/LaundryBasket.wav
+Data/PCMSources/SFX/06_Bathhouse/PushOut.wav
 Data/PCMSources/SFX/06_Bathhouse/SpikePlatformCharge.wav
 Data/PCMSources/SFX/06_Bathhouse/SpikePlatformPoke.wav
-MISSING/659416aa8cf2f31e487b63aefbf2b089@3.wav
-MISSING/63bcb75d8ae27c958ec6f2d0395c7b23@3.wav
+Data/PCMSources/SFX/06_BathHouse/SuckIn.wav
+Data/PCMSources/SFX/06_BathHouse/SuctionCharge.wav
 Data/PCMSources/SFX/06_BathHouse/SuctionPipeCharge.wav
 Data/PCMSources/SFX/06_BathHouse/SuctionPipeOut.wav
 Data/PCMSources/SFX/06_BathHouse/SuctionPipeSuck.wav
@@ -1415,9 +1418,9 @@ Data/PCMSources/SFX/06_Bathhouse/ValvesBreak.wav
 Data/PCMSources/SFX/06_BathHouse/WaterGushLoop.wav
 Data/PCMSources/SFX/06_BathHouse/WaterGushPushLoop.wav
 Data/PCMSources/SFX/06_BathHouse/WaterGushPushStart.wav
-MISSING/bb8fa61f98ceeb0d8bd65b90dd9f9a4c@3.wav
+Data/PCMSources/SFX/06_BathHouse/WaterSlide.wav
 Data/PCMSources/SFX/06_Bathhouse/WaterSplash.wav
-MISSING/d6918789b5832abe166cd77a13aa5a87@3.wav
+Data/PCMSources/SFX/06_Bathhouse/WaveLoop.wav
 Data/PCMSources/SFX/07_WorldsEdge/AsteroidBreakLarge.wav
 Data/PCMSources/SFX/07_WorldsEdge/AsteroidBreakMedium.wav
 Data/PCMSources/SFX/07_WorldsEdge/AsteroidBreakSmall.wav
@@ -1430,7 +1433,7 @@ Data/PCMSources/SFX/07_WorldsEdge/CannonTorchFuseIgnite.wav
 MISSING/9c78798dd8177d2fa1b2b3e9d9341a5a@3.wav
 Data/PCMSources/SFX/07_WorldsEdge/DrawerClose.wav
 Data/PCMSources/SFX/07_WorldsEdge/DrawerOpen.wav
-MISSING/5e8be744b9442ab03f663a664b79dc6d@3.wav
+Data/PCMSources/SFX/07_WorldsEdge/DrawerTug.wav
 Data/PCMSources/SFX/07_WorldsEdge/DrawerTug2.wav
 Data/PCMSources/SFX/07_WorldsEdge/LatchDrawerTug.wav
 Data/PCMSources/SFX/07_WorldsEdge/MarionetteAttackAttack.wav
@@ -1491,7 +1494,7 @@ Data/PCMSources/SFX/BuskerStage/BuskerCheerIntensity04.ogg
 Data/PCMSources/SFX/BuskerStage/BuskerCrowdAww.ogg
 Data/PCMSources/SFX/BuskerStage/BuskerStageAmbienceLoop.ogg
 Data/PCMSources/SFX/BuskerStage/BuskerStageButtonPress.wav
-MISSING/336c0bb07980085690d2114705069308@3.wav
+Data/PCMSources/SFX/BuskerStage/BuskerStageDrumRoll.wav
 Data/PCMSources/SFX/BuskerStage/BuskerStageSpotLight.wav
 Data/PCMSources/SFX/Cinematics/Emotes/CameraWoosh.wav
 Data/PCMSources/SFX/Cinematics/Emotes/EddieShakes.wav
@@ -1584,7 +1587,7 @@ Data/PCMSources/SFX/Denizens/BonkYoYo3.wav
 Data/PCMSources/SFX/Denizens/BonkYoYo4.wav
 Data/PCMSources/SFX/Denizens/BonkYoYo5.wav
 Data/PCMSources/SFX/Denizens/ChallengeCollectable.wav
-MISSING/a24dc85058d5ee350fd07566943b3901@3.wav
+Data/PCMSources/SFX/Denizens/DenizenSnore.wav
 MISSING/fee1633c009ccbf9d34575dbf8c24566@3.wav
 MISSING/1a4a5244d2af3d737035375135c4e6b7@3.wav
 Data/PCMSources/SFX/Denizens/DennyVox1.wav
@@ -1599,7 +1602,7 @@ Data/PCMSources/SFX/Denizens/DilemmaAttention3.wav
 Data/PCMSources/SFX/Denizens/DilemmaAura.wav
 Data/PCMSources/SFX/Denizens/DilemmaCrowd.wav
 Data/PCMSources/SFX/Denizens/DilemmaFail.wav
-MISSING/780d2951273ae57ffaf236fe26b95cac@3.wav
+Data/PCMSources/SFX/Denizens/DilemmaStart.wav
 Data/PCMSources/SFX/Denizens/DilemmaTickA.wav
 Data/PCMSources/SFX/Denizens/DilemmaTickB.wav
 Data/PCMSources/SFX/Denizens/DilemmaTimedLoop.wav
@@ -1609,7 +1612,7 @@ Data/PCMSources/SFX/Denizens/HoseSpray.wav
 Data/PCMSources/SFX/Denizens/PainterBucketImpact.wav
 Data/PCMSources/SFX/Denizens/PainterBucketSpill.wav
 Data/PCMSources/SFX/Denizens/Snip.wav
-MISSING/f8414293e4ad19fd722f2d0c5fa89513@3.wav
+Data/PCMSources/SFX/Denizens/SnipHedges.wav
 Data/PCMSources/SFX/Doppelganger/DoppelgangerBop.wav
 Data/PCMSources/SFX/Doppelganger/DoppelgangerCoin.wav
 Data/PCMSources/SFX/Doppelganger/DoppelgangerLand.wav
@@ -1659,15 +1662,15 @@ Data/PCMSources/SFX/Enemies/KickerAnticSpit.wav
 Data/PCMSources/SFX/Enemies/KickerHop.wav
 Data/PCMSources/SFX/Enemies/KickerKick.wav
 Data/PCMSources/SFX/Enemies/KickerProduceProjectile.wav
-MISSING/3417179bee6dc461d01e9a44d6ec969b@3.wav
+Data/PCMSources/SFX/Enemies/KickerSpit.wav
 Data/PCMSources/SFX/Enemies/KickerTrip.wav
 MISSING/fb02de4b46c60cde34930d640314fb50@3.wav
 Data/PCMSources/SFX/FinalBoss/ArenaBounce1.wav
 Data/PCMSources/SFX/FinalBoss/ArenaBounce2.wav
 Data/PCMSources/SFX/FinalBoss/BeamShoot.wav
-MISSING/6f5a41eb013d2fda5bb20ac433dcad1a@3.wav
+Data/PCMSources/SFX/FinalBoss/BeltSnap.wav
 Data/PCMSources/SFX/FinalBoss/BotArmMove.wav
-MISSING/0880addcd8f7ca18b5733b69f0feb77f@3.wav
+Data/PCMSources/SFX/FinalBoss/CutsceneWoosh.wav
 Data/PCMSources/SFX/FinalBoss/Dizzy.wav
 Data/PCMSources/SFX/FinalBoss/EddieBotBeam.wav
 Data/PCMSources/SFX/FinalBoss/EddieBotCharge.wav
@@ -1677,7 +1680,7 @@ Data/PCMSources/SFX/FinalBoss/EddieBotRiverDestroyPunch.wav
 Data/PCMSources/SFX/FinalBoss/MobBallHit1.wav
 Data/PCMSources/SFX/FinalBoss/MobBallHit2.wav
 Data/PCMSources/SFX/FinalBoss/MobBallHit3.wav
-MISSING/7195272322c3cd0593205d4a90b489df@3.wav
+Data/PCMSources/SFX/FinalBoss/OverheadClap.wav
 MISSING/eaa2bc32de2f8cff81868264018b5815@3.wav
 Data/PCMSources/SFX/FinalBoss/PenguinBallBounce1.wav
 Data/PCMSources/SFX/FinalBoss/PenguinBallBounce2.wav
@@ -1687,10 +1690,10 @@ Data/PCMSources/SFX/FinalBoss/PenguinBallThrow.wav
 Data/PCMSources/SFX/FinalBoss/PenguinBallThrow2.wav
 Data/PCMSources/SFX/FinalBoss/PenguinBallThrow3.wav
 MISSING/3d61fb5213e616f9f56a23c6e295a549@3.wav
-MISSING/ba5db24fa10b7d8af570dd47cac701d3@3.wav
+Data/PCMSources/SFX/FinalBoss/PenguinCrowd.wav
 MISSING/ad222f3706b0c8f26e83f1dd10ba81b5@3.wav
-MISSING/b41b24f55d6cb206069e11b4be48e6bc@3.wav
-MISSING/fea1bc43d41038f9cc7fa6188d03985e@3.wav
+Data/PCMSources/SFX/FinalBoss/PenguinFloat.wav
+Data/PCMSources/SFX/FinalBoss/PenguinLoop.wav
 Data/PCMSources/SFX/FinalBoss/PenguinRiverDestroy.wav
 Data/PCMSources/SFX/FinalBoss/PenguinRiverLoop.wav
 Data/PCMSources/SFX/FinalBoss/PenguinRiverRide.wav
@@ -1698,15 +1701,15 @@ Data/PCMSources/SFX/FinalBoss/PropCatch1.wav
 Data/PCMSources/SFX/FinalBoss/PropCatch2.wav
 Data/PCMSources/SFX/FinalBoss/PropCatch3.wav
 Data/PCMSources/SFX/FinalBoss/PropCatch4.wav
-MISSING/5b4266a888378933900969871782e509@3.wav
+Data/PCMSources/SFX/FinalBoss/PropCharge.wav
 Data/PCMSources/SFX/FinalBoss/PropThrow.wav
 Data/PCMSources/SFX/FinalBoss/PropThrowStart.wav
 Data/PCMSources/SFX/FinalBoss/PullingLoop.wav
 MISSING/b5d2248fe2015a805aba727f52041640@3.wav
 Data/PCMSources/SFX/FinalBoss/Slide.wav
 Data/PCMSources/SFX/FinalBoss/SpinStart.wav
-MISSING/8da2689a095f3800d6610ae7a4e57bbc@3.wav
-MISSING/34124b3b7191b75221e50fc1b50fd6a9@3.wav
+Data/PCMSources/SFX/FinalBoss/StartleHop.wav
+Data/PCMSources/SFX/FinalBoss/Stumble.wav
 Data/PCMSources/SFX/FinalBoss/Thinking.wav
 Data/PCMSources/SFX/FinalBoss/TornadoSpinLoop.wav
 Data/PCMSources/SFX/GiantPenguin/GiantClap.wav
@@ -1721,7 +1724,7 @@ Data/PCMSources/SFX/Global/BloomOpen.wav
 Data/PCMSources/SFX/Global/BombBounce1.wav
 Data/PCMSources/SFX/Global/BombBounce2.wav
 Data/PCMSources/SFX/Global/BombBounce3.wav
-MISSING/4e79cbc832860b7150710f8a95c9a292@3.wav
+Data/PCMSources/SFX/Global/BombWindUp.wav
 Data/PCMSources/SFX/Global/BreakableBarrel.wav
 Data/PCMSources/SFX/Global/Button.wav
 Data/PCMSources/SFX/Global/Cannon.wav
@@ -1734,44 +1737,44 @@ Data/PCMSources/SFX/Global/CatchersMittTrapDoorOpen.wav
 Data/PCMSources/SFX/Global/Checkpoint.wav
 Data/PCMSources/SFX/Global/CheckpointAmbiance.wav
 Data/PCMSources/SFX/Global/CheckpointBell.wav
-MISSING/01913d41a3516eb697e5f1b55413b67b@3.wav
+Data/PCMSources/SFX/Global/CheckpointLayer.wav
 Data/PCMSources/SFX/Global/Click.wav
 Data/PCMSources/SFX/Global/Crumble.wav
 Data/PCMSources/SFX/Global/Crusher.wav
 Data/PCMSources/SFX/Global/CrusherShake.wav
 Data/PCMSources/SFX/Global/Explode.wav
-MISSING/5e2be1ec9073685682ae1fcb80a8ab4e@3.wav
+Data/PCMSources/SFX/Global/ExplodingBarrelCharge.wav
 MISSING/9fdfd8818592de709f7b1ba9f97e866e@3.wav
 Data/PCMSources/SFX/Global/Fail.wav
-MISSING/6919c0b13cba9f9fb2da3ff113b11fbe@3.wav
+Data/PCMSources/SFX/Global/Fan.wav
 Data/PCMSources/SFX/Global/FlipBlock.wav
-MISSING/77dad9201b512aa1b2ffc92b64833786@3.wav
+Data/PCMSources/SFX/Global/GolfBall.wav
 Data/PCMSources/SFX/Global/GolfClap.wav
 Data/PCMSources/SFX/Global/GolfHole.wav
 Data/PCMSources/SFX/Global/Grass.wav
 Data/PCMSources/SFX/Global/GroundSlam.wav
-MISSING/3a36b4e07e55b9bc716d8f3229d83a2d@3.wav
+Data/PCMSources/SFX/Global/HammerSmack.wav
 Data/PCMSources/SFX/Global/HammerThrow.wav
 Data/PCMSources/SFX/Global/Hoop.wav
-MISSING/0e35d1a767833b756ad840101053c9fd@3.wav
+Data/PCMSources/SFX/Global/HoopWoosh.wav
 Data/PCMSources/SFX/Global/IndicatorLoop.wav
 Data/PCMSources/SFX/Global/LatchPoleTwirl.wav
 Data/PCMSources/SFX/Global/LatchPoleUnscrew.wav
 MISSING/27698775b0f463cafd3c8a7b4fceadad@3.wav
 Data/PCMSources/SFX/Global/LeverSwitch.wav
 Data/PCMSources/SFX/Global/MagnetAttach.wav
-MISSING/0deab1a7d71517f7b639f22bb300a255@3.wav
+Data/PCMSources/SFX/Global/MagnetDemagnetize.wav
 Data/PCMSources/SFX/Global/MagnetLoop.wav
 Data/PCMSources/SFX/Global/MagnetThrow.wav
 Data/PCMSources/SFX/Global/MetalDoor.wav
 Data/PCMSources/SFX/Global/Respawn.wav
-MISSING/dfe28fed139da11f91e4fde146e9e50a@3.wav
+Data/PCMSources/SFX/Global/SeeSawLoop.wav
 Data/PCMSources/SFX/Global/SwingPoleLoop.wav
 Data/PCMSources/SFX/Global/SwingPoleRelease.wav
 Data/PCMSources/SFX/Global/SwitchDoor.wav
 Data/PCMSources/SFX/Global/TapeDeckButton.wav
 Data/PCMSources/SFX/Global/TapeDeckLaunch.wav
-MISSING/f2410335833d7b3a73cfd8d2b486ef9b@3.wav
+Data/PCMSources/SFX/Global/TensionTug.wav
 MISSING/e1c770a25f28213af989e50bf22492da@3.wav
 Data/PCMSources/SFX/Global/TightRopeLaunch.wav
 Data/PCMSources/SFX/Global/TightRopePull.wav
@@ -1796,7 +1799,7 @@ Data/PCMSources/SFX/Global/ZiplineHook.wav
 Data/PCMSources/SFX/Global/ZiplineSlide.wav
 Data/PCMSources/SFX/Haptics/HapticOneShot.wav
 Data/PCMSources/SFX/Haptics/HapticRumbleHard.wav
-MISSING/32e329b623d4b8f9b3a69687a089efaf@3.wav
+Data/PCMSources/SFX/Haptics/HapticRumbleQuake.wav
 Data/PCMSources/SFX/Haptics/HapticRumbleSoft.wav
 Data/PCMSources/SFX/Impacts/ChargeConcrete.wav
 Data/PCMSources/SFX/Impacts/ChargeFabric.wav
@@ -1937,14 +1940,14 @@ Data/PCMSources/SFX/Impacts/WalkWood01.wav
 Data/PCMSources/SFX/Impacts/WalkWood02.wav
 Data/PCMSources/SFX/Impacts/WalkWood03.wav
 Data/PCMSources/SFX/Impacts/WalkWood04.wav
-MISSING/5684257900508a74c0953ae63808b511@3.wav
+Data/PCMSources/SFX/JudgeRufus/AnimeDing.wav
 Data/PCMSources/SFX/JudgeRufus/BenchFall.wav
 Data/PCMSources/SFX/JudgeRufus/BookBlockBurst.wav
 Data/PCMSources/SFX/JudgeRufus/BookSpawn.wav
 Data/PCMSources/SFX/JudgeRufus/CrowdBoo.wav
 Data/PCMSources/SFX/JudgeRufus/CrowdGasp.wav
 Data/PCMSources/SFX/JudgeRufus/DramaticCloud.wav
-MISSING/c3191267ddde5791130480e402bcebb3@3.wav
+Data/PCMSources/SFX/JudgeRufus/DramaticCloud2.wav
 Data/PCMSources/SFX/JudgeRufus/DramaticLightningCharge.wav
 Data/PCMSources/SFX/JudgeRufus/DramaticLightningStrike.wav
 Data/PCMSources/SFX/JudgeRufus/EvidenceFall01.wav
@@ -1952,7 +1955,7 @@ Data/PCMSources/SFX/JudgeRufus/EvidenceFall02.wav
 Data/PCMSources/SFX/JudgeRufus/EvidenceFall03.wav
 Data/PCMSources/SFX/JudgeRufus/GavelGrab.wav
 Data/PCMSources/SFX/JudgeRufus/GavelHit.wav
-MISSING/03d3df7bfdf33df0ec7c220df51b356a@3.wav
+Data/PCMSources/SFX/JudgeRufus/GroundSizzle.wav
 MISSING/5831cef18e8ab0d4eb24b1fa61ef602e@3.wav
 Data/PCMSources/SFX/JudgeRufus/LightningStrike.wav
 Data/PCMSources/SFX/JudgeRufus/LightningStrikeCharge.wav
@@ -1988,7 +1991,7 @@ Data/PCMSources/SFX/Mobs/HeavySmack03.wav
 Data/PCMSources/SFX/Mobs/HeavySmack04.wav
 Data/PCMSources/SFX/Mobs/HeavySmack05.wav
 Data/PCMSources/SFX/Mobs/HeavySmack06.wav
-MISSING/e6240edf3bd1ac326cc61d5e6e3046e2@3.wav
+Data/PCMSources/SFX/Mobs/HeavySmackBowling.wav
 Data/PCMSources/SFX/Mobs/HeavySmackDing.wav
 Data/PCMSources/SFX/Mobs/HeavySmackPin.wav
 Data/PCMSources/SFX/Mobs/Honk.wav
@@ -2020,7 +2023,7 @@ Data/PCMSources/SFX/Mobs/Scout01.wav
 Data/PCMSources/SFX/Mobs/Scout02.wav
 Data/PCMSources/SFX/Mobs/Scout03.wav
 Data/PCMSources/SFX/Mobs/SnowBall.wav
-MISSING/29069a16ad526fc3e9ecb1c9cf69d9b9@3.wav
+Data/PCMSources/SFX/Mobs/Stacks.wav
 Data/PCMSources/SFX/Mobs/Stampede.wav
 Data/PCMSources/SFX/Mobs/Tumble.wav
 Data/PCMSources/SFX/Mobs/WallBurst.wav
@@ -2029,8 +2032,8 @@ Data/PCMSources/SFX/Mobs/WatchTowerOpen.wav
 Data/PCMSources/SFX/Mobs/WheelCrash.wav
 Data/PCMSources/SFX/Mobs/WheelLoop.wav
 Data/PCMSources/SFX/Mobs/WheelStart.wav
-MISSING/352d8644fa541cf2263176c2763ca2d6@3.wav
-MISSING/ce8ffd1805ba34390de5b40e2b21acbb@3.wav
+Data/PCMSources/SFX/MrEight/AimCue.wav
+Data/PCMSources/SFX/MrEight/AimHead.wav
 Data/PCMSources/SFX/MrEight/AimLoop.wav
 Data/PCMSources/SFX/MrEight/AimRelease.wav
 Data/PCMSources/SFX/MrEight/AimStart.wav
@@ -2041,9 +2044,9 @@ Data/PCMSources/SFX/MrEight/BallBounce4.wav
 Data/PCMSources/SFX/MrEight/BallBounce5.wav
 Data/PCMSources/SFX/MrEight/BallBounce6.wav
 Data/PCMSources/SFX/MrEight/BallSpawn.wav
-MISSING/1916ac69227d145eba340cfcd8c22332@3.wav
+Data/PCMSources/SFX/MrEight/BallStrike.wav
 MISSING/6b45b821545dfdff04df2977144bdf09@3.wav
-MISSING/26c03917455a65420ca2aa3caa9c3fe1@3.wav
+Data/PCMSources/SFX/MrEight/ElecStrike.wav
 Data/PCMSources/SFX/MrEight/ElectricSpawn.wav
 Data/PCMSources/SFX/MrEight/EmitterBounce1.wav
 Data/PCMSources/SFX/MrEight/EmitterBounce2.wav
@@ -2051,7 +2054,7 @@ Data/PCMSources/SFX/MrEight/EmitterBounce3.wav
 Data/PCMSources/SFX/MrEight/EmitterBounce4.wav
 Data/PCMSources/SFX/MrEight/EmitterBounce5.wav
 Data/PCMSources/SFX/MrEight/Fallover.wav
-MISSING/f48bb760136d46cd67f117114a9ce84c@3.wav
+Data/PCMSources/SFX/MrEight/HeadBounce.wav
 Data/PCMSources/SFX/MrEight/HeadKick.wav
 Data/PCMSources/SFX/MrEight/HeadLand.wav
 Data/PCMSources/SFX/MrEight/HeadLaunch.wav
@@ -2064,7 +2067,7 @@ Data/PCMSources/SFX/MrEight/Juggle6.wav
 Data/PCMSources/SFX/MrEight/Kick.wav
 Data/PCMSources/SFX/MrEight/Leap.wav
 Data/PCMSources/SFX/MrEight/Pocketed.wav
-MISSING/7324d4d63c94ddbd9bbe8a8a8fae2a96@3.wav
+Data/PCMSources/SFX/MrEight/ReleaseCue.wav
 Data/PCMSources/SFX/MrEight/RicochetA.wav
 Data/PCMSources/SFX/MrEight/RicochetB.wav
 Data/PCMSources/SFX/MrEight/SpinKick.wav
@@ -2090,7 +2093,7 @@ Data/PCMSources/SFX/Player/CameraOut.wav
 Data/PCMSources/SFX/Player/Catch.wav
 Data/PCMSources/SFX/Player/Charge.wav
 Data/PCMSources/SFX/Player/Dash.wav
-MISSING/fc98d38e75bd68e8ec5d6f2faed46d2d@3.wav
+Data/PCMSources/SFX/Player/Demagnetize.wav
 Data/PCMSources/SFX/Player/Dip.wav
 Data/PCMSources/SFX/Player/Flip.wav
 Data/PCMSources/SFX/Player/HotPepperCharge.wav
@@ -2115,8 +2118,8 @@ Data/PCMSources/SFX/Player/HurtZap4.wav
 Data/PCMSources/SFX/Player/Jump.wav
 Data/PCMSources/SFX/Player/Land.wav
 Data/PCMSources/SFX/Player/LowHealth.wav
-MISSING/799dd8c02aa535928edeb20cd749744c@3.wav
-MISSING/8e6eeffb52928082bb39f12e5453056e@3.wav
+Data/PCMSources/SFX/Player/Magnetize.wav
+Data/PCMSources/SFX/Player/MagnetLoop.wav
 Data/PCMSources/SFX/Player/MidairLatchLoop.wav
 Data/PCMSources/SFX/Player/MidairLatchStart.wav
 Data/PCMSources/SFX/Player/Return.wav
@@ -2151,10 +2154,10 @@ Data/PCMSources/SFX/Sheila/AniStomp.wav
 Data/PCMSources/SFX/Sheila/BoatFix.wav
 Data/PCMSources/SFX/Sheila/BoatTurn.wav
 Data/PCMSources/SFX/Sheila/BoatZoomOff.wav
-MISSING/e8de14bf4313b7fce56787dc78db1237@3.wav
+Data/PCMSources/SFX/Sheila/Charge.wav
 Data/PCMSources/SFX/Sheila/DiaboloCharge.wav
 Data/PCMSources/SFX/Sheila/DiaboloFire.wav
-MISSING/0968d2f9211c79bf8cac8cbfd640eb22@3.wav
+Data/PCMSources/SFX/Sheila/DiaboloHit.wav
 Data/PCMSources/SFX/Sheila/DiaboloReturn.wav
 Data/PCMSources/SFX/Sheila/DiaboloSmack.wav
 Data/PCMSources/SFX/Sheila/DiaboloSmackGround.wav
@@ -2167,7 +2170,7 @@ Data/PCMSources/SFX/Sheila/Jump.wav
 Data/PCMSources/SFX/Sheila/PullLoop.wav
 Data/PCMSources/SFX/Sheila/Ride.wav
 MISSING/9d0174f6a189db4182d0fd659c6d17b3@3.wav
-MISSING/e79890c1788c1ee263d70a428b5e8c28@3.wav
+Data/PCMSources/SFX/Sheila/Smack.wav
 Data/PCMSources/SFX/Sheila/Spawn.wav
 Data/PCMSources/SFX/Sheila/Stomp.wav
 Data/PCMSources/SFX/Sheila/StunHit.wav
@@ -2175,23 +2178,23 @@ Data/PCMSources/SFX/Sheila/StunLoop.wav
 Data/PCMSources/SFX/Sheila/Throw.wav
 Data/PCMSources/SFX/Sheila/WhirlJump.wav
 Data/PCMSources/SFX/Temp/BalloonPop.wav
-MISSING/1e135039f9fff85122ffc0b056231d97@3.wav
-MISSING/7ec32a358bf344951f64e7ce11cc4a15@3.wav
-MISSING/430ca4acb6f7835093e201609fe90043@3.wav
+Data/PCMSources/SFX/Temp/BowlingLand.wav
+Data/PCMSources/SFX/Temp/Coupon.wav
+Data/PCMSources/SFX/Temp/Demagnetize.wav
 MISSING/4d0a4fe28acf026ef5652f02e6ce2a2f@3.wav
 MISSING/62ed2c07380815a0c15566421490da90@3.wav
-MISSING/0f1fbc5da90f3cc786e0f09bd751576c@3.wav
-MISSING/6114eed32186c485a16499e0222ec7fb@3.wav
-MISSING/f0a7dde52099ecdcb3be9257359d3d49@3.wav
+Data/PCMSources/SFX/Temp/Hoop.wav
+Data/PCMSources/SFX/Temp/MagnetAttached.wav
+Data/PCMSources/SFX/Temp/Magnetize.wav
 Data/PCMSources/SFX/Temp/MetalBreak.wav
-MISSING/8d46c28f27370d74d8e03bfaa255e0e5@3.wav
+Data/PCMSources/SFX/Temp/MetalDoor.wav
 MISSING/84d022d989c7150b6dcf80cc623b6ba7@3.wav
-MISSING/0d2f516c90ab164f03552afa0207b4c5@3.wav
-MISSING/0ffc2daa47d6ebf39bbdd0034ace2ed8@3.wav
+Data/PCMSources/SFX/Temp/MeterTick.wav
+Data/PCMSources/SFX/Temp/SeeSaw.wav
 MISSING/0a50fb37f19b2ac721beffa7e95186ce@3.wav
 Data/PCMSources/SFX/Title/PressStart.wav
 Data/PCMSources/SFX/UI/Appear.wav
-MISSING/04c9c9c6b9e740cee8d0f7760ec985f6@3.wav
+Data/PCMSources/SFX/UI/Back.wav
 Data/PCMSources/SFX/UI/Begin.wav
 Data/PCMSources/SFX/UI/Confetti.wav
 Data/PCMSources/SFX/UI/Confirm.wav
@@ -2213,7 +2216,7 @@ Data/PCMSources/SFX/UI/TallyRev.wav
 Data/PCMSources/SFX/UI/TutorialAppear.wav
 Data/PCMSources/SFX/UI/TutorialDisappear.wav
 Data/PCMSources/SFX/VFX/BigSuccessVFX.wav
-MISSING/e9798614dd39b3bcc35c4d6735a862b3@3.wav
+Data/PCMSources/SFX/VFX/BiteVFX.wav
 Data/PCMSources/SFX/VFX/BowlingSlamVFX.wav
 Data/PCMSources/SFX/VFX/CoinVFX.wav
 Data/PCMSources/SFX/VFX/DashVFX.wav
@@ -2221,26 +2224,27 @@ Data/PCMSources/SFX/VFX/DipVFX.wav
 Data/PCMSources/SFX/VFX/EtherealLoopVFX.wav
 Data/PCMSources/SFX/VFX/ExclaimationVFX.wav
 Data/PCMSources/SFX/VFX/GustoUpVFX.wav
-MISSING/c37e825b06f02a9b8f652271211fec3e@3.wav
-MISSING/b9fd596be325cef5687448e97ad684c0@3.wav
+Data/PCMSources/SFX/VFX/HotRodCharge.wav
+Data/PCMSources/SFX/VFX/HotRodFire.wav
 Data/PCMSources/SFX/VFX/ImpactBigVFX.wav
 Data/PCMSources/SFX/VFX/ImpactMedVFX.wav
 Data/PCMSources/SFX/VFX/ImpactSmallVFX.wav
-MISSING/5033b1031e1282b35d25177217a9966d@3.wav
+Data/PCMSources/SFX/VFX/JumpVFX.wav
 Data/PCMSources/SFX/VFX/LatchVFX.wav
 Data/PCMSources/SFX/VFX/MagicAuraVFX.wav
 Data/PCMSources/SFX/VFX/Pigeon.wav
 Data/PCMSources/SFX/VFX/PowerDownVFX.wav
 Data/PCMSources/SFX/VFX/PowerUpVFX.wav
-MISSING/6b2384c66ea4bce6add7d393c1d4810c@3.wav
+Data/PCMSources/SFX/VFX/SparkleVFX.wav
 Data/PCMSources/SFX/VFX/SuperlativePerformedPunch.wav
 Data/PCMSources/SFX/VFX/TwinkleVFX.wav
 Data/PCMSources/SFX/VFX/WhiteFlashVFX.wav
 Data/PCMSources/SFX/VFX/WooshVFX.wav
 Data/SoundFonts/ConcertSnRoll.sf2
 Data/SoundFonts/DialogVoices.sf2
-MISSING/4320750d85d3d0fcfdcadb8535f8701c@3.wav -- THIS IS ACTUALLY A SOUNDFONT!  And i have 0 idea
+Data/SoundFonts/GMGSx.sf2
 Data/SoundFonts/YoKit.sf2
+------------ PACK 004 - Scrapbook ------------
 Data/Textures/Scrapbook/BH1-Concept.pvr.gz
 Data/Textures/Scrapbook/BH2-Development.pvr.gz
 Data/Textures/Scrapbook/BH3-PennyAction.pvr.gz
@@ -2303,11 +2307,12 @@ Data/Textures/Scrapbook/WE1-Concept.pvr.gz
 Data/Textures/Scrapbook/WE2-Props.pvr.gz
 Data/Textures/Scrapbook/WE3-Space.pvr.gz
 Data/Textures/Scrapbook/WE4-YoYo.pvr.gz
+------------ PACK 005 - c0cb12df3e48f5138b4f18a67237c1cc ------------
 Data/Animations/DenizenProps/Brush.bin
 Data/Animations/DenizenProps/ExtendoShears.bin
 Data/Animations/DenizenProps/Hammer.bin
-MISSING/de0ef94dff3242f6f6d213120e5d0bd7@5.bin.ani -- someting else with hammer i think
-MISSING/db26b050da3bc7f1fd1f3782d465ca6e@5.bin.ani -- tank + hose + spout = ?????
+Data/Animations/DenizenProps/Nail.bin
+Data/Animations/DenizenProps/WaterTank.bin
 Data/Animations/Denizens/BodyTypes.bin
 Data/Animations/Denizens/Denizen.bin
 Data/Animations/Enemies/Bull.bin
@@ -2334,7 +2339,7 @@ MISSING/ff5538fd8c68817b86b4be9bd3c19eb6@5.bin.ani
 Data/Animations/Player/TempYoYoBusker.bin
 Data/Animations/Player/TempYoYoBusker2.bin
 Data/Animations/Player/Yotag.bin
-MISSING/31325d4679e59921aaf334f7b5a10be1@5.bin.ani
+Data/Animations/Player/YotagBusker.bin
 Data/Animations/Player/YotagBuskerCamera.bin
 Data/Animations/Player/YotagCinematics.bin
 Data/Animations/Player/YotagCinematics_Camera.bin
@@ -2408,18 +2413,18 @@ MISSING/ab55fc8b27389726bc74699215c4fab1@5.bin.mdl
 MISSING/d1ab8ce1f1a8c382061fe505414b2f2b@5.bin.mdl
 MISSING/430e818dc509b34227bf2595f7910e79@5.bin.mdl
 MISSING/9a62e038f4b4719f643efcb6d4388bfa@5.bin.mdl
-MISSING/0e490cf67a458d4258eeca93a65a7716@5
+MISSING/0e490cf67a458d4258eeca93a65a7716@5.bin.mdl
 Data/Meshes/Dev/Camera.bin
-MISSING/ae2dc0887399658998793ecde41292a4@5.bin.mdl
+Data/Meshes/Dev/CameraRed.bin
 Data/Meshes/Dev/ColliderTest.bin
-MISSING/02467443c1a7b3f4a22ed998caab49d1@5.bin.mdl
-MISSING/9e65e2a3912e898dd5c9ae824ecfe1bc@5.bin.mdl
+Data/Meshes/Dev/DilemmaCube.bin
+Data/Meshes/Dev/Fxboxfog.bin
 Data/Meshes/Dev/FXBoxFog_Plane.bin
-MISSING/49edf34ec64677ff704cfc70cca7ab3b@5.bin.mdl
-MISSING/6e4b87f424262e9c96a89a01c28a7f52@5.bin.mdl
-MISSING/7ceb4b1bac91607cd5f2dcb50bece548@5.bin.mdl
-MISSING/4ae16a647be67b78625e8b2686f28ec7@5.bin.mdl
-MISSING/fe9c917bbe8f54e6efe5d49e999cd78e@5.bin.mdl
+Data/Meshes/Dev/HUD.bin
+Data/Meshes/Dev/Music.bin
+Data/Meshes/Dev/PrimitiveTest.bin
+Data/Meshes/Dev/TestTrain.bin
+Data/Meshes/Dev/Titlecard.bin
 Data/Meshes/Dev/UnitCube.bin
 Data/Meshes/Dev/UnitCylinder.bin
 Data/Meshes/Dev/UnitDisc.bin
@@ -2436,7 +2441,7 @@ Data/Meshes/Enemies/Pigeon.bin
 MISSING/8808b27a55dc6cbceabd97d09c30c28f@5.bin.mdl
 Data/Meshes/Enemies/PVBull.bin
 Data/Meshes/Enemies/Seagull.bin
-MISSING/42b6201d7700379a1ae5908657517747@5.bin.mdl
+Data/Meshes/Enemies/Spider.bin
 Data/Meshes/Enemies/Tomato.bin
 Data/Meshes/FX/CHLavaBubble.bin
 Data/Meshes/FX/CoastOceanParticle.bin
@@ -2456,20 +2461,20 @@ Data/Meshes/FX/LavaParticle.bin
 Data/Meshes/FX/LRLavaBubble.bin
 Data/Meshes/FX/PopcornKernel.bin
 Data/Meshes/FX/PVOceanParticle.bin
-MISSING/600296f4bc1625177fccfbe5d5e7afcb@5.bin.mdl
+Data/Meshes/FX/Rock.bin
 Data/Meshes/FX/SGLavaParticle.bin
 Data/Meshes/FX/SmokeParticle.bin
 Data/Meshes/FX/SmokeRing.bin
 Data/Meshes/FX/SurfaceImpact.bin
 Data/Meshes/FX/WaterFallParticle.bin
-MISSING/9beec6dbaa2063d46e90c13a7c94bfcd@5.bin.mdl
+Data/Meshes/Gimmicks/AerialHoop.bin
 Data/Meshes/Gimmicks/ArrowIndicator.bin
 Data/Meshes/Gimmicks/Bomb.bin
 MISSING/8e7addd1d169d827fee031e30a678ba4@5.bin.mdl
 Data/Meshes/Gimmicks/Breakable64.bin
 Data/Meshes/Gimmicks/BreakableBlock48.bin
 Data/Meshes/Gimmicks/BreakBarrel.bin
-MISSING/f2a8512dcdd0530e113dbd99a0882601@5.bin.mdl
+Data/Meshes/Gimmicks/BreakCrate.bin
 Data/Meshes/Gimmicks/BreakCrateYoYo32.bin
 Data/Meshes/Gimmicks/BulbBase.bin
 Data/Meshes/Gimmicks/BulbGlass.bin
@@ -2479,8 +2484,8 @@ Data/Meshes/Gimmicks/Cannon.bin
 Data/Meshes/Gimmicks/Cannonball.bin
 Data/Meshes/Gimmicks/CannonPlayer.bin
 Data/Meshes/Gimmicks/CannonWick.bin
-MISSING/0619a277e9d429a13213b05cc03349ef@5.bin.mdl
-MISSING/8ac83af00b84b4bd514d3f0a775c4386@5.bin.mdl
+Data/Meshes/Gimmicks/CatcherMitt.bin
+Data/Meshes/Gimmicks/Checkpoint.bin
 Data/Meshes/Gimmicks/CosmicString.bin
 Data/Meshes/Gimmicks/ExplodingBarrel.bin
 Data/Meshes/Gimmicks/Fan.bin
@@ -2489,26 +2494,26 @@ Data/Meshes/Gimmicks/FireHazardWallPillar.bin
 Data/Meshes/Gimmicks/FlameThrower.bin
 Data/Meshes/Gimmicks/FlingTree.bin
 Data/Meshes/Gimmicks/FlingTreeIndicator.bin
-MISSING/3fb9a1a0f10c44fb6cfc574efc00a0b9@5.bin.mdl
+Data/Meshes/Gimmicks/FlipBlock.bin
 Data/Meshes/Gimmicks/FlipBlockBlock.bin
 Data/Meshes/Gimmicks/FlipBlockSpikes.bin
-MISSING/fa8d1351ad74c47b7bd1e2dec2a59656@5.bin.mdl
-MISSING/e13926d823c1234ba2fcd863a065c418@5.bin.mdl
+Data/Meshes/Gimmicks/FlipDice.bin
+Data/Meshes/Gimmicks/FlipperPlatform.bin
 Data/Meshes/Gimmicks/GiantIndicator.bin
 Data/Meshes/Gimmicks/GolfFlag.bin
 Data/Meshes/Gimmicks/HoopBoost.bin
 Data/Meshes/Gimmicks/HoopReplenish.bin
 Data/Meshes/Gimmicks/LatchHandle128.bin
 MISSING/47bcbe71b0ee79b23533f274ac555cba@5.bin.mdl
-MISSING/b890ac90a823a01163d1ca6929114544@5.bin.mdl
+Data/Meshes/Gimmicks/LatchPole.bin
 Data/Meshes/Gimmicks/LatchPoleABase.bin
 Data/Meshes/Gimmicks/LatchPoleAMiddle.bin
 Data/Meshes/Gimmicks/LatchPoleATop.bin
 Data/Meshes/Gimmicks/LatchPoleBBase.bin
 Data/Meshes/Gimmicks/LatchPoleBMiddle.bin
 Data/Meshes/Gimmicks/LatchPoleBTop.bin
-MISSING/a1cc888a76d0b37023234f7fc035910a@5.bin.mdl
-MISSING/11e77585c728e43ee2b72e097403fc51@5.bin.mdl
+Data/Meshes/Gimmicks/LaundryBasket.bin
+Data/Meshes/Gimmicks/Log.bin
 Data/Meshes/Gimmicks/Pinwheel.bin
 Data/Meshes/Gimmicks/Platform.bin
 Data/Meshes/Gimmicks/PlatformSwitch.bin
@@ -2519,15 +2524,15 @@ MISSING/a97626b6c8037453eca6e508fcd64b78@5.bin.mdl
 Data/Meshes/Gimmicks/SeeSaw_128x256.bin
 Data/Meshes/Gimmicks/SeeSaw_512x256.bin
 Data/Meshes/Gimmicks/SeeSaw_768x384.bin
-MISSING/5fec0c671dd33af6ea637b3d3ad05582@5.bin.mdl
+Data/Meshes/Gimmicks/ShockEmitter.bin
 Data/Meshes/Gimmicks/ShockHazardWallBase.bin
 Data/Meshes/Gimmicks/ShockHazardWallPillar.bin
-MISSING/a94bdc10a1eafbefb7cce59f16e77c84@5.bin.mdl
+Data/Meshes/Gimmicks/SoapBar.bin
 Data/Meshes/Gimmicks/SpikePanel.bin
-MISSING/d37ffca7a87ff7327a7c4f4557d7d45a@5.bin.mdl
-MISSING/b8b2902afe3b73477fadeef82e0689e4@5.bin.mdl
+Data/Meshes/Gimmicks/SpikePanelBase.bin
+Data/Meshes/Gimmicks/SpikePanelSpikes.bin
 Data/Meshes/Gimmicks/SwingPole.bin
-MISSING/21d029d7af847ed4945651b5505952a6@5.bin.mdl
+Data/Meshes/Gimmicks/SwingWall.bin
 MISSING/b550a561ee9eec3546b1a50f8bae61a5@5.bin.mdl
 MISSING/c329b500300cf1b7ba7b51b6968bc8ad@5.bin.mdl
 MISSING/d15faa0473dc29ab582be89436aed543@5.bin.mdl
@@ -2538,7 +2543,7 @@ Data/Meshes/Gimmicks/Tapedeck.bin
 Data/Meshes/Gimmicks/TickerMachineCH.bin
 Data/Meshes/Gimmicks/TickerMachineLR.bin
 MISSING/1d1a99556057765ff298593cffb1379a@5.bin.mdl
-MISSING/426292df5c4931fba6033072359f08d2@5.bin.mdl
+Data/Meshes/Gimmicks/Trampoline.bin
 Data/Meshes/Gimmicks/Trampoline_1x1.bin
 Data/Meshes/Gimmicks/Trampoline_1x2.bin
 Data/Meshes/Gimmicks/Trampoline_1x4.bin
@@ -2546,9 +2551,9 @@ Data/Meshes/Gimmicks/Trampoline_2x2.bin
 Data/Meshes/Gimmicks/Trampoline_2x4.bin
 Data/Meshes/Gimmicks/Trampoline_4x4.bin
 Data/Meshes/Gimmicks/Turnstile.bin
-MISSING/523a0fe249d7014e43798570cac69d19@5.bin.mdl
+Data/Meshes/Gimmicks/TurnstileCCW.bin
 MISSING/0a76250d979dee14ab4d2fb609937078@5.bin.mdl
-MISSING/fa26c3a2f1be5d52fae881c5af7790c2@5.bin.mdl
+Data/Meshes/Gimmicks/Turntable.bin
 Data/Meshes/Gimmicks/Turntable_128.bin
 Data/Meshes/Gimmicks/Turntable_256.bin
 Data/Meshes/Gimmicks/Turntable_384.bin
@@ -2570,7 +2575,7 @@ Data/Meshes/Gimmicks/Zipline_Wall.bin
 Data/Meshes/Global/BuskerStage.bin
 Data/Meshes/Global/CatchersMitt.bin
 Data/Meshes/Global/Checkpoint.bin
-MISSING/5c3137c502976c6c75ea2935a8827109@5.bin.mdl
+Data/Meshes/Global/CheckpointBell.bin
 Data/Meshes/Global/CheckpointLight.bin
 Data/Meshes/Global/Conveyor.bin
 Data/Meshes/Global/Dilemma_Bolt.bin
@@ -2621,30 +2626,30 @@ Data/Meshes/Global/SuperCoin.bin
 Data/Meshes/Global/Tightrope.bin
 Data/Meshes/Global/TutorialBeacon.bin
 Data/Meshes/HUD/StageClearYoYo.bin
-MISSING/c51387f3f87d66919de0a533690a5275@5.bin.mdl
+Data/Meshes/Items/BeeHive.bin
 Data/Meshes/Items/BowlingBurger.bin
-MISSING/e3fb150ac19439eb6c89a193fc53c463@5.bin.mdl
-MISSING/5ee631de74b98c07f09b38614e89ff71@5.bin.mdl
+Data/Meshes/Items/Cake.bin
+Data/Meshes/Items/Coupon.bin
 Data/Meshes/Items/Endurian.bin
 Data/Meshes/Items/GoldCoin.bin
 Data/Meshes/Items/GoldCoin_HUD.bin
-MISSING/5792db738956e1f46a40a9e5bb7ecfa5@5.bin.mdl
+Data/Meshes/Items/HotPepper.bin
 Data/Meshes/Items/HotRodPepper.bin
-MISSING/1ee0cdeb5a00b1f7822a1067ea381e92@5.bin.mdl
+Data/Meshes/Items/Peach.bin
 Data/Meshes/Items/WhirlingWaferCake.bin
 Data/Meshes/Mobs/MobCannonball.bin
 Data/Meshes/Mobs/MobNetTrap.bin
 Data/Meshes/Mobs/MobWatchtower.bin
 Data/Meshes/Mobs/MobWatchtower_DoorL.bin
 Data/Meshes/Mobs/MobWatchtower_DoorR.bin
-MISSING/4253af293f20ab5c1ac02770d51bb7ce@5.bin.mdl
+Data/Meshes/Mobs/Net.bin
 Data/Meshes/Mobs/PenguinA.bin
 Data/Meshes/Mobs/PenguinB.bin
 Data/Meshes/Mobs/PenguinBall.bin
 Data/Meshes/Mobs/PenguinBalloon.bin
 Data/Meshes/Mobs/PenguinC.bin
-MISSING/b21ef514d539ae513147d5872adfce02@5.bin.mdl
-MISSING/a3e554f2fd7bfc698b6f6d6018f9b7d0@5.bin.mdl
+Data/Meshes/Mobs/PenguinShort.bin
+Data/Meshes/Mobs/PenguinTall.bin
 Data/Meshes/Mobs/PenguinWheel.bin
 Data/Meshes/Player/WoodenYoyo.bin
 Data/Meshes/Player/YotagBody.bin
@@ -2653,7 +2658,7 @@ Data/Meshes/Player/YotagHairHatOn.bin
 Data/Meshes/Player/YotagHat.bin
 Data/Meshes/Player/YotagHead.bin
 Data/Meshes/Player/YotagPupilsNormal.bin
-MISSING/5dba512e0d7a3ba2849fed696c41995f@5.bin.mdl
+Data/Meshes/Player/YotagRigTest.bin
 Data/Meshes/Player/YotagShadow.bin
 Data/Meshes/Player/Yoyo.bin
 Data/Meshes/Player/YoYoBowling.bin
@@ -2669,25 +2674,25 @@ Data/Meshes/ShopItems/BonusBooster.bin
 Data/Meshes/ShopItems/CatchYouCopter.bin
 Data/Meshes/ShopItems/FlavorfulFish.bin
 Data/Meshes/ShopItems/SafetyShield.bin
-MISSING/83f84e7079d2d79d90213c38057467d4@5.bin.pal
-MISSING/765b2fb5c4b810458099a6d78271bdfd@5.bin.pal
-MISSING/260a1efc233f4c5d1d219f81e573db3a@5.bin.pal
-MISSING/d142d2931c4a53d056738779f64396fd@5.bin.pal
+Data/Palettes/Denizens/Rando.bin
+Data/Palettes/Denizens/TownProps.bin
+Data/Palettes/Denizens/VanillaTownDenizens.bin
+Data/Palettes/Enemies/Bull.bin
 Data/Palettes/Enemies/Enemies.bin
 Data/Palettes/Enemies/Fauxtagonist.bin
-MISSING/3f36c8aa1f6a74c0dfaef5791ed44759@5.bin.pal
+Data/Palettes/Enemies/Kicker.bin
 Data/Palettes/Enemies/Marionette.bin
 Data/Palettes/Enemies/MobPenguin.bin
-MISSING/c126a53fac311b1631413214056670ea@5.bin.pal
+Data/Palettes/Enemies/Pigeon.bin
 Data/Palettes/Enemies/Seagull.bin
 Data/Palettes/Enemies/SheilaBoat.bin
 Data/Palettes/FX/Global.bin
-MISSING/07f9e232357d14756fccbfc90c690625@5.bin.pal
+Data/Palettes/Global/BuskerBonus.bin
 Data/Palettes/Global/BuskerStage.bin
 Data/Palettes/Global/Checkpoint.bin
 Data/Palettes/Global/Collectibles.bin
 Data/Palettes/Global/CoreGimmicks.bin
-MISSING/d4d0e6a2da1d9e79b22d7cbfb992c95e@5.bin.pal
+Data/Palettes/Global/Fishing.bin
 Data/Palettes/Global/FX.bin
 Data/Palettes/Global/Gimmicks.bin
 Data/Palettes/Global/GlobalDenizens.bin
@@ -2703,8 +2708,8 @@ Data/Palettes/Player/YoYo.bin
 Data/Palettes/World/Oceans.bin
 Data/Sprites/FX/Callout.bin
 Data/Sprites/FX/Callout0.bin
-MISSING/bc99d2c805c4dcfd2a11a4464119e3bd@5
-MISSING/81a79dacafc204a471f53a7ce610adff@5
+Data/Sprites/FX/PointBurstCross0.bin
+Data/Sprites/FX/PointBurstSplash0.bin
 Data/Sprites/FX/Shapes.bin
 Data/Sprites/FX/SurfaceImpact0.bin
 Data/Textures/DenizenProps/PaintSplat.pvr.gz
@@ -2730,7 +2735,7 @@ Data/Textures/FX/PointBurstSplash0.pvr.gz
 Data/Textures/FX/PVRideWave.pvr.gz
 Data/Textures/FX/PVSplashLoop.pvr.gz
 Data/Textures/FX/RideLoop01.pvr.gz
-Data/Textures/FX/RideStripeNew.pvr.gz
+Data/Textures/FX/RideStripe.pvr.gz
 Data/Textures/FX/RideWave.pvr.gz
 Data/Textures/FX/RingBurstGreen.pvr.gz
 Data/Textures/FX/RingBurstYellow.pvr.gz
@@ -2808,6 +2813,7 @@ Data/Textures/Player/CheekDash.pvr.gz
 Data/Textures/Player/EyeShine.pvr.gz
 Data/Textures/Player/WoodYoYo.pvr.gz
 Data/Textures/SkyBox/Clouds.pvr.gz
+------------ PACK 006 - 68346d0d86bfee5c0f8a52cf9178bc00 ------------
 Data/Layers/Sandbox/AnaLoveVanillaTest/Entities.bin
 Data/Layers/Sandbox/AnaLoveVanillaTest/FailPlanes.bin
 Data/Layers/Sandbox/AnaLoveVanillaTest/Path_Camera.bin
@@ -2825,7 +2831,7 @@ Data/Layers/Sandbox/AnaTest/trigger_camera.bin
 Data/Layers/Sandbox/AnaTest/trigger_gameplay.bin
 Data/Layers/Sandbox/Artist_Sandbox/Entities_Core.bin
 Data/Layers/Sandbox/Artist_Sandbox/Entities_Gimmicks.bin
-MISSING/33dffc93a2d67c76e3e5f249f1608bd0@6.bin.lyr -- super small
+MISSING/33dffc93a2d67c76e3e5f249f1608bd0@6.bin.lyr
 Data/Layers/Sandbox/Artist_Sandbox/Path_Camera.bin
 Data/Layers/Sandbox/Artist_Sandbox/Path_Gameplay.bin
 Data/Layers/Sandbox/Artist_Sandbox/Skybox.bin
@@ -2924,6 +2930,7 @@ Data/Layers/Sandbox/Test1/Path.bin
 Data/Layers/Sandbox/Test1/Terrain.bin
 Data/Layers/Sandbox/Test2/Entities.bin
 Data/Layers/Sandbox/Test2/Terrain.bin
+------------ PACK 007 - W01_Vanillatown ------------
 Data/Meshes/Skybox/VTClouds000.bin
 Data/Meshes/Skybox/VTClouds001.bin
 Data/Meshes/Skybox/VTClouds002.bin
@@ -2966,14 +2973,14 @@ Data/Meshes/Vanillatown/WindowAwning_Wide.bin
 Data/Meshes/Vanillatown/WindowPlanter_Empty.bin
 Data/Meshes/Vanillatown/WindowPlanter_Full.bin
 MISSING/9881bb779c006ffff8aeedbdb3d10ced@7.bin.pal
-MISSING/227d7d0d90c921148c422970f63d3c04@7.bin.pal
+Data/Palettes/Env/VanillaTown.bin
 Data/Palettes/Env/VanillaTownDay.bin
-MISSING/e73ed1bfb2222de85e45bbf1b23d8bc8@7.bin.pal
-MISSING/2181f9edb939ac5b827e894e7960759c@7.bin.pal
+Data/Palettes/Env/VanillaTownStage.bin
+Data/Palettes/Env/VanillaTownTerrain.bin
 Data/Palettes/World/VanillaTown.bin
 Data/Palettes/World/VTSkybox.bin
-MISSING/2ea0e8528568d184349b4ebb249ed9c7@7.pvr.gz -- like vanillatown but it can't b vanillatown
-MISSING/e6919d20b441b39f4bd168b4d3ffbca5@7.pvr.gz
+MISSING/2ea0e8528568d184349b4ebb249ed9c7@7.pvr.gz -- something before vanillatown folder
+MISSING/e6919d20b441b39f4bd168b4d3ffbca5@7.pvr.gz -- it looks like some old vanillatown
 MISSING/38ce3685f345e6ab94af03060b7e447b@7.pvr.gz
 MISSING/e686499055e4de18d5252d53320e6053@7.pvr.gz
 MISSING/060e37a699ddc95df3f8d8567a956e25@7.pvr.gz
@@ -3048,6 +3055,7 @@ Data/Textures/Vanillatown/WantedWideB.pvr.gz
 Data/Textures/Vanillatown/WindowBlindDarkStripe.pvr.gz
 Data/Textures/Vanillatown/WindowBlindLightStripe.pvr.gz
 Data/Textures/Vanillatown/WoodGrainPlank.pvr.gz
+------------ PACK 008 - W02_Coast ------------
 Data/Meshes/Coast/BreakableA.bin
 Data/Meshes/Coast/BreakableB.bin
 Data/Meshes/Coast/BreakBarrel.bin
@@ -3080,7 +3088,7 @@ Data/Meshes/Coast/RockStalagmiteB.bin
 Data/Meshes/Coast/RockStalagmiteC.bin
 Data/Meshes/Coast/SailorBoat.bin
 Data/Meshes/Coast/SandDeposit.bin
-MISSING/0fda0ef4b061bdf33e0527aa4a766db0@8.bin.mdl
+Data/Meshes/Coast/Scale.bin
 Data/Meshes/Coast/SuctionPipe.bin
 Data/Meshes/Coast/WallProtrudingRockA.bin
 Data/Meshes/Coast/WallProtrudingRockB.bin
@@ -3135,15 +3143,16 @@ Data/Textures/Coast/T_DualToneSwitch.pvr.gz
 Data/Textures/Coast/T_StraightDualTone.pvr.gz
 Data/Textures/Coast/WindowBlindLightStripe.pvr.gz
 Data/Textures/Coast/WoodGrainPlank.pvr.gz
+------------ PACK 009 - W03_Desert ------------
 Data/Meshes/Desert/BreakableA.bin
 Data/Meshes/Desert/BreakableB.bin
 Data/Meshes/Desert/BreakBarrel.bin
-MISSING/b28d63dc28b549ad91cd56c0ebb915ff@9.bin.mdl
-MISSING/d3e700d00d8e96252b9e7a7849caf3e6@9.bin.mdl
+Data/Meshes/Desert/BulbBase.bin
+Data/Meshes/Desert/BulbGlass.bin
 Data/Meshes/Desert/Capacitor.bin
 Data/Meshes/Desert/CircuitBreaker.bin
-MISSING/09883e1b06a4f5feabc5e2ada82f0550@9.bin.mdl
-MISSING/49da7679ab8fea8e0aabfeff7a34189d@9.bin.mdl
+Data/Meshes/Desert/Conveyor.bin
+Data/Meshes/Desert/DesertPlatform.bin
 Data/Meshes/Desert/EnergyRiser.bin
 Data/Meshes/Desert/FloorLED.bin
 Data/Meshes/Desert/GolfBall.bin
@@ -3176,7 +3185,7 @@ Data/Meshes/Skybox/DesertClouds001.bin
 Data/Meshes/Skybox/DesertSand000.bin
 Data/Meshes/Skybox/DesertSand001.bin
 Data/Meshes/Skybox/DesertSkinGrad.bin
-MISSING/54a87322d3ec5e88c26ff10cb2f1bb66@9.bin.mdl
+Data/Meshes/Skybox/DesertStarfield.bin
 Data/Meshes/Skybox/DesertStaticDiff.bin
 Data/Meshes/Skybox/DesertStaticGrad.bin
 Data/Palettes/Env/Desert.bin
@@ -3230,8 +3239,9 @@ Data/Textures/Desert/T_TrackLongSkew.pvr.gz
 Data/Textures/Desert/T_TrackLongSkewpng.pvr.gz
 Data/Textures/Desert/T_TrioStraight.pvr.gz
 Data/Textures/Desert/T_TrioTurn.pvr.gz
+------------ PACK 010 - W05_LavaRestaurant ------------
 Data/Meshes/LavaRestaurant/BGVolcano.bin
-MISSING/0591cdae31e958d027c8559a00351b64@10.bin.mdl
+Data/Meshes/Lavarestaurant/BGVolcanoDormant.bin
 Data/Meshes/LavaRestaurant/BlockDiamondInset.bin
 Data/Meshes/LavaRestaurant/BreakableA.bin
 Data/Meshes/LavaRestaurant/BreakableB.bin
@@ -3257,7 +3267,7 @@ Data/Meshes/LavaRestaurant/LargeVineClusterC.bin
 Data/Meshes/LavaRestaurant/LargeVineClusterD.bin
 Data/Meshes/LavaRestaurant/LavaGushBend.bin
 Data/Meshes/LavaRestaurant/LavaGushFoam.bin
-MISSING/46af6eb7984d5833323304a49dc458b4@10.bin.mdl
+Data/Meshes/LavaRestaurant/LavaGushFoamCap.bin
 Data/Meshes/LavaRestaurant/LavaGushPipe.bin
 Data/Meshes/LavaRestaurant/LavaGushStraight.bin
 Data/Meshes/LavaRestaurant/LavaSpout.bin
@@ -3351,6 +3361,7 @@ Data/Textures/LavaRestaurant/TriangleFaceAmbience.pvr.gz
 Data/Textures/LavaRestaurant/WallBrickwork.pvr.gz
 Data/Textures/LavaRestaurant/WildGrassAmbience.pvr.gz
 Data/Textures/SkyBox/NightSky.pvr.gz
+------------ PACK 011 - W06_Bathhouse ------------
 Data/Meshes/Bathhouse/BGCeilingArchCorner.bin
 Data/Meshes/Bathhouse/BGCeilingArchStraight.bin
 Data/Meshes/Bathhouse/BreakableA.bin
@@ -3382,13 +3393,13 @@ Data/Meshes/Bathhouse/Platform_128.bin
 Data/Meshes/Bathhouse/Platform_192.bin
 Data/Meshes/Bathhouse/Platform_256.bin
 Data/Meshes/Bathhouse/RoundBasin.bin
-MISSING/8d1ec0b52b4b631dacbd17c639120681@11.bin.mdl
+Data/Meshes/Bathhouse/Soap.bin
 Data/Meshes/Bathhouse/SuctionPipe.bin
 Data/Meshes/Bathhouse/TowelRail.bin
 Data/Meshes/Bathhouse/WallAccentPipeA.bin
 Data/Meshes/Bathhouse/WallAccentPipeB.bin
 Data/Meshes/Bathhouse/WaterfallOpening.bin
-MISSING/79cc3c98bbe812974c73fd39e05cfed3@11.bin.mdl
+Data/Meshes/Bathhouse/WaterGush.bin
 Data/Meshes/Bathhouse/WaterGushBend.bin
 Data/Meshes/Bathhouse/WaterGushFoam.bin
 Data/Meshes/Bathhouse/WaterGushPipe.bin
@@ -3407,7 +3418,7 @@ Data/Meshes/Skybox/BHStaticGrad.bin
 Data/Palettes/Env/Bathhouse.bin
 Data/Palettes/World/Bathhouse.bin
 Data/Palettes/World/BHSkybox.bin
-MISSING/0a873ca2ac9616383bd83e71fb2ba812@11.pvr.gz -- there's some sort of pre-bathhouse here
+Data/Textures/Bath/BathHouseTiles.pvr.gz
 Data/Textures/Bathhouse/A_DecoSpiral.pvr.gz
 Data/Textures/Bathhouse/A_DiamondLargeTile.pvr.gz
 Data/Textures/Bathhouse/A_DiamondPattern.pvr.gz
@@ -3455,6 +3466,7 @@ Data/Textures/Bathhouse/T_DecoTarget.pvr.gz
 Data/Textures/Bathhouse/T_DualToneSwitch.pvr.gz
 Data/Textures/Bathhouse/T_SineWave.pvr.gz
 Data/Textures/Bathhouse/T_StraightDualTone.pvr.gz
+------------ PACK 012 - W07_WorldsEdge ------------
 Data/Meshes/Skybox/WEBalloon.bin
 Data/Meshes/Skybox/WEBallRing.bin
 Data/Meshes/Skybox/WEDonut.bin
@@ -3462,7 +3474,7 @@ Data/Meshes/Skybox/WEDumbbell.bin
 Data/Meshes/Skybox/WEHalfDonut.bin
 Data/Meshes/Skybox/WELoopSphere.bin
 Data/Meshes/Skybox/WEMushroom.bin
-MISSING/98a5a1cbdca170e5e42161e76ebb05dc@12.bin.mdl
+Data/Meshes/Skybox/WESkinGrad.bin
 Data/Meshes/Skybox/WESphereBig.bin
 Data/Meshes/Skybox/WESphereSmall.bin
 Data/Meshes/Skybox/WEStarfield.bin
@@ -3554,6 +3566,7 @@ Data/Textures/WorldsEdge/T_DotArc.pvr.gz
 Data/Textures/WorldsEdge/TreeTrunkShelf.pvr.gz
 Data/Textures/WorldsEdge/WE_CubeMap.pvr.gz
 Data/Textures/WorldsEdge/wood.pvr.gz
+------------ PACK 013 - W09_Penguinville ------------
 Data/Meshes/Penguinville/BismuthRockTowerA.bin
 Data/Meshes/Penguinville/BismuthRockTowerB.bin
 Data/Meshes/Penguinville/BreakableA.bin
@@ -3638,6 +3651,7 @@ Data/Textures/Penguinville/T_FootprintTurn.pvr.gz
 Data/Textures/Penguinville/T_Skew.pvr.gz
 Data/Textures/Penguinville/T_Straight.pvr.gz
 Data/Textures/Penguinville/T_Turn.pvr.gz
+------------ PACK 014 - W10_Factory ------------
 Data/Meshes/Factory/BGBuildingBlockA.bin
 Data/Meshes/Factory/BGBuildingBlockB.bin
 Data/Meshes/Factory/BGBuildingBlockC.bin
@@ -3661,7 +3675,7 @@ Data/Meshes/Factory/Platform_128.bin
 Data/Meshes/Factory/Platform_192.bin
 Data/Meshes/Factory/Platform_256.bin
 Data/Meshes/Factory/PlatformBlock.bin
-MISSING/83ec7f9412c9d29ebd1c6431b1a45e14@14.bin.mdl
+Data/Meshes/Factory/PlatformBlockMagnet.bin
 Data/Meshes/Factory/PlatformLarge.bin
 Data/Meshes/Factory/PlatformLong.bin
 Data/Meshes/Factory/PlatformMedium.bin
@@ -3737,7 +3751,7 @@ Data/Textures/Factory/FactoryBuildingsBack002.pvr.gz
 Data/Textures/Factory/FactoryBuildingsBack002_PulseMap.pvr.gz
 Data/Textures/Factory/FactoryBuildingsSeparate.pvr.gz
 Data/Textures/Factory/FactoryBuildingsSeparate_LightMask.pvr.gz
-MISSING/5bbf4b5dc0d10f99f78a40d118dd1985@14 -- RAW PVR?????
+MISSING/5bbf4b5dc0d10f99f78a40d118dd1985@14
 Data/Textures/Factory/FactoryFog.pvr.gz
 Data/Textures/Factory/FactoryLampRails.pvr.gz
 Data/Textures/Factory/FactoryPlume.pvr.gz
@@ -3771,6 +3785,7 @@ Data/Textures/Factory/T_TrackLongSkew.pvr.gz
 Data/Textures/Factory/T_TrioStraight.pvr.gz
 Data/Textures/Factory/T_TrioTurn.pvr.gz
 Data/Textures/Factory/WallAmbience.pvr.gz
+------------ PACK 015 - 3991256eac6c8ae5201bbc340e8af527 ------------
 Data/Meshes/Courthouse/BGBookcase.bin
 Data/Meshes/Courthouse/BGLavaFalls.bin
 Data/Meshes/Courthouse/BGPillar.bin
@@ -3778,9 +3793,9 @@ Data/Meshes/Courthouse/BGWalkwayPillar.bin
 Data/Meshes/Courthouse/BGWalkwaySlanted.bin
 Data/Meshes/Courthouse/BGWalkwayStraight.bin
 Data/Meshes/Courthouse/BookDrawer.bin
-MISSING/c06f6e77b2506b51b7daa9b55c0ff30b@15.bin.mdl
-MISSING/3916afde599f01f75efa74be89fbaa68@15.bin.mdl
-MISSING/288684d6083587afa92ce36509f4642d@15.bin.mdl
+Data/Meshes/Courthouse/BookDrawerA.bin
+Data/Meshes/Courthouse/BookDrawerB.bin
+Data/Meshes/Courthouse/BookDrawerC.bin
 Data/Meshes/Courthouse/BookPlatformA.bin
 Data/Meshes/Courthouse/BookPlatformB.bin
 Data/Meshes/Courthouse/BookPlatformC.bin
@@ -3797,8 +3812,8 @@ Data/Meshes/Courthouse/HeavyBreakCrate.bin
 Data/Meshes/Courthouse/ImperialLavaLamp.bin
 Data/Meshes/Courthouse/LavaFountain.bin
 Data/Meshes/Courthouse/LavaGushBend.bin
-MISSING/8881bf5c70323323ca5a62cb91142820@15.bin.mdl
-MISSING/758d0adf72598489dc4c0dd36f7da735@15.bin.mdl
+Data/Meshes/Courthouse/LavaGushFoam.bin
+Data/Meshes/Courthouse/LavaGushFoamCap.bin
 Data/Meshes/Courthouse/LavaGushPipe.bin
 Data/Meshes/Courthouse/LavaGushStraight.bin
 Data/Meshes/Courthouse/Log_256.bin
@@ -3830,16 +3845,16 @@ Data/Meshes/Courthouse/Turntable_64.bin
 Data/Meshes/Courthouse/WallAccentArch.bin
 Data/Meshes/Courthouse/WallAccentCorner_Green.bin
 Data/Meshes/Courthouse/WallAccentCorner_Red.bin
-MISSING/7f5432be527b96fe89067479395c0efa@15.bin.mdl
+Data/Meshes/Courthouse/WallFrameCircle.bin
 Data/Meshes/Courthouse/WallFrameCircle_Green.bin
 Data/Meshes/Courthouse/WallFrameCircle_Red.bin
-MISSING/4174b7c61802230f1ef0c75472d18065@15.bin.mdl
+Data/Meshes/Courthouse/WallFrameDiamond.bin
 Data/Meshes/Courthouse/WallFrameDiamond_Green.bin
 Data/Meshes/Courthouse/WallFrameDiamond_Red.bin
-MISSING/de36bae118a48d70563e1e37faefe648@15.bin.mdl
+Data/Meshes/Courthouse/WallFramePortrait.bin
 Data/Meshes/Courthouse/WallFramePortrait_Green.bin
 Data/Meshes/Courthouse/WallFramePortrait_Red.bin
-MISSING/ae709e25848e2546a6cca398172163f8@15.bin.mdl
+Data/Meshes/Courthouse/WallFrameSquare.bin
 Data/Meshes/Courthouse/WallFrameSquare_Green.bin
 Data/Meshes/Courthouse/WallFrameSquare_Red.bin
 Data/Meshes/Courthouse/WallLavaLamp.bin
@@ -3884,9 +3899,10 @@ Data/Textures/Courthouse/SkyboxWoodPannel.pvr.gz
 Data/Textures/Courthouse/T_LeftTurn.pvr.gz
 Data/Textures/Courthouse/T_RightTurn.pvr.gz
 Data/Textures/Courthouse/T_Skew.pvr.gz
-MISSING/fac70f8b95df3a34a40d7d6125e311c5@15.pvr.gz
+Data/Textures/Courthouse/T_SkewL.pvr.gz
 Data/Textures/Courthouse/T_SmallTurn.pvr.gz
 Data/Textures/Courthouse/T_Straight.pvr.gz
+------------ PACK 016 - W13_Vanillatown2 ------------
 Data/Meshes/Skybox/VTReduxClouds000.bin
 Data/Meshes/Skybox/VTReduxClouds001.bin
 Data/Meshes/Skybox/VTReduxClouds002.bin
@@ -3904,15 +3920,15 @@ Data/Meshes/Vanillatown2/WaterGushBend.bin
 Data/Meshes/Vanillatown2/WaterGushFoam.bin
 Data/Meshes/Vanillatown2/WaterGushPipe.bin
 Data/Meshes/Vanillatown2/WaterGushStraight.bin
-MISSING/cebec730e5b371cbf8635ce6ca2c31d3@16.bin.mdl
+Data/Meshes/Vanillatownredux/CrownBalloon.bin
 Data/Meshes/VanillatownRedux/DivingBoard.bin
 Data/Meshes/VanillatownRedux/Log_256.bin
 Data/Meshes/VanillatownRedux/Log_384.bin
 Data/Meshes/VanillatownRedux/Log_512.bin
-MISSING/6a8a690788e54f6527fb7c2e360c7d9f@16.bin.mdl
+Data/Meshes/Vanillatownredux/PaperLantern.bin
 Data/Meshes/VanillatownRedux/Pinwheel.bin
 Data/Meshes/VanillatownRedux/SuctionPipe.bin
-MISSING/6a01c7150d0cf1f6d4e3ab41ffdd86c4@16.bin.mdl
+Data/Meshes/Vanillatownredux/WaterGush.bin
 Data/Meshes/VanillatownRedux/WaterTapBase.bin
 Data/Meshes/VanillatownRedux/WaterTapWheel.bin
 Data/Palettes/World/VanillatownRedux.bin
@@ -3922,6 +3938,7 @@ Data/Textures/VTRedux/VTRedux_CubeMapSides.pvr.gz
 Data/Textures/VTRedux/VTRedux_CubeMapTop.pvr.gz
 Data/Textures/VTRedux/VTReduxClouds_Loop.pvr.gz
 Data/Textures/VTRedux/VTReduxClouds_Thirds.pvr.gz
+------------ PACK 017 - W14_Palace ------------
 Data/Meshes/Palace/BGBuildingA.bin
 Data/Meshes/Palace/BGBuildingAWindows.bin
 Data/Meshes/Palace/BGBuildingB.bin
@@ -3939,7 +3956,7 @@ Data/Meshes/Palace/BreakableB.bin
 Data/Meshes/Palace/BreakBarrel.bin
 Data/Meshes/Palace/BushBasin.bin
 Data/Meshes/Palace/Chandelier.bin
-MISSING/54e3c18cdd1d33021520896ff200cec4@17.bin.mdl
+Data/Meshes/Palace/ChandelierAlt.bin
 Data/Meshes/Palace/Eddie_Statue.bin
 Data/Meshes/Palace/FanLeafPlantPot.bin
 Data/Meshes/Palace/Fireball_192.bin
@@ -3953,7 +3970,7 @@ Data/Meshes/Palace/GrandDomeTower.bin
 Data/Meshes/Palace/GrandSofa.bin
 Data/Meshes/Palace/GrassParticle.bin
 Data/Meshes/Palace/HangingFrame.bin
-MISSING/65583a0467c14912e4fe0c51485a4fa6@17.bin.mdl
+Data/Meshes/Palace/HangingPainting.bin
 Data/Meshes/Palace/HangingPaintingHole.bin
 Data/Meshes/Palace/Horn45Turn.bin
 Data/Meshes/Palace/Horn90Turn.bin
@@ -3986,7 +4003,7 @@ Data/Meshes/Palace/Turntable_512.bin
 Data/Meshes/Palace/Turntable_64.bin
 Data/Meshes/Palace/WallLamp.bin
 Data/Meshes/Palace/WrestlingPlatform.bin
-MISSING/51c7bae24716f025e7f826b80499f147@17.bin.mdl
+Data/Meshes/Skybox/Palace.bin
 Data/Meshes/Skybox/PalaceClouds000.bin
 Data/Meshes/Skybox/PalaceClouds001.bin
 Data/Meshes/Skybox/PalaceClouds002.bin
@@ -4016,9 +4033,9 @@ Data/Textures/Palace/ChevronPatternBushes.pvr.gz
 Data/Textures/Palace/ChevronPatternHedge.pvr.gz
 Data/Textures/Palace/ChevronTile.pvr.gz
 Data/Textures/Palace/DecoTile.pvr.gz
-MISSING/8c86bc06f61eacfdefe5cddd65f87599@17.pvr.gz
+Data/Textures/Palace/DecoTileAmbience.pvr.gz
 Data/Textures/Palace/DiamondTile.pvr.gz
-MISSING/774cb8cc5264f50947d11fa08eb20f99@17.pvr.gz
+Data/Textures/Palace/DiamondTileAmbience.pvr.gz
 Data/Textures/Palace/Eddie_FinalBoss_AO.pvr.gz
 Data/Textures/Palace/EddieDoor.pvr.gz
 Data/Textures/Palace/EddiePaintingPortrait.pvr.gz
@@ -4042,12 +4059,12 @@ Data/Textures/Palace/PalaceClouds_Thirds_Night.pvr.gz
 Data/Textures/Palace/PalaceGrassAmbience.pvr.gz
 Data/Textures/Palace/PalaceNightSky_Loop.pvr.gz
 Data/Textures/Palace/PalaceRug.pvr.gz
-MISSING/662d4f9d5c2cd20e82a0e2df39eed31a@17.pvr.gz
+Data/Textures/Palace/PalaceRugAmbience.pvr.gz
 Data/Textures/Palace/PalaceRugMid.pvr.gz
 Data/Textures/Palace/PalaceRugSide.pvr.gz
-MISSING/263b4af17b5d5d3483cd70650e18a438@17.pvr.gz
+Data/Textures/Palace/PalaceRugSideAmbience.pvr.gz
 Data/Textures/Palace/PalaceSky_Loop.pvr.gz
-MISSING/4df474cfd80cf9245b8034561f34fb36@17.pvr.gz
+Data/Textures/Palace/PalaceSky_Thirds.pvr.gz
 Data/Textures/Palace/ScrollingPropSand.pvr.gz
 Data/Textures/Palace/Stars.pvr.gz
 Data/Textures/Palace/T_Cap.pvr.gz
@@ -4065,6 +4082,7 @@ Data/Textures/Palace/T_Turn.pvr.gz
 Data/Textures/Palace/TreeStripes.pvr.gz
 Data/Textures/Palace/YellowWall.pvr.gz
 Data/Textures/SkyBox/PalaceNightSky.pvr.gz
+------------ PACK 018 - W15_Snowglobes ------------
 Data/Meshes/Skybox/SGBigSphere.bin
 Data/Meshes/Skybox/SGBlackholeA.bin
 Data/Meshes/Skybox/SGBlackholeB.bin
@@ -4110,11 +4128,11 @@ Data/Meshes/Snowglobe/HalfSphere_Peach.bin
 Data/Meshes/Snowglobe/LavaCylinder.bin
 Data/Meshes/Snowglobe/LavaDiamond.bin
 Data/Meshes/Snowglobe/LavaDiamondRing.bin
-MISSING/36e4888f0ac22a3484467e4f700eeb5c@18.bin.mdl
-MISSING/59c6b6e964909516135e2f2b1313df0a@18.bin.mdl
-MISSING/28f23c1969ab5ff72027bbf5c9745fb2@18.bin.mdl
-MISSING/58e220d790f66f3a19ec5357d3b2fd4c@18.bin.mdl
-MISSING/48c494136c41ac91c0494413dbae3de4@18.bin.mdl
+Data/Meshes/Snowglobe/LavaGushBend.bin
+Data/Meshes/Snowglobe/LavaGushFoam.bin
+Data/Meshes/Snowglobe/LavaGushFoamCap.bin
+Data/Meshes/Snowglobe/LavaGushPipe.bin
+Data/Meshes/Snowglobe/LavaGushStraight.bin
 Data/Meshes/Snowglobe/Log_256.bin
 Data/Meshes/Snowglobe/Log_384.bin
 Data/Meshes/Snowglobe/Log_512.bin
@@ -4139,9 +4157,9 @@ Data/Meshes/Snowglobe/Turntable_256.bin
 Data/Meshes/Snowglobe/Turntable_384.bin
 Data/Meshes/Snowglobe/Turntable_512.bin
 Data/Meshes/Snowglobe/Turntable_64.bin
-MISSING/2879432b0945694a42e9c6d2384b4bca@18.bin.mdl
-MISSING/f762ed4399e4ee204ea9e5914ca76780@18.bin.mdl
-MISSING/bcd5500e4a01674947400744405e72ba@18.bin.mdl
+Data/Meshes/Snowglobe/WaterGushBend.bin
+Data/Meshes/Snowglobe/WaterGushFoam.bin
+Data/Meshes/Snowglobe/WaterGushPipe.bin
 Data/Meshes/Snowglobe/WaterGushStraight.bin
 Data/Meshes/Snowglobe/ZigZagLong_Blue.bin
 Data/Meshes/Snowglobe/ZigZagLong_Cyan.bin
@@ -4173,9 +4191,10 @@ Data/Textures/Snowglobe/StarSurface.pvr.gz
 Data/Textures/Snowglobe/Stripe.pvr.gz
 Data/Textures/Snowglobe/T_SkewStripesLong.pvr.gz
 Data/Textures/Snowglobe/T_SkewStripesShort.pvr.gz
-MISSING/4f40433216f0a3923716baa5ef07107f@18.pvr.gz
+Data/Textures/Snowglobe/TexturedSurface.pvr.gz
 Data/Textures/Snowglobe/Triangles.pvr.gz
 Data/Textures/Snowglobe/Wall.pvr.gz
+------------ PACK 019 - 8fd903dc30059317e7060ad9ffbd6155 ------------
 Data/Layers/01_Vanillatown/VPRO/BG_Decor.bin
 Data/Layers/01_Vanillatown/VPRO/Decal.bin
 Data/Layers/01_Vanillatown/VPRO/Decor.bin
@@ -4186,7 +4205,7 @@ Data/Layers/01_Vanillatown/VPRO/Mesh.bin
 Data/Layers/01_Vanillatown/VPRO/Path_Camera.bin
 Data/Layers/01_Vanillatown/VPRO/Path_Cinematics.bin
 Data/Layers/01_Vanillatown/VPRO/Path_Gameplay.bin
-MISSING/3c83a33a789d293dd3eb542e4b057456@19.bin.lyr
+Data/Layers/01_Vanillatown/VPRO/Skybox.bin
 Data/Layers/01_Vanillatown/VPRO/Terrain.bin
 Data/Layers/01_Vanillatown/VPRO/Terrain_Decor.bin
 Data/Layers/01_Vanillatown/VPRO/Triggers_Camera.bin
@@ -4199,14 +4218,15 @@ Data/Layers/14_Palace/P1/Fail Plane.bin
 Data/Layers/14_Palace/P1/Mesh.bin
 Data/Layers/14_Palace/P1/Path_Camera.bin
 Data/Layers/14_Palace/P1/Path_Gameplay.bin
-MISSING/01125675bd5394a30608ec264cd5bd69@19.bin.lyr
+Data/Layers/14_Palace/P1/Skybox.bin
 Data/Layers/14_Palace/P1/Terrain.bin
 Data/Layers/14_Palace/P1/Terrain_Decor.bin
 Data/Layers/14_Palace/P1/Triggers_Camera.bin
 Data/Layers/14_Palace/P1/Triggers_Gameplay.bin
 Data/Textures/Lightmaps/P1.pvr.gz
 Data/Textures/Lightmaps/VPRO.pvr.gz
-MISSING/6b4e10567b70f522be9db6c0d430d4fb@20.bin.lyr
+------------ PACK 020 - 42eefb5b16f72a88c90d84f077a55dba ------------
+Data/Layers/01_Vanillatown/V1/Blockout.bin
 Data/Layers/01_Vanillatown/V1/Decal.bin
 Data/Layers/01_Vanillatown/V1/Decor.bin
 Data/Layers/01_Vanillatown/V1/Decor_BG.bin
@@ -4216,10 +4236,10 @@ Data/Layers/01_Vanillatown/V1/Markup.bin
 Data/Layers/01_Vanillatown/V1/Mesh.bin
 Data/Layers/01_Vanillatown/V1/Path_Camera.bin
 Data/Layers/01_Vanillatown/V1/Path_Gameplay.bin
-MISSING/28f047f07c0d6f5ac074804aaf865e31@20.bin.lyr
+Data/Layers/01_Vanillatown/V1/Skybox.bin
 Data/Layers/01_Vanillatown/V1/Terrain.bin
 Data/Layers/01_Vanillatown/V1/Terrain_Decor.bin
-MISSING/e69ed61bc61f0209e8676e89c5013dfa@20.bin.lyr
+Data/Layers/01_Vanillatown/V1/Terrain_Scratch.bin
 Data/Layers/01_Vanillatown/V1/Triggers_Camera.bin
 Data/Layers/01_Vanillatown/V1/Triggers_Gameplay.bin
 Data/Layers/01_Vanillatown/V2/Decor.bin
@@ -4229,7 +4249,7 @@ Data/Layers/01_Vanillatown/V2/FailPlanes.bin
 Data/Layers/01_Vanillatown/V2/Mesh.bin
 Data/Layers/01_Vanillatown/V2/Path_Camera.bin
 Data/Layers/01_Vanillatown/V2/Path_Gameplay.bin
-MISSING/02862517b0a5b85c91c8c0dbe5dcd548@20.bin.lyr
+Data/Layers/01_Vanillatown/V2/Skybox.bin
 Data/Layers/01_Vanillatown/V2/Stickers.bin
 Data/Layers/01_Vanillatown/V2/Terrain.bin
 Data/Layers/01_Vanillatown/V2/Terrain_B2.bin
@@ -4245,7 +4265,7 @@ Data/Layers/01_Vanillatown/V3/failplanes.bin
 Data/Layers/01_Vanillatown/V3/mesh.bin
 Data/Layers/01_Vanillatown/V3/path_camera.bin
 Data/Layers/01_Vanillatown/V3/path_gameplay.bin
-MISSING/8dbeb741dfaa7947ff629bcfafc6f598@20.bin.lyr
+Data/Layers/01_Vanillatown/V3/Skybox.bin
 Data/Layers/01_Vanillatown/V3/stickers.bin
 Data/Layers/01_Vanillatown/V3/terrain.bin
 MISSING/053f1a184922bdbf997e6825ef82e72a@20.bin.lyr
@@ -4262,10 +4282,10 @@ Data/Layers/01_Vanillatown/V4/Mesh.bin
 Data/Layers/01_Vanillatown/V4/Path_Camera.bin
 Data/Layers/01_Vanillatown/V4/Path_Gameplay.bin
 MISSING/9a3984ff447ef561440ea3cc5f39c2d2@20.bin.lyr
-MISSING/cdb0b0be9d00fa06cddcc8e9498bdfe2@20.bin.lyr
+Data/Layers/01_Vanillatown/V4/Skybox.bin
 Data/Layers/01_Vanillatown/V4/Terrain.bin
 Data/Layers/01_Vanillatown/V4/Terrain_Decor.bin
-MISSING/cdb9345793b31aac1d52c3c83aca40a1@20.bin.lyr
+Data/Layers/01_Vanillatown/V4/Terrain_Scratch.bin
 MISSING/f18ffe1bfe9662d92bd5a2859b1698a0@20.bin.lyr
 Data/Layers/01_Vanillatown/V4/Triggers_Camera.bin
 Data/Layers/01_Vanillatown/V4/Triggers_Gameplay.bin
@@ -4277,17 +4297,18 @@ Data/Layers/01_Vanillatown/VBF/FailPlanes.bin
 Data/Layers/01_Vanillatown/VBF/Mesh.bin
 Data/Layers/01_Vanillatown/VBF/Path_Camera.bin
 Data/Layers/01_Vanillatown/VBF/Path_Gameplay.bin
-MISSING/4378d771da31db1ac04a292524b11fb9@20.bin.lyr
+Data/Layers/01_Vanillatown/VBF/Skybox.bin
 Data/Layers/01_Vanillatown/VBF/Terrain.bin
 Data/Layers/01_Vanillatown/VBF/Terrain_Decor.bin
 Data/Layers/01_Vanillatown/VBF/Trigger_Camera.bin
 Data/Layers/01_Vanillatown/VBF/Trigger_Gameplay.bin
-MISSING/59233b8d983c948d564659313c312b28@20.bin.lyr
+Data/Layers/Backgrounds/VanillaTown/SkyBoxDay.bin
 Data/Textures/Lightmaps/V1.pvr.gz
 Data/Textures/Lightmaps/V2.pvr.gz
 Data/Textures/Lightmaps/V3.pvr.gz
 Data/Textures/Lightmaps/V4.pvr.gz
 Data/Textures/Lightmaps/VBF.pvr.gz
+------------ PACK 021 - ff1a2236c1dfdc3eb78b4bb9b4730f9b ------------
 Data/Layers/02_Coast/C1/Decal.bin
 Data/Layers/02_Coast/C1/Decor.bin
 Data/Layers/02_Coast/C1/Decor_BG.bin
@@ -4299,11 +4320,11 @@ Data/Layers/02_Coast/C1/MeshOcean.bin
 Data/Layers/02_Coast/C1/Path_Camera.bin
 Data/Layers/02_Coast/C1/Path_Gameplay.bin
 MISSING/26d681777903d1004e164ae9073c0171@21.bin.lyr
-MISSING/4df1bdd993757234435e3ee9d26ed165@21.bin.lyr
+Data/Layers/02_Coast/C1/Skybox.bin
 Data/Layers/02_Coast/C1/Terrain.bin
 Data/Layers/02_Coast/C1/Terrain_2.bin
 Data/Layers/02_Coast/C1/Terrain_Decor.bin
-MISSING/47729d91974632737a5fcb9323ba9094@21.bin.lyr
+Data/Layers/02_Coast/C1/Terrain_Scratch.bin
 Data/Layers/02_Coast/C1/Terrain_Sea.bin
 Data/Layers/02_Coast/C1/Trigger_Camera.bin
 Data/Layers/02_Coast/C1/Trigger_Gameplay.bin
@@ -4316,7 +4337,7 @@ Data/Layers/02_Coast/C2/MeshGlass.bin
 Data/Layers/02_Coast/C2/MeshOcean.bin
 Data/Layers/02_Coast/C2/Path_Camera.bin
 Data/Layers/02_Coast/C2/Path_Gameplay.bin
-MISSING/6c2ab8db92eba1084d9a261c328de680@21.bin.lyr
+Data/Layers/02_Coast/C2/Skybox.bin
 Data/Layers/02_Coast/C2/Terrain.bin
 Data/Layers/02_Coast/C2/Terrain_Decor.bin
 Data/Layers/02_Coast/C2/Terrain_Level.bin
@@ -4338,6 +4359,7 @@ Data/Layers/02_Coast/CBF/Terrain_Water.bin
 Data/Textures/Lightmaps/C1.pvr.gz
 Data/Textures/Lightmaps/C2.pvr.gz
 Data/Textures/Lightmaps/CBF.pvr.gz
+------------ PACK 022 - 6b9b24632397f4b6e37c5095d8c11d5b ------------
 Data/Layers/03_Desert/D1/Decal.bin
 Data/Layers/03_Desert/D1/Decor.bin
 Data/Layers/03_Desert/D1/Decor_BG.bin
@@ -4346,7 +4368,7 @@ Data/Layers/03_Desert/D1/Mesh.bin
 Data/Layers/03_Desert/D1/MeshOcean.bin
 Data/Layers/03_Desert/D1/Path_Camera.bin
 Data/Layers/03_Desert/D1/Path_Gameplay.bin
-MISSING/93d1474e7c7b442c1603aedf9ab91480@22.bin.lyr
+Data/Layers/03_Desert/D1/Skybox.bin
 Data/Layers/03_Desert/D1/Terrain_2.bin
 Data/Layers/03_Desert/D1/Terrain_3.bin
 Data/Layers/03_Desert/D1/Terrain_Decor.bin
@@ -4359,17 +4381,17 @@ Data/Layers/03_Desert/D2/Mesh.bin
 Data/Layers/03_Desert/D2/MeshOcean.bin
 Data/Layers/03_Desert/D2/Path_Camera.bin
 Data/Layers/03_Desert/D2/Path_Gameplay.bin
-MISSING/64479bd22b5da440571af96c3eca3058@22.bin.lyr
+Data/Layers/03_Desert/D2/Skybox.bin
 Data/Layers/03_Desert/D2/Terrain_B1.bin
 Data/Layers/03_Desert/D2/Terrain_B2.bin
 Data/Layers/03_Desert/D2/Terrain_B3.bin
-MISSING/94833eea6bc3eef7ff599ba63c8cc9a0@22.bin.lyr
+Data/Layers/03_Desert/D2/Terrain_Blockout.bin
 Data/Layers/03_Desert/D2/Terrain_Decor.bin
 Data/Layers/03_Desert/D2/Terrain_Quicksand.bin
-MISSING/6421bbe294f3d06e94f1b9c47ab8706f@22.bin.lyr
+Data/Layers/03_Desert/D2/Terrain_Scratch.bin
 MISSING/922f366de959414f061f2373275e7e51@22.bin.lyr
 Data/Layers/03_Desert/D3/Camera_Path.bin
-MISSING/6269a3aa72afad56fb85c9594a9f081a@22.bin.lyr
+Data/Layers/03_Desert/D3/CameraZone.bin
 Data/Layers/03_Desert/D3/Decal.bin
 Data/Layers/03_Desert/D3/Decor.bin
 Data/Layers/03_Desert/D3/Entities_2EF.bin
@@ -4378,10 +4400,10 @@ MISSING/5ee87e9d3e2fcbf90791846a6e698b88@22.bin.lyr
 Data/Layers/03_Desert/D3/Gameplay Path.bin
 Data/Layers/03_Desert/D3/Mesh.bin
 Data/Layers/03_Desert/D3/MeshOcean.bin
-MISSING/1f6a7eb24fb915f03eb4f7f60f257cef@22.bin.lyr
+Data/Layers/03_Desert/D3/Quicksand.bin
 Data/Layers/03_Desert/D3/Quicksand_EF.bin
-MISSING/3e112389d5d20cbcf2df1c74738f87c6@22.bin.lyr
-MISSING/5c78f48773d7312fdf1773b0f567611d@22.bin.lyr
+Data/Layers/03_Desert/D3/Skybox.bin
+Data/Layers/03_Desert/D3/Terrain.bin
 Data/Layers/03_Desert/D3/Terrain_2EF.bin
 Data/Layers/03_Desert/D3/Terrain_Decor.bin
 Data/Layers/03_Desert/D3/Terrain_EF.bin
@@ -4396,8 +4418,8 @@ Data/Layers/03_Desert/D4/GameplayPaths.bin
 Data/Layers/03_Desert/D4/Mesh.bin
 Data/Layers/03_Desert/D4/MeshOcean.bin
 Data/Layers/03_Desert/D4/Quicksand.bin
-MISSING/c469c6a1d717442020e154e1cb249435@22.bin.lyr
-MISSING/c9caeed10a7ab19ad550b26b14543407@22.bin.lyr
+Data/Layers/03_Desert/D4/Shapes.bin
+Data/Layers/03_Desert/D4/Skybox.bin
 Data/Layers/03_Desert/D4/Terrain_B2.bin
 Data/Layers/03_Desert/D4/Terrain_Decor.bin
 Data/Layers/03_Desert/DBF/Decal.bin
@@ -4410,7 +4432,7 @@ MISSING/d13f69f54968e337452d9de9611a70dd@22.bin.lyr
 Data/Layers/03_Desert/DBF/Mesh_Ocean.bin
 Data/Layers/03_Desert/DBF/Mesh_Terrain.bin
 Data/Layers/03_Desert/DBF/Paths_Cutscene.bin
-MISSING/f18054c51739a2770ca65218d1489cc5@22.bin.lyr
+Data/Layers/03_Desert/DBF/Skybox.bin
 Data/Layers/03_Desert/DBF/Terrain_Core.bin
 Data/Layers/03_Desert/DBF/Terrain_HeadBounds.bin
 Data/Layers/03_Desert/DBF/Terrain_Quicksand.bin
@@ -4419,6 +4441,7 @@ Data/Textures/Lightmaps/D2.pvr.gz
 Data/Textures/Lightmaps/D3.pvr.gz
 Data/Textures/Lightmaps/D4.pvr.gz
 Data/Textures/Lightmaps/DBF.pvr.gz
+------------ PACK 023 - e123b9b5c8c94d0ca7b6b9b14853f9d8 ------------
 Data/Layers/04_LavaRestaurant/LR1/BG_Decor.bin
 Data/Layers/04_LavaRestaurant/LR1/Decal.bin
 Data/Layers/04_LavaRestaurant/LR1/Decor.bin
@@ -4428,7 +4451,7 @@ Data/Layers/04_LavaRestaurant/LR1/Mesh.bin
 Data/Layers/04_LavaRestaurant/LR1/MeshOcean.bin
 Data/Layers/04_LavaRestaurant/LR1/Path_Camera.bin
 Data/Layers/04_LavaRestaurant/LR1/Path_Gameplay.bin
-MISSING/bf9d8740302ce9f16971b12afef6a61f@23.bin.lyr
+Data/Layers/04_LavaRestaurant/LR1/Skybox.bin
 Data/Layers/04_LavaRestaurant/LR1/Terrain.bin
 Data/Layers/04_LavaRestaurant/LR1/Terrain_Decor.bin
 Data/Layers/04_LavaRestaurant/LR1/Terrain_Lava.bin
@@ -4443,7 +4466,7 @@ Data/Layers/04_LavaRestaurant/LR2/Mesh.bin
 Data/Layers/04_LavaRestaurant/LR2/MeshOcean.bin
 Data/Layers/04_LavaRestaurant/LR2/Path_Camera.bin
 Data/Layers/04_LavaRestaurant/LR2/Path_Gameplay.bin
-MISSING/62b29921bcb102a22ea3c6624a7a31fb@23.bin.lyr
+Data/Layers/04_LavaRestaurant/LR2/Skybox.bin
 Data/Layers/04_LavaRestaurant/LR2/Terrain_Decor.bin
 Data/Layers/04_LavaRestaurant/LR2/Terrain_Lava.bin
 Data/Layers/04_LavaRestaurant/LR2/Terrain_Scratch.bin
@@ -4459,7 +4482,7 @@ Data/Layers/04_LavaRestaurant/LR3/Mesh.bin
 Data/Layers/04_LavaRestaurant/LR3/MeshOcean.bin
 Data/Layers/04_LavaRestaurant/LR3/Path_Camera.bin
 Data/Layers/04_LavaRestaurant/LR3/Path_Gameplay.bin
-MISSING/5b4d70e350e41a27126b142a164640a7@23.bin.lyr
+Data/Layers/04_LavaRestaurant/LR3/Skybox.bin
 Data/Layers/04_LavaRestaurant/LR3/Terrain.bin
 Data/Layers/04_LavaRestaurant/LR3/Terrain_Decor.bin
 Data/Layers/04_LavaRestaurant/LR3/Terrain_Lava.bin
@@ -4468,18 +4491,19 @@ Data/Layers/04_LavaRestaurant/LR3/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/LR1.pvr.gz
 Data/Textures/Lightmaps/LR2.pvr.gz
 Data/Textures/Lightmaps/LR3.pvr.gz
+------------ PACK 024 - fce192554b215bef8ceaa7dc9a90f90b ------------
 Data/Layers/06_Bathhouse/BH1/Decal.bin
 Data/Layers/06_Bathhouse/BH1/Decor.bin
-MISSING/ea95b3902225ba8fe607755b44aa3ca6@24.bin.lyr
+Data/Layers/06_Bathhouse/BH1/Decor_BG.bin
 Data/Layers/06_Bathhouse/BH1/Entities.bin
 Data/Layers/06_Bathhouse/BH1/Failplanes.bin
 Data/Layers/06_Bathhouse/BH1/Mesh.bin
 Data/Layers/06_Bathhouse/BH1/MeshGlass.bin
 Data/Layers/06_Bathhouse/BH1/Path_Camera.bin
 Data/Layers/06_Bathhouse/BH1/Path_Gameplay.bin
-MISSING/1dd47c28f6528d0e0a05926d48897e2c@24.bin.lyr
+Data/Layers/06_Bathhouse/BH1/Skybox.bin
 Data/Layers/06_Bathhouse/BH1/Terrain.bin
-MISSING/82b314311d4a92f4f1b502160151481b@24.bin.lyr
+Data/Layers/06_Bathhouse/BH1/Terrain_Blockout.bin
 Data/Layers/06_Bathhouse/BH1/Terrain_Decor.bin
 Data/Layers/06_Bathhouse/BH1/Triggers.bin
 Data/Layers/06_Bathhouse/BH2/Decal.bin
@@ -4490,11 +4514,11 @@ Data/Layers/06_Bathhouse/BH2/Mesh.bin
 Data/Layers/06_Bathhouse/BH2/MeshGlass.bin
 Data/Layers/06_Bathhouse/BH2/Path_Camera.bin
 Data/Layers/06_Bathhouse/BH2/Path_Gameplay.bin
-MISSING/4b748083b4b09af7a5c14b5bc605e22f@24.bin.lyr
+Data/Layers/06_Bathhouse/BH2/Skybox.bin
 Data/Layers/06_Bathhouse/BH2/Terrain.bin
 Data/Layers/06_Bathhouse/BH2/Terrain_Decor.bin
-MISSING/ec5b72bda2388b85971be24087f2378d@24.bin.lyr
-MISSING/009bd3f5e0e389fd40134a41c3546534@24.bin.lyr
+Data/Layers/06_Bathhouse/BH2/Terrain_Scratch.bin
+Data/Layers/06_Bathhouse/BH2/Terrain_Water.bin
 Data/Layers/06_Bathhouse/BH2/Trigger_Camera.bin
 Data/Layers/06_Bathhouse/BH2/Trigger_Gameplay.bin
 Data/Layers/06_Bathhouse/BH3/Decals.bin
@@ -4505,19 +4529,19 @@ Data/Layers/06_Bathhouse/BH3/Mesh.bin
 Data/Layers/06_Bathhouse/BH3/MeshGlass.bin
 Data/Layers/06_Bathhouse/BH3/Path_Camera.bin
 Data/Layers/06_Bathhouse/BH3/Path_Gameplay.bin
-MISSING/c35bbd3757ae3f0a0448c30d62777845@24.bin.lyr
+Data/Layers/06_Bathhouse/BH3/Skybox.bin
 Data/Layers/06_Bathhouse/BH3/Terrain_Block.bin
 Data/Layers/06_Bathhouse/BH3/Terrain_Decor.bin
 MISSING/8e334631c63df60594c90c08c400faa3@24.bin.lyr
-MISSING/4a457816788c84f6111956fd1be09296@24.bin.lyr
+Data/Layers/06_Bathhouse/BH3/Terrain_Sea.bin
 Data/Layers/06_Bathhouse/BH3/Triggers.bin
-MISSING/b253fa5803b0da9ed52bc621510ba810@24.bin.lyr
+Data/Layers/06_Bathhouse/WBS/Decal.bin
 Data/Layers/06_Bathhouse/WBS/Decor.bin
 Data/Layers/06_Bathhouse/WBS/Entities.bin
 Data/Layers/06_Bathhouse/WBS/Entities_Cinematics.bin
 Data/Layers/06_Bathhouse/WBS/Mesh.bin
 Data/Layers/06_Bathhouse/WBS/Paths_Cinematics.bin
-MISSING/903cf6f6a52c89f8feaa5f4db8ebebab@24.bin.lyr
+Data/Layers/06_Bathhouse/WBS/Skybox.bin
 Data/Layers/06_Bathhouse/WBS/Terrain.bin
 Data/Layers/06_Bathhouse/WBS/Terrain_Water.bin
 Data/Layers/06_Bathhouse/WBS/Trigger_gameplay.bin
@@ -4525,6 +4549,7 @@ Data/Textures/Lightmaps/BH1.pvr.gz
 Data/Textures/Lightmaps/BH2.pvr.gz
 Data/Textures/Lightmaps/BH3.pvr.gz
 Data/Textures/Lightmaps/WBS.pvr.gz
+------------ PACK 025 - b5ec8a0a6f217c4499448e5576187b78 ------------
 Data/Layers/07_WorldsEdge/W1/Decals.bin
 Data/Layers/07_WorldsEdge/W1/Decor.bin
 Data/Layers/07_WorldsEdge/W1/Entities.bin
@@ -4532,14 +4557,14 @@ Data/Layers/07_WorldsEdge/W1/Failplanes.bin
 Data/Layers/07_WorldsEdge/W1/Mesh.bin
 Data/Layers/07_WorldsEdge/W1/Path_Camera.bin
 Data/Layers/07_WorldsEdge/W1/Path_Gameplay.bin
-MISSING/69e053affdb43064b6a12b2b020cccee@25.bin.lyr
+Data/Layers/07_WorldsEdge/W1/Skybox.bin
 Data/Layers/07_WorldsEdge/W1/Terrain_B1.bin
 Data/Layers/07_WorldsEdge/W1/Terrain_B2.bin
-MISSING/b1f0dfbbec231c48e9b1d81cc3b6db82@25.bin.lyr
+Data/Layers/07_WorldsEdge/W1/Terrain_B3.bin
 MISSING/614501e048bc37f4197c81a51381fb87@25.bin.lyr
-MISSING/0b661862281a0c642715b993f6b706e8@25.bin.lyr
+Data/Layers/07_WorldsEdge/W1/Terrain_Blockout.bin
 Data/Layers/07_WorldsEdge/W1/Terrain_Decor.bin
-MISSING/3255bdd44f6c3cefecb17748889699c5@25.bin.lyr
+Data/Layers/07_WorldsEdge/W1/Terrain_Scratch.bin
 Data/Layers/07_WorldsEdge/W1/Trigger_Camera.bin
 Data/Layers/07_WorldsEdge/W1/Trigger_Gameplay.bin
 Data/Layers/07_WorldsEdge/W2/Decals.bin
@@ -4551,11 +4576,11 @@ Data/Layers/07_WorldsEdge/W2/Mesh.bin
 MISSING/795aabff3303953cd410ca04f287b2ab@25.bin.lyr
 Data/Layers/07_WorldsEdge/W2/Path_Camera.bin
 Data/Layers/07_WorldsEdge/W2/Path_Gameplay.bin
-MISSING/2ca18cedd48fa9acef5149f3a3b988c8@25.bin.lyr
+Data/Layers/07_WorldsEdge/W2/Skybox.bin
 Data/Layers/07_WorldsEdge/W2/Terrain.bin
 Data/Layers/07_WorldsEdge/W2/Terrain_B2.bin
 Data/Layers/07_WorldsEdge/W2/Terrain_Decor.bin
-MISSING/e6a24ca27ea12bffb2706f13cbbe3c5d@25.bin.lyr
+Data/Layers/07_WorldsEdge/W2/Terrain_Scratch.bin
 Data/Layers/07_WorldsEdge/W2/Trigger_Camera.bin
 Data/Layers/07_WorldsEdge/W2/Trigger_Gameplay.bin
 Data/Layers/07_WorldsEdge/W3/Decals.bin
@@ -4566,11 +4591,11 @@ Data/Layers/07_WorldsEdge/W3/Failplanes.bin
 Data/Layers/07_WorldsEdge/W3/Mesh.bin
 Data/Layers/07_WorldsEdge/W3/Path_Camera.bin
 Data/Layers/07_WorldsEdge/W3/Path_Gameplay.bin
-MISSING/218662d81dfb173d013f6ff85dfb2a7a@25.bin.lyr
+Data/Layers/07_WorldsEdge/W3/Skybox.bin
 Data/Layers/07_WorldsEdge/W3/Terrain.bin
 Data/Layers/07_WorldsEdge/W3/Terrain_B2.bin
 Data/Layers/07_WorldsEdge/W3/Terrain_Decor.bin
-MISSING/a00c383dc69a8cec036e53bfea42123e@25.bin.lyr
+Data/Layers/07_WorldsEdge/W3/Terrain_Scratch.bin
 Data/Layers/07_WorldsEdge/W3/Trigger_Camera.bin
 Data/Layers/07_WorldsEdge/W3/Trigger_Gameplay.bin
 Data/Layers/07_WorldsEdge/W4/Decal_Color.bin
@@ -4581,27 +4606,28 @@ Data/Layers/07_WorldsEdge/W4/Failplanes.bin
 Data/Layers/07_WorldsEdge/W4/Mesh.bin
 Data/Layers/07_WorldsEdge/W4/Path_Camera.bin
 Data/Layers/07_WorldsEdge/W4/Path_Gameplay.bin
-MISSING/2d282c674e7adc05c4776ad4e83c58c2@25.bin.lyr
+Data/Layers/07_WorldsEdge/W4/Skybox.bin
 Data/Layers/07_WorldsEdge/W4/Terrain.bin
 Data/Layers/07_WorldsEdge/W4/Terrain_B2.bin
 Data/Layers/07_WorldsEdge/W4/Terrain_Decor.bin
-MISSING/8a264f7ac8b8c3e63da8210a7cd0cd9b@25.bin.lyr
+Data/Layers/07_WorldsEdge/W4/Terrain_Scratch.bin
 Data/Layers/07_WorldsEdge/W4/Trigger_Camera.bin
 Data/Layers/07_WorldsEdge/W4/Trigger_Gameplay.bin
 Data/Layers/07_WorldsEdge/WBF/Entities.bin
 Data/Layers/07_WorldsEdge/WBF/Entities_Cinematics.bin
-MISSING/83d88931694b900caa379147de554e21@25.bin.lyr
+Data/Layers/07_WorldsEdge/WBF/Failplanes.bin
 Data/Layers/07_WorldsEdge/WBF/Mesh.bin
 Data/Layers/07_WorldsEdge/WBF/Path_Camera.bin
 Data/Layers/07_WorldsEdge/WBF/Path_Cinematics.bin
 Data/Layers/07_WorldsEdge/WBF/Path_Gameplay.bin
-MISSING/a6f00999a47783a176863611413a9a72@25.bin.lyr
+Data/Layers/07_WorldsEdge/WBF/Skybox.bin
 Data/Layers/07_WorldsEdge/WBF/Terrain.bin
 Data/Textures/Lightmaps/W1.pvr.gz
 Data/Textures/Lightmaps/W2.pvr.gz
 Data/Textures/Lightmaps/W3.pvr.gz
 Data/Textures/Lightmaps/W4.pvr.gz
 Data/Textures/Lightmaps/WBF.pvr.gz
+------------ PACK 026 - 84de0d4cd3110d4adf7326e942e870b2 ------------
 Data/Layers/09_Penguinville/PV1/Decal.bin
 Data/Layers/09_Penguinville/PV1/Decal_Color.bin
 Data/Layers/09_Penguinville/PV1/Decor.bin
@@ -4610,13 +4636,13 @@ Data/Layers/09_Penguinville/PV1/Mesh.bin
 Data/Layers/09_Penguinville/PV1/MeshOcean.bin
 Data/Layers/09_Penguinville/PV1/Path_Camera.bin
 Data/Layers/09_Penguinville/PV1/Path_Gameplay.bin
-MISSING/4cfb7aa1a428513a9a655193ee802b26@26.bin.lyr
+Data/Layers/09_Penguinville/PV1/Skybox.bin
 Data/Layers/09_Penguinville/PV1/Terrain_B1.bin
 Data/Layers/09_Penguinville/PV1/Terrain_B2.bin
 Data/Layers/09_Penguinville/PV1/Terrain_B3.bin
-MISSING/846ebf03ba23d6b323ec89bfde1e3ec8@26.bin.lyr
+Data/Layers/09_Penguinville/PV1/Terrain_Blockout.bin
 Data/Layers/09_Penguinville/PV1/Terrain_Extra.bin
-MISSING/7ea05c6f38d3ca36e68e0aabd0350388@26.bin.lyr
+Data/Layers/09_Penguinville/PV1/Terrain_Scratch.bin
 Data/Layers/09_Penguinville/PV1/Terrain_Sea.bin
 Data/Layers/09_Penguinville/PV1/Trigger_Gameplay.bin
 Data/Layers/09_Penguinville/PV2/Decal.bin
@@ -4627,7 +4653,7 @@ Data/Layers/09_Penguinville/PV2/Mesh.bin
 Data/Layers/09_Penguinville/PV2/MeshOcean.bin
 Data/Layers/09_Penguinville/PV2/Path_Camera.bin
 Data/Layers/09_Penguinville/PV2/Path_Gameplay.bin
-MISSING/b312dca6c0a34b478b3f758fc0cf5e67@26.bin.lyr
+Data/Layers/09_Penguinville/PV2/Skybox.bin
 Data/Layers/09_Penguinville/PV2/Terrain.bin
 Data/Layers/09_Penguinville/PV2/Terrain_Sea.bin
 Data/Layers/09_Penguinville/PV2/Trigger_Camera.bin
@@ -4641,17 +4667,18 @@ Data/Layers/09_Penguinville/PV3/MeshOcean.bin
 Data/Layers/09_Penguinville/PV3/Path_Camera.bin
 Data/Layers/09_Penguinville/PV3/Path_Gameplay.bin
 MISSING/b51f1b2af870b02548d7384db816dd61@26.bin.lyr
-MISSING/d8bdec9d2c4736fdc40aafbf03c2a571@26.bin.lyr
+Data/Layers/09_Penguinville/PV3/Skybox.bin
 Data/Layers/09_Penguinville/PV3/Terrain.bin
 MISSING/074252552f2651b32d705ce9d32aef8b@26.bin.lyr
-MISSING/f38c9242e8ca8f176c6b4210d7c3d26f@26.bin.lyr
+Data/Layers/09_Penguinville/PV3/Terrain_Scratch.bin
 Data/Layers/09_Penguinville/PV3/Terrain_Sea.bin
 Data/Layers/09_Penguinville/PV3/Trigger_Camera.bin
 Data/Layers/09_Penguinville/PV3/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/PV1.pvr.gz
 Data/Textures/Lightmaps/PV2.pvr.gz
 Data/Textures/Lightmaps/PV3.pvr.gz
-MISSING/7c20b899c9342aa638f2bd7a9af8773a@27.bin.lyr
+------------ PACK 027 - f190840d3a14670ab98d7fcac7d11ee1 ------------
+Data/Layers/10_Factory/F1/Decal_A.bin
 Data/Layers/10_Factory/F1/Decal_C.bin
 Data/Layers/10_Factory/F1/Decor.bin
 Data/Layers/10_Factory/F1/Decor_BG.bin
@@ -4660,12 +4687,12 @@ Data/Layers/10_Factory/F1/FailPlanes.bin
 Data/Layers/10_Factory/F1/Mesh.bin
 Data/Layers/10_Factory/F1/Path_Camera.bin
 Data/Layers/10_Factory/F1/Path_Gameplay.bin
-MISSING/0ad906a95d00fc5510b30812e8664a16@27.bin.lyr
+Data/Layers/10_Factory/F1/Skybox.bin
 Data/Layers/10_Factory/F1/Terrain_B1.bin
 Data/Layers/10_Factory/F1/Terrain_B2.bin
-MISSING/6b2215597060353e48c61ce8bcd005e2@27.bin.lyr
+Data/Layers/10_Factory/F1/Terrain_B3.bin
 Data/Layers/10_Factory/F1/Terrain_Decor.bin
-MISSING/7dbb27c47e5f22b5c01156f37f9ecefb@27.bin.lyr
+Data/Layers/10_Factory/F1/Terrain_Scratch.bin
 Data/Layers/10_Factory/F1/Triggers_Camera.bin
 Data/Layers/10_Factory/F1/Triggers_Gameplay.bin
 Data/Layers/10_Factory/F2/Decal_C.bin
@@ -4677,7 +4704,7 @@ Data/Layers/10_Factory/F2/Mesh.bin
 MISSING/6e3873077ff3ab732c5661ad58fcee88@27.bin.lyr
 Data/Layers/10_Factory/F2/Path_Camera.bin
 Data/Layers/10_Factory/F2/Path_Gameplay.bin
-MISSING/2b6dae77dd792de114172fb11bb14186@27.bin.lyr
+Data/Layers/10_Factory/F2/Skybox.bin
 Data/Layers/10_Factory/F2/Terrain.bin
 Data/Layers/10_Factory/F2/Terrain_Decor.bin
 Data/Layers/10_Factory/F2/Trigger_Camera.bin
@@ -4689,23 +4716,24 @@ Data/Layers/10_Factory/FBF/Entities.bin
 Data/Layers/10_Factory/FBF/Entities_Cutscene.bin
 Data/Layers/10_Factory/FBF/Mesh.bin
 Data/Layers/10_Factory/FBF/Paths_Cutscsene.bin
-MISSING/7078f48aaa97e3e4d228a97be044ef8b@27.bin.lyr
+Data/Layers/10_Factory/Fbf/Skybox.bin
 Data/Layers/10_Factory/FBF/Terrain.bin
 Data/Textures/Lightmaps/F1.pvr.gz
 Data/Textures/Lightmaps/F2.pvr.gz
 Data/Textures/Lightmaps/FBF.pvr.gz
+------------ PACK 028 - 6369b3614a6c180219fe225a5e9e6bce ------------
 Data/Layers/12_CourtHouse/CH1/Decals_Ambient.bin
 Data/Layers/12_CourtHouse/CH1/Decals_Color.bin
 Data/Layers/12_CourtHouse/CH1/Decor.bin
 Data/Layers/12_CourtHouse/CH1/Entities.bin
 Data/Layers/12_CourtHouse/CH1/Failplanes.bin
 Data/Layers/12_CourtHouse/CH1/Mesh.bin
-MISSING/640e6bc9032295cfbcd4de110f585250@28.bin.lyr
+Data/Layers/12_Courthouse/CH1/MeshGlass.bin
 Data/Layers/12_CourtHouse/CH1/MeshOcean.bin
 Data/Layers/12_CourtHouse/CH1/Path_Camera.bin
 Data/Layers/12_CourtHouse/CH1/Path_Gameplay.bin
-MISSING/2747cc9c598724ef6e6a1636a4b21982@28.bin.lyr
-MISSING/e4da05fcc07e3a35b0d994ba5ea318ba@28.bin.lyr
+Data/Layers/12_Courthouse/CH1/Skybox.bin
+Data/Layers/12_Courthouse/CH1/Terrain.bin
 Data/Layers/12_CourtHouse/CH1/Terrain_Decor.bin
 Data/Layers/12_CourtHouse/CH1/Terrain_Lava.bin
 Data/Layers/12_CourtHouse/CH1/Terrain_Level.bin
@@ -4719,7 +4747,7 @@ Data/Layers/12_CourtHouse/CH2/Mesh.bin
 Data/Layers/12_CourtHouse/CH2/MeshOcean.bin
 Data/Layers/12_CourtHouse/CH2/Path_Camera.bin
 Data/Layers/12_CourtHouse/CH2/Path_Gameplay.bin
-MISSING/1f239ded279cad844195ac8a6de70b05@28.bin.lyr
+Data/Layers/12_Courthouse/CH2/Skybox.bin
 Data/Layers/12_CourtHouse/CH2/Terrain.bin
 Data/Layers/12_CourtHouse/CH2/Terrain_Decor.bin
 Data/Layers/12_CourtHouse/CH2/Terrain_Lava.bin
@@ -4735,7 +4763,7 @@ Data/Layers/12_CourtHouse/CH3/MeshOcean.bin
 Data/Layers/12_CourtHouse/CH3/Path_Camera.bin
 Data/Layers/12_CourtHouse/CH3/Path_Gameplay.bin
 MISSING/cbc76c2fa40b9ad65f4a5bfd115297af@28.bin.lyr
-MISSING/79692a613db03245928e7e59738e220c@28.bin.lyr
+Data/Layers/12_Courthouse/CH3/Skybox.bin
 Data/Layers/12_CourtHouse/CH3/Terrain.bin
 Data/Layers/12_CourtHouse/CH3/Terrain_Decor.bin
 Data/Layers/12_CourtHouse/CH3/Terrain_Lava.bin
@@ -4750,12 +4778,13 @@ Data/Layers/12_CourtHouse/CHBF/Mesh.bin
 Data/Layers/12_CourtHouse/CHBF/Mesh_Ocean.bin
 Data/Layers/12_CourtHouse/CHBF/Shape_Stands.bin
 Data/Layers/12_CourtHouse/CHBF/Shape_Terrain.bin
-MISSING/cf92df699e565c79a6201d6b62c94d34@28.bin.lyr
+Data/Layers/12_Courthouse/CHBF/Skybox.bin
 Data/Layers/12_CourtHouse/CHBF/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/CH1.pvr.gz
 Data/Textures/Lightmaps/CH2.pvr.gz
 Data/Textures/Lightmaps/CH3.pvr.gz
 Data/Textures/Lightmaps/CHBF.pvr.gz
+------------ PACK 029 - 66ad40896a4d054bae89a21da53dac5a ------------
 Data/Layers/13_Vanillatown2/VR1/Decals.bin
 Data/Layers/13_Vanillatown2/VR1/Decor.bin
 Data/Layers/13_Vanillatown2/VR1/Decor_BG.bin
@@ -4764,7 +4793,7 @@ Data/Layers/13_Vanillatown2/VR1/Failplanes.bin
 Data/Layers/13_Vanillatown2/VR1/Mesh.bin
 Data/Layers/13_Vanillatown2/VR1/Path_Camera.bin
 Data/Layers/13_Vanillatown2/VR1/Path_Gameplay.bin
-MISSING/ed8d03e7728200020c9ec654e5968f80@29.bin.lyr
+Data/Layers/13_Vanillatown2/VR1/Skybox.bin
 Data/Layers/13_Vanillatown2/VR1/Terrain.bin
 Data/Layers/13_Vanillatown2/VR1/Trigger_Camera.bin
 Data/Layers/13_Vanillatown2/VR1/Trigger_Gameplay.bin
@@ -4782,6 +4811,7 @@ Data/Layers/13_Vanillatown2/VR2/Trigger_Camera.bin
 Data/Layers/13_Vanillatown2/VR2/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/VR1.pvr.gz
 Data/Textures/Lightmaps/VR2.pvr.gz
+------------ PACK 030 - c229e535f33c776cd88066b6cd2475d6 ------------
 Data/Layers/14_Palace/P2/BG_Decor.bin
 Data/Layers/14_Palace/P2/Decal_A.bin
 Data/Layers/14_Palace/P2/Decal_C.bin
@@ -4792,11 +4822,11 @@ Data/Layers/14_Palace/P2/Mesh.bin
 Data/Layers/14_Palace/P2/MeshOcean.bin
 Data/Layers/14_Palace/P2/Path_Camera.bin
 Data/Layers/14_Palace/P2/Path_Gameplay.bin
-MISSING/5dbd8f6554168b5e957099762bcef495@30.bin.lyr
+Data/Layers/14_Palace/P2/Skybox.bin
 Data/Layers/14_Palace/P2/Terrain.bin
 Data/Layers/14_Palace/P2/Terrain_Decor.bin
 Data/Layers/14_Palace/P2/Terrain_Lava.bin
-MISSING/edc270cdfb8aa0610266533dd926a5d5@30.bin.lyr
+Data/Layers/14_Palace/P2/Terrain_Scratch.bin
 Data/Layers/14_Palace/P2/Trigger_Camera.bin
 Data/Layers/14_Palace/P2/Trigger_Gameplay.bin
 Data/Layers/14_Palace/P3/Decal.bin
@@ -4809,11 +4839,11 @@ Data/Layers/14_Palace/P3/Mesh.bin
 Data/Layers/14_Palace/P3/MeshOcean.bin
 Data/Layers/14_Palace/P3/Path_Camera.bin
 Data/Layers/14_Palace/P3/Path_Gameplay.bin
-MISSING/0d5bf230937faa94f549a40a2a2704c6@30.bin.lyr
+Data/Layers/14_Palace/P3/Skybox.bin
 Data/Layers/14_Palace/P3/Terrain.bin
 Data/Layers/14_Palace/P3/Terrain_Decor.bin
 Data/Layers/14_Palace/P3/Terrain_Lava.bin
-MISSING/a4dd496f80bd3b42f59ea48ce895ce9c@30.bin.lyr
+Data/Layers/14_Palace/P3/Terrain_Scratch.bin
 Data/Layers/14_Palace/P3/Trigger_Camera.bin
 Data/Layers/14_Palace/P3/Trigger_Gameplay.bin
 Data/Layers/14_Palace/P3/Walls.bin
@@ -4827,11 +4857,11 @@ Data/Layers/14_Palace/P4/Mesh.bin
 Data/Layers/14_Palace/P4/MeshOcean.bin
 Data/Layers/14_Palace/P4/Path_Camera.bin
 Data/Layers/14_Palace/P4/Path_Gameplay.bin
-MISSING/889d27a8b9e0ddef9016d7c04c58809f@30.bin.lyr
+Data/Layers/14_Palace/P4/Skybox.bin
 Data/Layers/14_Palace/P4/Terrain.bin
 Data/Layers/14_Palace/P4/Terrain_Decor.bin
 Data/Layers/14_Palace/P4/Terrain_Lava.bin
-MISSING/89640c41f99f4ecb1f627529299e107a@30.bin.lyr
+Data/Layers/14_Palace/P4/Terrain_Scratch.bin
 Data/Layers/14_Palace/P4/Triggers_Camera.bin
 Data/Layers/14_Palace/P4/Triggers_Gameplay.bin
 Data/Layers/14_Palace/P4/Walls.bin
@@ -4845,11 +4875,11 @@ Data/Layers/14_Palace/P5/Mesh.bin
 Data/Layers/14_Palace/P5/MeshOcean.bin
 Data/Layers/14_Palace/P5/Path_Camera.bin
 Data/Layers/14_Palace/P5/Path_Gameplay.bin
-MISSING/576c220bb5bcbe46bbf7db31e2e2f046@30.bin.lyr
+Data/Layers/14_Palace/P5/Skybox.bin
 Data/Layers/14_Palace/P5/Terrain_Blockout.bin
 Data/Layers/14_Palace/P5/Terrain_Decor.bin
 Data/Layers/14_Palace/P5/Terrain_Lava.bin
-MISSING/95c7ac924732da5224952b5217959a53@30.bin.lyr
+Data/Layers/14_Palace/P5/Terrain_Scratch.bin
 Data/Layers/14_Palace/P5/Terrain_Walls.bin
 Data/Layers/14_Palace/P5/Trigger_Camera.bin
 Data/Layers/14_Palace/P5/Trigger_Gameplay.bin
@@ -4857,6 +4887,7 @@ Data/Textures/Lightmaps/P2.pvr.gz
 Data/Textures/Lightmaps/P3.pvr.gz
 Data/Textures/Lightmaps/P4.pvr.gz
 Data/Textures/Lightmaps/P5.pvr.gz
+------------ PACK 031 - 1bf4597a3e42b808b12d94853dcddf1c ------------
 Data/Layers/14_Palace/PBF/Decor.bin
 Data/Layers/14_Palace/PBF/Entity.bin
 Data/Layers/14_Palace/PBF/Entity_Cinematics.bin
@@ -4864,9 +4895,10 @@ Data/Layers/14_Palace/PBF/Entity_FailAndCamera.bin
 Data/Layers/14_Palace/PBF/Markup.bin
 Data/Layers/14_Palace/PBF/Mesh.bin
 Data/Layers/14_Palace/PBF/Path.bin
-MISSING/b2705418b58a4ded5e8e197547059cd6@31.bin.lyr
+Data/Layers/14_Palace/PBF/Skybox.bin
 Data/Layers/14_Palace/PBF/Terrain.bin
 Data/Textures/Lightmaps/PBF.pvr.gz
+------------ PACK 032 - 3824317d61a04cacdaebdced06b46ad4 ------------
 Data/Layers/15_Snowglobes/SG1/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG1/Decal.bin
 Data/Layers/15_Snowglobes/SG1/Decor.bin
@@ -4876,11 +4908,12 @@ Data/Layers/15_Snowglobes/SG1/Mesh.bin
 Data/Layers/15_Snowglobes/SG1/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG1/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG1/Path_Gameplay.bin
-MISSING/b7f5d5a81ccb04f72131edbaa5fe63be@32.bin.lyr
+Data/Layers/15_Snowglobes/SG1/Skybox.bin
 Data/Layers/15_Snowglobes/SG1/Terrain.bin
 Data/Layers/15_Snowglobes/SG1/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG1/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG1.pvr.gz
+------------ PACK 033 - d376297b22bd711bcea89a2ff960c641 ------------
 Data/Layers/15_Snowglobes/SG2/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG2/Decal.bin
 Data/Layers/15_Snowglobes/SG2/Decor.bin
@@ -4890,11 +4923,12 @@ Data/Layers/15_Snowglobes/SG2/Mesh.bin
 Data/Layers/15_Snowglobes/SG2/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG2/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG2/Path_Gameplay.bin
-MISSING/bef20d52e9cfd9118a588551fdb95fdd@33.bin.lyr
+Data/Layers/15_Snowglobes/SG2/Skybox.bin
 Data/Layers/15_Snowglobes/SG2/Terrain.bin
 Data/Layers/15_Snowglobes/SG2/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG2/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG2.pvr.gz
+------------ PACK 034 - 7cd3b08b69b5144be6ae5d99bb4c5e52 ------------
 Data/Layers/15_Snowglobes/SG3/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG3/Decal.bin
 Data/Layers/15_Snowglobes/SG3/Decor.bin
@@ -4904,11 +4938,12 @@ Data/Layers/15_Snowglobes/SG3/Mesh.bin
 Data/Layers/15_Snowglobes/SG3/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG3/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG3/Path_Gameplay.bin
-MISSING/fed653efad7b41642f87078549297c99@34.bin.lyr
+Data/Layers/15_Snowglobes/SG3/Skybox.bin
 Data/Layers/15_Snowglobes/SG3/Terrain.bin
 Data/Layers/15_Snowglobes/SG3/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG3/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG3.pvr.gz
+------------ PACK 035 - 7c60277399cb40778421aa526ebd1636 ------------
 Data/Layers/15_Snowglobes/SG4/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG4/Decal.bin
 Data/Layers/15_Snowglobes/SG4/Decor.bin
@@ -4918,11 +4953,12 @@ Data/Layers/15_Snowglobes/SG4/Mesh.bin
 Data/Layers/15_Snowglobes/SG4/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG4/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG4/Path_Gameplay.bin
-MISSING/f7aa041f08fa91556bdfd79328234df6@35.bin.lyr
+Data/Layers/15_Snowglobes/SG4/Skybox.bin
 Data/Layers/15_Snowglobes/SG4/Terrain.bin
 Data/Layers/15_Snowglobes/SG4/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG4/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG4.pvr.gz
+------------ PACK 036 - 1f6090367dda91a1f2ac6f3b7427cfaa ------------
 Data/Layers/15_Snowglobes/SG5/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG5/Decal.bin
 Data/Layers/15_Snowglobes/SG5/Decor.bin
@@ -4932,11 +4968,12 @@ Data/Layers/15_Snowglobes/SG5/Mesh.bin
 Data/Layers/15_Snowglobes/SG5/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG5/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG5/Path_Gameplay.bin
-MISSING/b407e8f5128451d9d245a1ac039d435a@36.bin.lyr
+Data/Layers/15_Snowglobes/SG5/Skybox.bin
 Data/Layers/15_Snowglobes/SG5/Terrain.bin
 Data/Layers/15_Snowglobes/SG5/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG5/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG5.pvr.gz
+------------ PACK 037 - e578485dbbfb40002070f8bffe84bde1 ------------
 Data/Layers/15_Snowglobes/SG6/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG6/Decal.bin
 Data/Layers/15_Snowglobes/SG6/Decor.bin
@@ -4946,11 +4983,12 @@ Data/Layers/15_Snowglobes/SG6/Mesh.bin
 Data/Layers/15_Snowglobes/SG6/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG6/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG6/Path_Gameplay.bin
-MISSING/0f9ab54e36dff6244aec05a01b57bff5@37.bin.lyr
+Data/Layers/15_Snowglobes/SG6/Skybox.bin
 Data/Layers/15_Snowglobes/SG6/Terrain.bin
 Data/Layers/15_Snowglobes/SG6/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG6/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG6.pvr.gz
+------------ PACK 038 - 85f3237dfdb2963b7ec144c89234fa0f ------------
 Data/Layers/15_Snowglobes/SG7/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG7/Decal.bin
 Data/Layers/15_Snowglobes/SG7/Decor.bin
@@ -4960,11 +4998,12 @@ Data/Layers/15_Snowglobes/SG7/Mesh.bin
 Data/Layers/15_Snowglobes/SG7/MeshOcean.bin
 Data/Layers/15_Snowglobes/SG7/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG7/Path_Gameplay.bin
-MISSING/ea6f994a7f0f692bb860ee74d96e7dc1@38.bin.lyr
+Data/Layers/15_Snowglobes/SG7/Skybox.bin
 Data/Layers/15_Snowglobes/SG7/Terrain.bin
 Data/Layers/15_Snowglobes/SG7/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG7/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG7.pvr.gz
+------------ PACK 039 - 22eadf4b960dba1028287a6713bcae71 ------------
 Data/Layers/15_Snowglobes/SG8/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG8/Decal.bin
 Data/Layers/15_Snowglobes/SG8/Decor.bin
@@ -4974,40 +5013,43 @@ Data/Layers/15_Snowglobes/SG8/Mesh.bin
 Data/Layers/15_Snowglobes/SG8/MeshOcean.bin
 Data/Layers/15_Snowglobes/SG8/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG8/Path_Gameplay.bin
-MISSING/279c445481bd3f2f9b95811afcadc419@39.bin.lyr
+Data/Layers/15_Snowglobes/SG8/Skybox.bin
 Data/Layers/15_Snowglobes/SG8/Terrain.bin
 Data/Layers/15_Snowglobes/SG8/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG8/Trigger_Camera.bin
 Data/Layers/15_Snowglobes/SG8/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/SG8.pvr.gz
+------------ PACK 040 - ff5c8e7db3017594f4fa481607164175 ------------
 Data/Layers/15_Snowglobes/SG9/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG9/Decal.bin
 Data/Layers/15_Snowglobes/SG9/Decor.bin
 Data/Layers/15_Snowglobes/SG9/Entities.bin
 Data/Layers/15_Snowglobes/SG9/Failplanes.bin
 Data/Layers/15_Snowglobes/SG9/Mesh.bin
-MISSING/36825defaff5a4fdbcff28d05b33d022@40.bin.lyr
+Data/Layers/15_Snowglobes/SG9/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG9/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG9/Path_Gameplay.bin
-MISSING/c5d1940110cdd7813561dae9e844434a@40.bin.lyr
+Data/Layers/15_Snowglobes/SG9/Skybox.bin
 Data/Layers/15_Snowglobes/SG9/Terrain.bin
 Data/Layers/15_Snowglobes/SG9/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG9.pvr.gz
+------------ PACK 041 - a7a974d03973fa6a7bfb244f87454e01 ------------
 Data/Layers/15_Snowglobes/SG10/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG10/Decal.bin
 Data/Layers/15_Snowglobes/SG10/Decor.bin
 Data/Layers/15_Snowglobes/SG10/Entities.bin
 Data/Layers/15_Snowglobes/SG10/Failplanes.bin
 Data/Layers/15_Snowglobes/SG10/Mesh.bin
-MISSING/f975e8973af8a2004562a0a9d9fa1f7c@41.bin.lyr
+Data/Layers/15_Snowglobes/SG10/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG10/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG10/Path_Gameplay.bin
-MISSING/62623bb925e86aa67252576273a4eb67@41.bin.lyr
+Data/Layers/15_Snowglobes/SG10/Skybox.bin
 Data/Layers/15_Snowglobes/SG10/Terrain.bin
-MISSING/ef83d511f9af98d82fa7e5792cb3ea61@41.bin.lyr
+Data/Layers/15_Snowglobes/SG10/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG10/Trigger_Camera.bin
 Data/Layers/15_Snowglobes/SG10/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/SG10.pvr.gz
+------------ PACK 042 - fc3f21a608bd25ad26fd6fc635218eca ------------
 Data/Layers/15_Snowglobes/SG11/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG11/Decal.bin
 Data/Layers/15_Snowglobes/SG11/Decor.bin
@@ -5016,11 +5058,12 @@ Data/Layers/15_Snowglobes/SG11/Failplanes.bin
 Data/Layers/15_Snowglobes/SG11/Mesh.bin
 Data/Layers/15_Snowglobes/SG11/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG11/Path_Gameplay.bin
-MISSING/2323f5012d1f7056923927379871300a@42.bin.lyr
+Data/Layers/15_Snowglobes/SG11/Skybox.bin
 Data/Layers/15_Snowglobes/SG11/Terrain.bin
 Data/Layers/15_Snowglobes/SG11/Trigger_Camera.bin
 Data/Layers/15_Snowglobes/SG11/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/SG11.pvr.gz
+------------ PACK 043 - 0d9f7137adcd58bc5f4159e40f813d25 ------------
 Data/Layers/15_Snowglobes/SG12/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG12/Decal.bin
 Data/Layers/15_Snowglobes/SG12/Decor.bin
@@ -5029,13 +5072,14 @@ Data/Layers/15_Snowglobes/SG12/Failplanes.bin
 Data/Layers/15_Snowglobes/SG12/Mesh.bin
 Data/Layers/15_Snowglobes/SG12/Mesh_Ocean.bin
 Data/Layers/15_Snowglobes/SG12/Path_Camera.bin
-MISSING/c2fe0c90070f5ec8e8b40622421d2f3f@43.bin.lyr
-MISSING/55c8c797bc583c6a9c520acc75c628de@43.bin.lyr
+Data/Layers/15_Snowglobes/SG12/Path_Gameplay.bin
+Data/Layers/15_Snowglobes/SG12/Skybox.bin
 Data/Layers/15_Snowglobes/SG12/Terrain.bin
 Data/Layers/15_Snowglobes/SG12/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG12/Trigger_Camera.bin
 Data/Layers/15_Snowglobes/SG12/Trigger_Gameplay.bin
 Data/Textures/Lightmaps/SG12.pvr.gz
+------------ PACK 044 - c068456d85714adfebb4a4416645861f ------------
 Data/Layers/15_Snowglobes/SG13/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG13/Decal.bin
 Data/Layers/15_Snowglobes/SG13/Decor.bin
@@ -5043,15 +5087,16 @@ Data/Layers/15_Snowglobes/SG13/Entities.bin
 Data/Layers/15_Snowglobes/SG13/Failplanes.bin
 Data/Layers/15_Snowglobes/SG13/Mesh.bin
 Data/Layers/15_Snowglobes/SG13/Mesh_Ocean.bin
-MISSING/1c45fb25ae65cbeafcdfc33e65d22a6d@44.bin.lyr
+Data/Layers/15_Snowglobes/SG13/Meshi.bin
 Data/Layers/15_Snowglobes/SG13/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG13/Path_Gameplay.bin
-MISSING/0e89c616a9b5d6c979d6a73545973e9b@44.bin.lyr
+Data/Layers/15_Snowglobes/SG13/Skybox.bin
 Data/Layers/15_Snowglobes/SG13/Terrain.bin
 Data/Layers/15_Snowglobes/SG13/Terrain_Lava.bin
-MISSING/81b6a0dd35eac2f53f32985f2a59c2ce@44.bin.lyr
+Data/Layers/15_Snowglobes/SG13/tmp.bin
 Data/Layers/15_Snowglobes/SG13/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG13.pvr.gz
+------------ PACK 045 - a47d11cc294db90ce542d6866e0ca220 ------------
 Data/Layers/15_Snowglobes/SG14/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG14/Decal.bin
 Data/Layers/15_Snowglobes/SG14/Decor.bin
@@ -5060,10 +5105,11 @@ Data/Layers/15_Snowglobes/SG14/Failplanes.bin
 Data/Layers/15_Snowglobes/SG14/Mesh.bin
 Data/Layers/15_Snowglobes/SG14/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG14/Path_Gameplay.bin
-MISSING/f106b6f85ffa8c7f53095230b7395af5@45.bin.lyr
+Data/Layers/15_Snowglobes/SG14/Skybox.bin
 Data/Layers/15_Snowglobes/SG14/Terrain.bin
 Data/Layers/15_Snowglobes/SG14/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG14.pvr.gz
+------------ PACK 046 - 0e4f48334e56000c51db67e6f2f15eda ------------
 Data/Layers/15_Snowglobes/SG15/BG_Decor.bin
 Data/Layers/15_Snowglobes/SG15/Decal.bin
 Data/Layers/15_Snowglobes/SG15/Decor.bin
@@ -5073,14 +5119,17 @@ Data/Layers/15_Snowglobes/SG15/Mesh.bin
 Data/Layers/15_Snowglobes/SG15/MeshOcean.bin
 Data/Layers/15_Snowglobes/SG15/Path_Camera.bin
 Data/Layers/15_Snowglobes/SG15/Path_Gameplay.bin
-MISSING/414036d5b4aef5e9e7dc71a14555fe42@46.bin.lyr
+Data/Layers/15_Snowglobes/SG15/Skybox.bin
 Data/Layers/15_Snowglobes/SG15/Terrain.bin
 Data/Layers/15_Snowglobes/SG15/Terrain_Lava.bin
 Data/Layers/15_Snowglobes/SG15/Terrain_Temp.bin
 Data/Layers/15_Snowglobes/SG15/Trigger_Camera.bin
 Data/Textures/Lightmaps/SG15.pvr.gz
+------------ PACK 048 - 4931d619bf5ec8be7dd5247f68cca140 ------------
 MISSING/f2b40100e86efc594fe686480818237c@48.pvr.gz
+------------ PACK 049 - 72d3994ac98390db8e2ce62575cf9bbc ------------
 MISSING/37d1cce7074f5f88542a826fd022a716@49.pvr.gz
+------------ PACK 050 - Boss_Emperor ------------
 Data/Animations/Emperor/EddieBot.bin
 Data/Animations/Emperor/Emperor_Anims.bin
 Data/Animations/Emperor/Emperor_CinematicsCamera.bin
@@ -5108,6 +5157,7 @@ Data/Textures/Emperor/PalaceCrowdA.pvr.gz
 Data/Textures/Emperor/PalaceCrowdB.pvr.gz
 Data/Textures/Emperor/PalaceCrowdBar.pvr.gz
 Data/Textures/Emperor/PalaceFlatCrowd.pvr.gz
+------------ PACK 052 - Boss_MrEight ------------
 Data/Animations/MrEight/MrEight.bin
 Data/Animations/MrEight/MrEight_CinematicCamera.bin
 Data/Meshes/MrEight/Arena.bin
@@ -5121,11 +5171,12 @@ Data/Textures/MrEight/eye_03_512.pvr.gz
 Data/Textures/MrEight/eye_04_512.pvr.gz
 Data/Textures/MrEight/eye_05_512.pvr.gz
 Data/Textures/MrEight/eye_06_512.pvr.gz
-MISSING/6b213cd3f3e62ca61a78e4d984fc2eae@52.pvr.gz
+Data/Textures/MrEight/eyes_1k.pvr.gz
 Data/Textures/MrEight/eyes_blue_512.pvr.gz
 Data/Textures/MrEight/Glow.pvr.gz
 Data/Textures/MrEight/MrQ_arena_A_AO.pvr.gz
 Data/Textures/MrEight/MrQ_arena_B_AO.pvr.gz
+------------ PACK 053 - Boss_Taboo ------------
 Data/Animations/Taboo/Taboo_Anims.bin
 Data/Animations/Taboo/Taboo_CinematicCamera.bin
 Data/Meshes/Taboo/TabooBody.bin
@@ -5133,6 +5184,7 @@ Data/Meshes/Taboo/TabooHead.bin
 Data/Palettes/Bosses/TabooArtist.bin
 Data/Textures/Enemies/FauxtagonistHUD.pvr.gz
 Data/Textures/Enemies/FauxtagonistMouth.pvr.gz
+------------ PACK 054 - Boss_Judge ------------
 Data/Animations/JudgeRufus/JudgeRufus.bin
 Data/Animations/JudgeRufus/JudgeRufus_CinematicCamera.bin
 Data/Animations/JudgeRufus/RufusBench.bin
@@ -5150,22 +5202,24 @@ Data/Palettes/Bosses/JudgeRufus.bin
 Data/Palettes/Bosses/JudgeRufusProps.bin
 MISSING/de866f50661b3ca6ecf4c1fb8a5026c8@54.bin.pal
 MISSING/1874734eec2cae2f84afc51325f5808f@54.bin.pal
-MISSING/324d8bb0e1a107236e2db14beaae4752@54
+Data/Sprites/Rufus/ShockIndicator0.bin
 Data/Textures/JudgeRufus/BenchWood.pvr.gz
 Data/Textures/JudgeRufus/PenAmbience.pvr.gz
 Data/Textures/JudgeRufus/ShockIndicator.pvr.gz
+------------ PACK 055 - Boss_GiantPenguin ------------
 Data/Animations/GiantPenguin/GiantPenguin.bin
 Data/Animations/GiantPenguin/GiantPenguin_Test.bin
 Data/Meshes/GiantPenguin/DonutConveyor.bin
 Data/Meshes/GiantPenguin/GiantPenguin.bin
 Data/Palettes/Bosses/GiantPenguin.bin
+------------ PACK 056 - Boss_Sailor ------------
 Data/Animations/Sailor/Sailor.bin
 Data/Animations/Sailor/Sailor_CinematicCamera.bin
 Data/Animations/Sailor/Seagull.bin
 Data/Meshes/Sailor/Sailor_PropBarrel.bin
 Data/Meshes/Sailor/SailorBoat.bin
 Data/Meshes/Sailor/SailorBody.bin
-MISSING/066f42cdcc1e42bce3ce022dac6cc131@56.bin.mdl
+Data/Meshes/Sailor/SailorBoss.bin
 Data/Meshes/Sailor/SailorDiabolo.bin
 Data/Meshes/Sailor/SailorHandles.bin
 Data/Meshes/Sailor/SailorHat.bin
@@ -5176,10 +5230,12 @@ MISSING/5f844fc8eefa9f14ebd890c6fef15531@56.bin.pal
 Data/Textures/Sheila/CheekDash.pvr.gz
 Data/Textures/Sheila/EyeShine.pvr.gz
 Data/Textures/Sheila/SheilaDimples.pvr.gz
+------------ PACK 057 - Kit_Classical ------------
 Data/Meshes/Classical/LaundryBasket.bin
+------------ PACK 058 - Kit_Fire ------------
 MISSING/e5e1739219a388c0821ba7fd6f265737@58.bin.pal
 Data/Palettes/Kits/Fire.bin
-MISSING/cf77d9d22bc23cee0e4e38438db4e5f4@58.pvr.gz
+Data/Textures/Fire/Lava.pvr.gz
 Data/Textures/Fire/LavaFallAmbience.pvr.gz
 Data/Textures/Fire/LavaFlowHorizontalAmbience.pvr.gz
 Data/Textures/Fire/LavaFlowVerticalAmbience.pvr.gz
@@ -5189,8 +5245,9 @@ Data/Textures/Fire/LavaSplat.pvr.gz
 Data/Textures/Fire/LavaWaterFallAmbience.pvr.gz
 Data/Textures/Fire/OceanSurface.pvr.gz
 Data/Textures/Fire/SeaAmbience512.pvr.gz
-MISSING/815015e1c2a25e3c0d17e2c89b0aaf3f@59.bin.mdl
-MISSING/9ae6a381a4561ecadd0c779970b94429@59.bin.mdl
+------------ PACK 059 - Kit_Garden ------------
+Data/Meshes/Garden/TallGrass.bin
+Data/Meshes/Garden/Umbrella.bin
 MISSING/2c7f291afeeb4eb838287a28e93f08e7@59.bin.pal
 Data/Palettes/Kits/Garden.bin
 Data/Textures/Garden/BushTriangle.pvr.gz
@@ -5199,14 +5256,15 @@ Data/Textures/Garden/GrassMemphis.pvr.gz
 Data/Textures/Garden/GrassStripe.pvr.gz
 Data/Textures/Garden/LampLeaf.pvr.gz
 Data/Textures/Garden/PlantPot.pvr.gz
-MISSING/1dc91faffd50cccc6c2f03955102ae67@60.bin.ani
+------------ PACK 060 - Kit_Library ------------
+Data/Animations/Library/TeleportBook.bin
 Data/Meshes/Library/BookDrawer.bin
-MISSING/01df434145c2da50de27b41714d828b4@60.bin.mdl
-MISSING/c75e847af65b5022b0b54a8dc2bd7c96@60.bin.mdl
-MISSING/c9d2f8ee815244f40981d8b28267d539@60.bin.mdl
-MISSING/88a1d312740bcb2ad20264d4b8ecc79b@60.bin.mdl
+Data/Meshes/Library/BookPlatformA.bin
+Data/Meshes/Library/BookPlatformB.bin
+Data/Meshes/Library/BookPlatformC.bin
+Data/Meshes/Library/Candle.bin
 Data/Meshes/Library/Scale.bin
-MISSING/dd0411c017a4ba175e2c8725e18b678f@60.bin.mdl
+Data/Meshes/Library/Teleportbook.bin
 Data/Palettes/Kits/Library.bin
 Data/Textures/Library/BookPageA.pvr.gz
 Data/Textures/Library/BookPageB.pvr.gz
@@ -5214,6 +5272,7 @@ Data/Textures/Library/BookPageC.pvr.gz
 Data/Textures/Library/SigilLit.pvr.gz
 Data/Textures/Library/SigilUnlit.pvr.gz
 Data/Textures/Library/TeleportBookPage.pvr.gz
+------------ PACK 061 - Kit_Machine ------------
 Data/Meshes/Machine/ElectricPole_128.bin
 Data/Meshes/Machine/ElectricPole_256.bin
 Data/Meshes/Machine/ShockEmitter.bin
@@ -5225,7 +5284,9 @@ Data/Textures/Machine/MetalFloorTexture.pvr.gz
 Data/Textures/Machine/MetalPlateWall.pvr.gz
 Data/Textures/Machine/PCBWall.pvr.gz
 Data/Textures/Machines/ShockEmitter0.pvr.gz
-MISSING/6cc6bf0ed6413f669d98a6c6e6c1b3d9@62.bin.pal
+------------ PACK 062 - Kit_Regal ------------
+Data/Palettes/Kits/Regal.bin
+------------ PACK 063 - Kit_Rock ------------
 Data/Textures/Rock/BismuthSparkle.pvr.gz
 Data/Textures/Rock/ConcreteSpeckle.pvr.gz
 Data/Textures/Rock/Crater.pvr.gz
@@ -5237,26 +5298,28 @@ Data/Textures/Rock/RockHexagonal.pvr.gz
 Data/Textures/Rock/RockSpeckle.pvr.gz
 Data/Textures/Rock/RockWall.pvr.gz
 Data/Textures/Rock/SnowGlisten.pvr.gz
+------------ PACK 065 - Kit_Town ------------
 Data/Meshes/Town/BreakableWallA.bin
 Data/Meshes/Town/BreakableWallB.bin
 Data/Meshes/Town/Crane.bin
-MISSING/d272fdd4ae25631ea242bdd0ff092f28@65.bin.mdl
+Data/Meshes/Town/SeeSaw.bin
 Data/Textures/Town/BreakableWall.pvr.gz
-MISSING/f846a1c1db2a00f8f8b271e31597705b@65.pvr.gz
-MISSING/fcad70af967673ae1e5a6209ebf061c5@65.pvr.gz
-MISSING/f79429f89db4ebae824974cc38bada11@65.pvr.gz
-MISSING/81ebccb6a374e77fa0e1982d0f1a0788@65.pvr.gz
-MISSING/c0b9aca675821dfa987aa32bf7788e17@65.pvr.gz
-MISSING/f793c55851b81006876a3832b90e8999@65.pvr.gz
-MISSING/0be6834b500fd32f15a58c318efe05b9@65.pvr.gz
-MISSING/bba84329fe277d36e41d72cfad043381@65.pvr.gz
-MISSING/1f41d1245a440deb4dedd95aed0fe094@65.pvr.gz
-MISSING/8671b93255c587f7a4608d2cc7d3eee0@65.pvr.gz
-MISSING/16742ba7944c7e281f15f56d6d12023e@65.pvr.gz
+Data/Textures/Town/FloorDecal01.pvr.gz
+Data/Textures/Town/FloorDecal02.pvr.gz
+Data/Textures/Town/FloorDecal03.pvr.gz
+Data/Textures/Town/FloorDecal04.pvr.gz
+Data/Textures/Town/FloorDecal05.pvr.gz
+Data/Textures/Town/FloorDecal06.pvr.gz
+Data/Textures/Town/FloorDecal07.pvr.gz
+Data/Textures/Town/FloorDecal08.pvr.gz
+Data/Textures/Town/FloorDecal09.pvr.gz
+Data/Textures/Town/FloorDecal10.pvr.gz
+Data/Textures/Town/FloorDecal11.pvr.gz
 Data/Textures/Town/MetalTriangle.pvr.gz
 Data/Textures/Town/WoodGrainBauhaus.pvr.gz
-MISSING/99114cc5e9254bbc829c3f0cb4bd960e@66.bin.mdl
-MISSING/ba64ddb05021658cdebdbc67b955aabf@66.bin.pal
+------------ PACK 066 - Kit_Water ------------
+Data/Meshes/Water/WaterTap.bin
+Data/Palettes/Kits/Water.bin
 MISSING/7bc913e4097dedcc18dabf0341b67ff6@66.bin.pal
 Data/Textures/Water/BathGrid.pvr.gz
 Data/Textures/Water/BathTile.pvr.gz
@@ -5270,46 +5333,67 @@ Data/Textures/Water/ScallopWall.pvr.gz
 Data/Textures/Water/SeaAmbience512.pvr.gz
 Data/Textures/Water/Waterfall.pvr.gz
 Data/Textures/Water/WaveTile512.pvr.gz
+------------ PACK 067 - Cutscene_A01 ------------
 Data/Videos/Cutscenes/A01.ivf
 Data/Videos/Cutscenes/A01.ogg
+------------ PACK 068 - Cutscene_A02 ------------
 Data/Videos/Cutscenes/A02.ivf
 Data/Videos/Cutscenes/A02.ogg
+------------ PACK 069 - Cutscene_A03 ------------
 Data/Videos/Cutscenes/A03.ivf
 Data/Videos/Cutscenes/A03.ogg
+------------ PACK 070 - Cutscene_A04 ------------
 Data/Videos/Cutscenes/A04.ivf
 Data/Videos/Cutscenes/A04.ogg
+------------ PACK 071 - Cutscene_A05 ------------
 Data/Videos/Cutscenes/A05.ivf
 Data/Videos/Cutscenes/A05.ogg
+------------ PACK 072 - Cutscene_A06 ------------
 Data/Videos/Cutscenes/A06.ivf
 Data/Videos/Cutscenes/A06.ogg
+------------ PACK 073 - Cutscene_A07 ------------
 Data/Videos/Cutscenes/A07.ivf
 Data/Videos/Cutscenes/A07.ogg
+------------ PACK 074 - Cutscene_A08 ------------
 Data/Videos/Cutscenes/A08.ivf
 Data/Videos/Cutscenes/A08.ogg
+------------ PACK 075 - Cutscene_A09 ------------
 Data/Videos/Cutscenes/A09.ivf
 Data/Videos/Cutscenes/A09.ogg
+------------ PACK 076 - Cutscene_A10 ------------
 Data/Videos/Cutscenes/A10.ivf
 Data/Videos/Cutscenes/A10.ogg
+------------ PACK 077 - Cutscene_A11 ------------
 Data/Videos/Cutscenes/A11.ivf
 Data/Videos/Cutscenes/A11.ogg
+------------ PACK 078 - Cutscene_A12 ------------
 Data/Videos/Cutscenes/A12.ivf
 Data/Videos/Cutscenes/A12.ogg
+------------ PACK 079 - Cutscene_A13 ------------
 Data/Videos/Cutscenes/A13.ivf
 Data/Videos/Cutscenes/A13.ogg
+------------ PACK 080 - Cutscene_A14 ------------
 Data/Videos/Cutscenes/A14.ivf
 Data/Videos/Cutscenes/A14.ogg
+------------ PACK 081 - Cutscene_A15 ------------
 Data/Videos/Cutscenes/A15.ivf
 Data/Videos/Cutscenes/A15.ogg
+------------ PACK 082 - Cutscene_A14_5 ------------
 Data/Videos/Cutscenes/A14_5.ivf
 Data/Videos/Cutscenes/A14_5.ogg
+------------ PACK 083 - Cutscene_A16 ------------
 Data/Videos/Cutscenes/A16.ivf
 Data/Videos/Cutscenes/A16.ogg
+------------ PACK 084 - 2a8519a304aeec193585b56a337f844a ------------
 Data/Sprites/Emotes/Sailor.bin
 Data/Textures/Emotes/Sailor.pvr.gz
+------------ PACK 085 - 26c3d1ca934fdc5ebe17b5a241ca0497 ------------
 Data/Sprites/Emotes/Taboo.bin
 Data/Textures/Emotes/Taboo.pvr.gz
+------------ PACK 086 - Attract ------------
 Data/Videos/Attract.ivf
 Data/Videos/Attract.ogg
+------------ PACK 087 - Title ------------
 Data/Sprites/Title/LevelSelect0.bin
 Data/Sprites/Title/TitleLogos.bin
 Data/Sprites/Title/TitleSprites1.bin
@@ -5321,51 +5405,81 @@ Data/Textures/Title/LevelSelect0.pvr.gz
 Data/Textures/Title/TitleLogos.pvr.gz
 Data/Textures/Title/TitleSprites1.pvr.gz
 Data/Textures/Title/TitleSprites2.pvr.gz
+------------ PACK 088 - Music_Backstage ------------
 Data/PCMSources/Music/Backstage.ogg
+------------ PACK 089 - Music_Bathhouse ------------
 Data/PCMSources/Music/Bathhouse.ogg
 Data/PCMSources/Music/Bathhouse_Pinch.ogg
+------------ PACK 090 - Music_Coast ------------
 Data/PCMSources/Music/Coast.ogg
 Data/PCMSources/Music/Coast_Pinch.ogg
+------------ PACK 091 - Music_Courthouse ------------
 Data/PCMSources/Music/Courthouse.ogg
 Data/PCMSources/Music/Courthouse_Pinch.ogg
+------------ PACK 092 - Music_Credits ------------
 Data/PCMSources/Music/Credits.ogg
+------------ PACK 093 - Music_CutsceneCute ------------
 Data/PCMSources/Music/CutsceneCute.ogg
+------------ PACK 094 - Music_CutsceneEddie ------------
 Data/PCMSources/Music/CutsceneEddie.ogg
+------------ PACK 095 - Music_CutsceneEncounter ------------
 Data/PCMSources/Music/CutsceneEncounter.ogg
+------------ PACK 096 - Music_CutsceneOverture ------------
 Data/PCMSources/Music/CutsceneOverture.ogg
+------------ PACK 097 - Music_CutsceneRufus ------------
 Data/PCMSources/Music/CutsceneRufus.ogg
+------------ PACK 098 - Music_CutsceneTaboo ------------
 Data/PCMSources/Music/CutsceneTaboo.ogg
+------------ PACK 099 - Music_Desert ------------
 Data/PCMSources/Music/Desert.ogg
 Data/PCMSources/Music/Desert_Pinch.ogg
+------------ PACK 100 - Music_EddieBoss ------------
 Data/PCMSources/Music/EddieBoss.ogg
+------------ PACK 101 - Music_EndingCutscene ------------
 Data/PCMSources/Music/EndingCutscene.ogg
+------------ PACK 102 - Music_Factory ------------
 Data/PCMSources/Music/Factory.ogg
 Data/PCMSources/Music/Factory_Pinch.ogg
+------------ PACK 103 - Music_FinalAct ------------
 Data/PCMSources/Music/FinalAct.ogg
+------------ PACK 104 - Music_GiantPengBoss ------------
 Data/PCMSources/Music/GiantPengBoss.ogg
+------------ PACK 105 - Music_LavaRestaurant ------------
 Data/PCMSources/Music/LavaRestaurant.ogg
 Data/PCMSources/Music/LavaRestaurant_Pinch.ogg
+------------ PACK 106 - Music_MainMenu ------------
 Data/PCMSources/Music/MainMenu.ogg
+------------ PACK 107 - Music_MrQ ------------
 Data/PCMSources/Music/Mr_Q.ogg
+------------ PACK 108 - Music_Palace ------------
 Data/PCMSources/Music/Palace.ogg
 Data/PCMSources/Music/Palace_Pinch.ogg
+------------ PACK 109 - Music_Penguinville ------------
 Data/PCMSources/Music/Penguinville.ogg
 Data/PCMSources/Music/Penguinville_Pinch.ogg
+------------ PACK 110 - Music_Pursuit ------------
 Data/PCMSources/Music/Pursuit.ogg
+------------ PACK 111 - Music_RufusBoss ------------
 Data/PCMSources/Music/RufusBoss.ogg
+------------ PACK 112 - Music_Sheila ------------
 Data/PCMSources/Music/Sheila.ogg
+------------ PACK 113 - Music_SnowGlobe1 ------------
 Data/PCMSources/Music/SnowGlobe1.ogg
+------------ PACK 114 - Music_SnowGlobe2 ------------
 Data/PCMSources/Music/SnowGlobe2.ogg
+------------ PACK 115 - Music_SnowGlobe3 ------------
 Data/PCMSources/Music/SnowGlobe3.ogg
+------------ PACK 116 - Music_SnowGlobe4 ------------
 Data/PCMSources/Music/SnowGlobe4.ogg
+------------ PACK 117 - Music_SnowGlobe5 ------------
 Data/PCMSources/Music/SnowGlobe5.ogg
+------------ PACK 118 - Music_VanillaTown ------------
 Data/PCMSources/Music/VanillaTown.ogg
 Data/PCMSources/Music/VanillaTown_Pinch.ogg
+------------ PACK 119 - Music_VanillaTownPrologue ------------
 Data/PCMSources/Music/VanillaTownPrologue.ogg
+------------ PACK 120 - Music_VanillaTownRedux ------------
 Data/PCMSources/Music/VanillaTownRedux.ogg
 Data/PCMSources/Music/VanillaTownRedux_Pinch.ogg
+------------ PACK 121 - Music_WorldsEdge ------------
 Data/PCMSources/Music/WorldsEdge.ogg
-Data/Layers/Backgrounds/VanillaTown/SkyBoxDay.bin
-Data/SoundFonts/GMGSx.sf2
-Data/Textures/Lightmaps/VT0.pvr.gz
-Data/Textures/Palace/PalaceSky_Thirds.pvr.gz

@@ -71,11 +71,40 @@ fn main() {
     let mut hash_map = HashMap::new();
     let lines: io::Lines<io::BufReader<File>> = read_lines(&args[2]).unwrap();
 
-    for line in lines.flatten() {
+    for line in lines.flatten().map(|line| {
+        line.split_once("--")
+            .unwrap_or((line.as_str(), ""))
+            .0
+            .trim()
+            .to_string()
+    }) {
+        if line.is_empty() || line.starts_with("--") {
+            continue;
+        }
         let lower = line.to_lowercase();
         let digest = compute_md5(&lower);
         let digest_str = format!("{:x}", digest);
         hash_map.insert(digest_str, (line, false));
+    }
+
+    let mut pack_hash = HashMap::new();
+    if has_packs {
+        let lines = read_lines(&args[3]).unwrap();
+        for line in lines.flatten().map(|line| {
+            line.split_once("--")
+                .unwrap_or((line.as_str(), ""))
+                .0
+                .trim()
+                .to_string()
+        }) {
+            if line.is_empty() || line.starts_with("--") {
+                continue;
+            }
+            //let trim = line.trim();
+            let digest = compute_md5(&line);
+            let digest_str = format!("{:x}", digest);
+            pack_hash.insert(digest_str, line);
+        }
     }
 
     let pack_db =
@@ -101,7 +130,7 @@ fn main() {
 
     let mut new = 0;
     let mut hits = 0;
-    let mut current_data = 1;
+    let mut current_data = 0;
 
     let basepack = dunce::canonicalize(Path::new(&args[1])).unwrap();
     let packpath = basepack.parent().unwrap().display().to_string();
@@ -114,6 +143,13 @@ fn main() {
         let read_data = statement.read::<i64, _>("pack").unwrap();
         if read_data != current_data {
             current_data = read_data;
+            let packname = statement.read::<String, _>("packname").unwrap();
+            output!(
+                out,
+                "------------ PACK {:0>3} - {} ------------",
+                current_data,
+                pack_hash.get(&packname).unwrap_or(&packname)
+            );
             datapack =
                 std::fs::File::open(format!("{}/Data{:0>3}.rsdk", packpath, current_data)).unwrap();
         }
@@ -153,8 +189,10 @@ fn main() {
                 b"\x1F\x8B\x08\x08" => filename += ".pvr.gz",
                 b"GPU\x00" => filename += ".bin.gpu",
                 b"PAL\x00" => filename += ".bin.pal",
+                b"MDL\x00" => filename += ".bin.mdl",
                 b"MDL\x01" => filename += ".bin.mdl",
                 b"MDL\x02" => filename += ".bin.mdl",
+                b"LYR\x00" => filename += ".bin.lyr",
                 b"LYR\x01" => filename += ".bin.lyr",
                 b"LYR\x02" => filename += ".bin.lyr",
                 b"RIFF" => filename += ".wav",
@@ -176,7 +214,7 @@ fn main() {
             }
         }
 
-        output!(out, "{} - {} @ {}", key, filename, current_data);
+        output!(out, "{} - {}", key, filename);
 
         let path = std::path::Path::new(&filename).parent().unwrap();
         std::fs::create_dir_all(path).unwrap();
