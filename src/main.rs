@@ -4,7 +4,7 @@ use md5;
 use sqlite::State;
 use std::collections::HashMap;
 use std::env;
-use std::fs::{create_dir_all, File};
+use std::fs::File;
 use std::io::{self, BufRead, Read, Seek, Write};
 use std::path::Path;
 
