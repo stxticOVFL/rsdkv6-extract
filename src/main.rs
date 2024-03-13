@@ -139,6 +139,8 @@ fn main() {
 
     let mut datapack = std::fs::File::open(path).unwrap();
 
+    let mut guessed_names = Vec::new();
+
     while let Ok(State::Row) = statement.next() {
         let read_data = statement.read::<i64, _>("pack").unwrap();
         if read_data != current_data {
@@ -186,7 +188,16 @@ fn main() {
             let mut matched = true;
             match header {
                 b"MThd" => filename += ".mid",
-                b"\x1F\x8B\x08\x08" => filename += ".pvr.gz",
+                s if s.starts_with(b"\x1F\x8B") => {
+                    filename += ".pvr.gz";
+                    // Try to find the pvr file name by parsing the gzip header (FNAME flag)
+                    if header[3] == 0b1000 {
+                        // Magic null-terminated string parsing
+                        if let Some(name) = buf[10..64].split(|&x| x == 0).next().and_then(|s| std::str::from_utf8(s).ok().map(|s| s.to_string())) {
+                            guessed_names.push((key.clone(), name)); // (md5_hash, guessed_name)
+                        }
+                    }
+                },
                 b"GPU\x00" => filename += ".bin.gpu",
                 b"PAL\x00" => filename += ".bin.pal",
                 b"MDL\x00" => filename += ".bin.mdl",
@@ -235,6 +246,13 @@ fn main() {
             output!(out, "{} - {} - UNUSED", key, name);
         }
         *used
+    });
+
+    output!(out);
+
+    output!(out, "Guessed names:");
+    guessed_names.iter().for_each(|(key, name)| {
+        output!(out, "{} --> {}", key, name);
     });
 
     output!(out);
